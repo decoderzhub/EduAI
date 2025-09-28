@@ -1,0 +1,37 @@
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
+import useHumbleScroll from './utils/useHumbleScroll'
+
+// Import your page components here
+import Page404 from './pages/Page404'
+import Home from './pages/Home'
+import Home2 from './pages/Home2'
+import About from './pages/About'
+import Home3 from './pages/Home3'
+import Service from './pages/Service'
+import Contact from './pages/Contact'
+
+function App() {
+  // Initialize HumbleScroll for the entire app
+  useHumbleScroll();
+
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/404" element={<Page404 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home2" element={<Home2 />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/home3" element={<Home3 />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* Add more routes for additional pages */}
+        </Routes>
+      </div>
+    </Router>
+  )
+}
+
+export default App

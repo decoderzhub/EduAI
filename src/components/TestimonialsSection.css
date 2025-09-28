@@ -1,0 +1,99 @@
+:root {
+            --vId-color-token-a: #850E35;
+            --vId-color-token-b: #EE6983;
+            --vId-5213400d-2e6c-416c-aa9a-7f9bdb176cc2: #f69696ff;
+            --vId-e9fd7878-01a1-4505-bc29-0df0f1be2f3a: #FFF5E4;
+            --vId-color-token-c: #FFFF;
+            --vId-color-token-d: #000;
+            --vId-font-token-a: Roboto;
+        }
+
+/* Testimonials Section Section Styles */
+.cd-slider-v1--slidesWrapper {
+    height: 100% !important;
+    white-space: nowrap !important;
+    position: relative !important;
+    display: block !important
+}
+
+.cd-slider-v1--slidesWrapper>* {
+    white-space: normal
+}
+
+.cd-slider-v1--slide {
+    display: inline-flex !important;
+    vertical-align: top !important
+}
+
+.cd-slider-v1--slidesWrapper.cd-empty-div {
+    padding: 0px 0px 100px 0px !important
+}
+
+.cd-slider-v1--slide.cd-empty-div {
+    padding: 0px 0px 100px 0px !important
+}
+
+.cd-slider-v1--arrowBar {
+    z-index: 900
+}
+
+.cd-slider-v1--arrowBar>* {
+    cursor: pointer
+}
+
+.cd-slider-v1--slideTransitionLinear .cd-slider-v1--slide {
+    transition: transform 700ms linear 0s !important
+}
+
+.cd-slider-v1--slideTransitionEaseIn .cd-slider-v1--slide {
+    transition: transform 700ms ease-in 0s !important
+}
+
+.cd-slider-v1--slideTransitionEaseOut .cd-slider-v1--slide {
+    transition: transform 700ms ease-out 0s !important
+}
+
+.cd-slider-v1--slideTransitionEaseInOut .cd-slider-v1--slide {
+    transition: transform 700ms ease-in-out 0s !important
+}
+
+.cd-slider-v1--slideTransitionEaseOutIn .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.42, 0, 0.58, 1) 0s !important
+}
+
+.cd-slider-v1--slideTransitionQuadEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s !important
+}
+
+.cd-slider-v1--slideTransitionCubicEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.32, 0.64, 0.45, 0.93) 0s !important
+}
+
+.cd-slider-v1--slideTransitionQuartEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.5, 0.9, 0.5, 0.9) 0s !important
+}
+
+.cd-slider-v1--slideTransitionQuintEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.23, 1, 0.32, 1) 0s !important
+}
+
+.cd-slider-v1--slideTransitionSineEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.39, 0.575, 0.565, 1) 0s !important
+}
+
+.cd-slider-v1--slideTransitionExpoEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.7, 0, 0.84, 0) 0s !important
+}
+
+.cd-slider-v1--slideTransitionElasticEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s !important
+}
+
+.cd-slider-v1--slideTransitionBounceEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s !important
+}
+
+.cd-slider-v1--slideTransitionBackEasing .cd-slider-v1--slide {
+    transition: transform 700ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s !important
+}
+

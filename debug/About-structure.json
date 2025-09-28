@@ -1,0 +1,7529 @@
+{
+  "components": {
+    "Global0007": {
+      "author": "Storylens",
+      "category": "global",
+      "context": [
+        "Homepage",
+        "something"
+      ],
+      "custom": false,
+      "name": "Global",
+      "client_id": "Global0007",
+      "type": "global",
+      "zIndex": 200,
+      "isStatic": true,
+      "component": null
+    },
+    "DivQ9D3": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivQ9D3",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Flex - Horizontal",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "component": null
+    },
+    "DivVr32": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivVr32",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "POPUP FORM",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "24px 24px 24px 24px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "50px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "flexWrap": "wrap-reverse",
+            "justifyContent": "center",
+            "backgroundImage": "null",
+            "backgroundPosition": "null",
+            "backgroundSize": "null",
+            "backgroundRepeat": "null",
+            "backgroundAttachment": "null",
+            "backgroundClip": "null",
+            "backgroundOrigin": "null"
+          },
+          "mobile": {
+            "flexWrap": "wrap-reverse",
+            "justifyContent": "center",
+            "backgroundImage": "null",
+            "backgroundPosition": "null",
+            "backgroundSize": "null",
+            "backgroundRepeat": "null",
+            "backgroundAttachment": "null",
+            "backgroundClip": "null",
+            "backgroundOrigin": "null"
+          }
+        }
+      },
+      "zIndex": "250",
+      "component": null
+    },
+    "Divdc3A": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divdc3A",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Div",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "60px 22px 60px 22px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "#ffffffff"
+          },
+          "tablet": {
+            "alignItems": "center"
+          },
+          "mobile": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivVr32",
+      "zIndex": "0100",
+      "component": null
+    },
+    "SpanINyA": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanINyA",
+      "props": {
+        "componentData": {
+          "children": "<p><strong>Where can i reach you</strong></p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "42px",
+            "padding": "0px 0px 12px 0px",
+            "textAlign": "center",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Divdc3A",
+      "component": null
+    },
+    "SectionjP9R": {
+      "name": "Form",
+      "type": "form",
+      "category": "blocks",
+      "custom": "true",
+      "main": "UI/GridLayoutChild/index.js",
+      "isListed": "true",
+      "client_id": "SectionjP9R",
+      "givenName": "Form ",
+      "props": {
+        "componentData": {
+          "tagName": "form",
+          "formName": "CONTACT"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "Divdc3A",
+      "updatedFrom": [
+        "legacyFormElement"
+      ],
+      "componentType": "form-component-v1",
+      "settingsRenderer": "Builder/ElementSettingsRenderer/form-component-v1.jsx",
+      "component": null
+    },
+    "InputYYQN": {
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "8px 16px 8px 12px",
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "color": "var(--vId-color-token-d)",
+            "lineHeight": "26px",
+            "backgroundColor": "#ffffff07",
+            "border": "1px solid #cccccc",
+            "borderRadius": "8px 8px 8px 8px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "var(--vId-color-token-d) var(--vId-color-token-d) var(--vId-color-token-d) var(--vId-color-token-d) "
+          }
+        },
+        "componentData": {
+          "inputType": "email",
+          "placeholder": "email@example.com",
+          "properties": {
+            "required": "true"
+          },
+          "fieldName": "Email",
+          "fieldId": 23059
+        },
+        "placeholder": {
+          "global": {
+            "color": "var(--vId-f5349128-5a77-4a53-bca0-7dcbd3b7c256)"
+          }
+        }
+      },
+      "isListed": "true",
+      "category": "Forms",
+      "context": [
+        "Homepage",
+        "last"
+      ],
+      "isStatic": false,
+      "main": "UI/Input/Input.jsx",
+      "name": "Input",
+      "custom": "true",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/storylens/image/upload/v1622278740/static/input.svg",
+        "height": 50,
+        "width": 274
+      },
+      "type": "form",
+      "client_id": "InputYYQN",
+      "givenName": "Email input",
+      "zIndex": "1",
+      "parent": "SectionuhuD",
+      "formElementType": "email",
+      "disabledBuilderFunctions": [
+        "copy",
+        "changeParent"
+      ],
+      "hideElementSettingsMenu": [
+        "Input Settings"
+      ],
+      "component": null
+    },
+    "SectionuhuD": {
+      "name": "Section",
+      "type": "block",
+      "category": "blocks",
+      "custom": "true",
+      "main": "UI/GridLayoutChild/index.js",
+      "isListed": "true",
+      "client_id": "SectionuhuD",
+      "givenName": "Email input Block",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "flexDirection": "column",
+            "alignItems": "center"
+          }
+        }
+      },
+      "zIndex": "1",
+      "parent": "SectionjP9R",
+      "isFormElementWrapper": true,
+      "builderAttributes": {
+        "data-layerView-to-block": true
+      },
+      "disabledBuilderFunctions": [
+        "copy",
+        "changeParentDifferentType"
+      ],
+      "component": null
+    },
+    "ButtonztnA": {
+      "category": "Buttons",
+      "context": [
+        "Homepage",
+        "twofoot"
+      ],
+      "custom": "true",
+      "main": "UI/Button/index.js",
+      "name": "Button",
+      "type": "button",
+      "isStatic": false,
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "8px 40px 8px 40px",
+            "backgroundColor": "var(--vId-color-token-a)",
+            "borderRadius": "32px 32px 32px 32px ",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "groove groove groove groove ",
+            "borderColor": "#333 #333 #333 #333 ",
+            "fontFamily": "Inter",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "color": "#ffffffff",
+            "lineHeight": "34px"
+          }
+        },
+        "componentData": {
+          "elementType": "p",
+          "children": "<p>LETS TALK</p>",
+          "properties": {
+            "type": "submit"
+          },
+          "events": {
+            "onClick": {
+              "cd_event_32ffc3f2-29c7-4e47-83b5-6462ad17fe33": [
+                "cd_fn_3dbc0c22-9917-4e9e-a411-fb00ff0762a9"
+              ]
+            }
+          },
+          "submitRedirectProps": {
+            "linkType": "internal",
+            "pageHash": "#popup",
+            "url": "#popup"
+          }
+        }
+      },
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1620120925/storylens-dev/static/_1620120925_70331.png",
+        "width": 138,
+        "height": 48
+      },
+      "isListed": "true",
+      "client_id": "ButtonztnA",
+      "givenName": "submit button",
+      "parent": "SectionjP9R",
+      "formElementType": "submit",
+      "disabledBuilderFunctions": [
+        "copy",
+        "changeParentDifferentType"
+      ],
+      "executableInternalFunctions": {
+        "onClick": [
+          "onSubmitForm"
+        ]
+      },
+      "builderAttributes": {
+        "data-layerView-to-block": true
+      },
+      "component": null
+    },
+    "SpanzUSp": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanzUSp",
+      "props": {
+        "componentData": {
+          "children": "<p>Enter your email address below to receive your appointment (and reminders before we begin)</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Plus Jakarta Sans",
+            "fontSize": "20px",
+            "fontWeight": "400",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "30px",
+            "padding": "0px 0px 12px 0px",
+            "opacity": "100%",
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Divdc3A",
+      "component": null
+    },
+    "Fontsi1Gq": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "far fa-window-close",
+          "events": {
+            "onClick": {
+              "cd_event_48c12d9e-5090-47c6-b76a-77fbb47e61bf": [
+                "cd_fn_88a1e810-16bf-447b-8431-e9773a02c8e6"
+              ]
+            }
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "#333",
+            "textAlign": "left",
+            "fontSize": "22px"
+          }
+        }
+      },
+      "client_id": "Fontsi1Gq",
+      "givenName": "Icon",
+      "parent": "Divdc3A",
+      "component": null
+    },
+    "DivE7VU": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivE7VU",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "60px 0px 60px 0px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivQ9D3",
+      "component": null
+    },
+    "Container5ADE": {
+      "name": "Container",
+      "type": "block",
+      "category": "blocks",
+      "custom": "true",
+      "main": "UI/GridLayoutChild/index.js",
+      "isListed": "true",
+      "client_id": "Container5ADE",
+      "givenName": "Container block",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 0px 10px 0px",
+            "flexDirection": "column",
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivE7VU",
+      "component": null
+    },
+    "SpanfjkQ": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanfjkQ",
+      "props": {
+        "componentData": {
+          "children": "<p>ABOUT US</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "35px",
+            "fontWeight": "800",
+            "color": "#ffffffff",
+            "letterSpacing": "1px",
+            "lineHeight": "45px",
+            "padding": "5px 0px 20px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "50px",
+            "lineHeight": "60px",
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "parent": "Container5ADE",
+      "component": null
+    },
+    "Div65f5": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Div65f5",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "About Section",
+      "builderAttributes": {
+        "data-element-subtype": "full-width-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "100px 10px 100px 10px",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "var(--vId-color-token-c)",
+            "transform": "rotate(0deg) scale(1) translateX(0px) translateY(0px) translateZ(0px)"
+          }
+        }
+      },
+      "component": null
+    },
+    "DivvMdo": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivvMdo",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Column",
+      "builderAttributes": {
+        "data-element-subtype": "full-width-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "columnGap": "50px",
+            "rowGap": "0px",
+            "transform": "rotate(0deg) scale(1) translateX(0px) translateY(0px) translateZ(0px)"
+          },
+          "tablet": {
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "rowGap": "50px"
+          },
+          "mobile": {
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "rowGap": "50px"
+          }
+        },
+        "componentData": {
+          "aiPromptMeta": {
+            "sectionTitle": "About Section"
+          }
+        }
+      },
+      "parent": "Div65f5",
+      "component": null
+    },
+    "Divxho2": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divxho2",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "alignItems": "center"
+          },
+          "mobile": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivvMdo",
+      "component": null
+    },
+    "SpangHLf": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpangHLf",
+      "props": {
+        "componentData": {
+          "children": "<p>TEMPORIBUS</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "About page sub heading",
+            "wordcount": "~2"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "color": "var(--vId-color-token-a)",
+            "letterSpacing": "3px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 11px",
+            "textAlign": "left",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Divxho2",
+      "component": null
+    },
+    "Span6UHV": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Span6UHV",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "SpangHLf",
+      "component": null
+    },
+    "SpanZcbY": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanZcbY",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "SpangHLf",
+      "component": null
+    },
+    "SpanjpXw": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanjpXw",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "SpangHLf",
+      "component": null
+    },
+    "SpanHq6Y": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanHq6Y",
+      "classes": [
+        "cd-paragraph-clean"
+      ],
+      "props": {
+        "componentData": {
+          "children": "<h2>Header 2</h2>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "color": "#000000",
+            "lineHeight": "34px"
+          }
+        }
+      },
+      "givenName": "Text",
+      "parent": "SpangHLf",
+      "component": null
+    },
+    "DiviSKe": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DiviSKe",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "SpangHLf",
+      "component": null
+    },
+    "SpanEcSN": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanEcSN",
+      "props": {
+        "componentData": {
+          "children": "<p><strong>Get to Know About Eginary Education</strong></p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "About page heading",
+            "wordcount": "~5"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "36px",
+            "fontWeight": "600",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "1px",
+            "lineHeight": "46px",
+            "padding": "0px 0px 15px 0px",
+            "textAlign": "left",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "50px",
+            "lineHeight": "60px",
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Divxho2",
+      "component": null
+    },
+    "Span2BfO": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Span2BfO",
+      "props": {
+        "componentData": {
+          "children": "<p>Neque porro quisquam est, qui dolorem ipsum dolor sit amet, consectetursed quia non numua eius modi incidunt dolor.</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "About section first paragraph",
+            "wordcount": "~16"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "1px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Divxho2",
+      "component": null
+    },
+    "DivEBnL": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivEBnL",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Span2BfO",
+      "component": null
+    },
+    "DivkMzl": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivkMzl",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Span2BfO",
+      "component": null
+    },
+    "DivVrid": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivVrid",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "40px 0px 30px 0px",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "columnGap": "0px",
+            "rowGap": "8px",
+            "transform": "rotate(0deg) scale(1) translateX(0px) translateY(0px) translateZ(0px)"
+          },
+          "tablet": {
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "columnGap": "20px"
+          },
+          "mobile": {
+            "flexWrap": "wrap",
+            "justifyContent": "center"
+          }
+        },
+        "componentData": {
+          "aiPromptMeta": {
+            "sectionTitle": "Metrics Section"
+          }
+        }
+      },
+      "parent": "Div65f5",
+      "component": null
+    },
+    "DivjFTU": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivjFTU",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "30px 30px 30px 30px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px",
+            "boxShadow": "0px 6px 38px 0px #eeeefc19",
+            "borderRadius": "3px 3px 3px 3px ",
+            "borderWidth": "1px 1px 1px 1px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) "
+          }
+        }
+      },
+      "parent": "DivVrid",
+      "component": null
+    },
+    "FontsghLt": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-user-graduate"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-a)",
+            "textAlign": "center",
+            "fontSize": "50px",
+            "lineHeight": "60px"
+          }
+        }
+      },
+      "client_id": "FontsghLt",
+      "givenName": "Icon",
+      "parent": "DivjFTU",
+      "component": null
+    },
+    "SpankXMS": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpankXMS",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "FontsghLt",
+      "component": null
+    },
+    "SpaneW8q": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpaneW8q",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "FontsghLt",
+      "component": null
+    },
+    "Spanw4pj": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Spanw4pj",
+      "props": {
+        "componentData": {
+          "children": "<p>25+</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Count  in metrics section 1. eg: 25+"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "38px",
+            "fontWeight": "600",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "48px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivlxLi",
+      "component": null
+    },
+    "SpaneWeN": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpaneWeN",
+      "props": {
+        "componentData": {
+          "children": "<p>Students</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "headline in metrics section 1",
+            "wordcount": "~2"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivlxLi",
+      "component": null
+    },
+    "advance-career-imgMTtG": {
+      "author": "Storylens",
+      "context": [
+        "Homepage",
+        "image"
+      ],
+      "custom": false,
+      "main": "UI/Image/index.jsx",
+      "name": "advance-career-img",
+      "props": {
+        "src": "https://assets-v2.codedesign.ai/storage/v1/object/public/68d9ba37be7e5676b63a52e3_d9e7f34a/asset-f207e2e0",
+        "componentStyle": {
+          "global": {
+            "objectFit": "cover"
+          }
+        }
+      },
+      "client_id": "advance-career-imgMTtG",
+      "type": "image",
+      "isStatic": false,
+      "givenName": "image",
+      "parent": "DivvMdo",
+      "component": null
+    },
+    "Spanf83Y": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Spanf83Y",
+      "props": {
+        "componentData": {
+          "children": "<p>Omnis dolor repellendus. Temporibus autem qui aut officiis debitis aut rerum necessitatibus saee eveniet ut et voluptates repudiandae aroin ac lo is arcu, a vestibulum augue rivamus ipsum neu facilisis vel mollis vitae, mollis nec ante.</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "About page second paragraph",
+            "wordcount": "~32"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "1px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Divxho2",
+      "component": null
+    },
+    "Divp5jq": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divp5jq",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Spanf83Y",
+      "component": null
+    },
+    "DivDiTC": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivDiTC",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Spanf83Y",
+      "component": null
+    },
+    "DivaiWQ": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivaiWQ",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Column",
+      "builderAttributes": {
+        "data-element-subtype": "full-width-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "columnGap": "50px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "rowGap": "50px"
+          },
+          "mobile": {
+            "flexWrap": "wrap",
+            "rowGap": "50px",
+            "justifyContent": "center"
+          }
+        }
+      },
+      "parent": "Div65f5",
+      "component": null
+    },
+    "Div5Ngv": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Div5Ngv",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "50px 0px 0px 0px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "alignItems": "center"
+          },
+          "mobile": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivaiWQ",
+      "component": null
+    },
+    "SpanQcdj": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanQcdj",
+      "props": {
+        "componentData": {
+          "children": "<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere ssi omnis voluptas assumenda est, omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum nece tatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur.</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "About section third paragraph",
+            "wordcount": "~40"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "1px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 12px 0px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Div5Ngv",
+      "component": null
+    },
+    "Div1qir": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Div1qir",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "SpanQcdj",
+      "component": null
+    },
+    "Div1sRI": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Div1sRI",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "SpanQcdj",
+      "component": null
+    },
+    "Spanq5cj": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Spanq5cj",
+      "props": {
+        "componentData": {
+          "children": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "About section fourth paragraph",
+            "wordcount": "~50"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "1px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Div5Ngv",
+      "component": null
+    },
+    "DivDZEo": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivDZEo",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Spanq5cj",
+      "component": null
+    },
+    "Divqceb": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divqceb",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Spanq5cj",
+      "component": null
+    },
+    "DivlxLi": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivlxLi",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivjFTU",
+      "component": null
+    },
+    "DivnzYf": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivnzYf",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "30px 30px 30px 30px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px",
+            "boxShadow": "0px 6px 38px 0px #eeeefc19",
+            "borderRadius": "3px 3px 3px 3px ",
+            "borderWidth": "1px 1px 1px 1px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) "
+          }
+        }
+      },
+      "parent": "DivVrid",
+      "component": null
+    },
+    "Fonts7zz8": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fab fa-monero"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-a)",
+            "textAlign": "center",
+            "fontSize": "50px",
+            "lineHeight": "60px"
+          }
+        }
+      },
+      "client_id": "Fonts7zz8",
+      "givenName": "Icon",
+      "parent": "DivnzYf",
+      "component": null
+    },
+    "SpanBBeP": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanBBeP",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Fonts7zz8",
+      "component": null
+    },
+    "Span47n5": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Span47n5",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "Fonts7zz8",
+      "component": null
+    },
+    "DivTtgN": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivTtgN",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivnzYf",
+      "component": null
+    },
+    "SpandAmV": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpandAmV",
+      "props": {
+        "componentData": {
+          "children": "<p>25+</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Count  in metrics section 4. eg: 25+"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "38px",
+            "fontWeight": "600",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "48px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivTtgN",
+      "component": null
+    },
+    "SpankvXt": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpankvXt",
+      "props": {
+        "componentData": {
+          "children": "<p>Scholarships</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "headline in metrics section 4"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivTtgN",
+      "component": null
+    },
+    "Div4thW": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Div4thW",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "30px 30px 30px 30px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px",
+            "boxShadow": "0px 6px 38px 0px #eeeefc19",
+            "borderRadius": "3px 3px 3px 3px ",
+            "borderWidth": "1px 1px 1px 1px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) "
+          }
+        }
+      },
+      "parent": "DivVrid",
+      "component": null
+    },
+    "FontsV1PK": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-university"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-a)",
+            "textAlign": "center",
+            "fontSize": "50px",
+            "lineHeight": "60px"
+          }
+        }
+      },
+      "client_id": "FontsV1PK",
+      "givenName": "Icon",
+      "parent": "Div4thW",
+      "component": null
+    },
+    "Spanbkc3": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Spanbkc3",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "FontsV1PK",
+      "component": null
+    },
+    "SpanKJVW": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanKJVW",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "FontsV1PK",
+      "component": null
+    },
+    "DivUl4e": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivUl4e",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Div4thW",
+      "component": null
+    },
+    "SpanEBMT": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanEBMT",
+      "props": {
+        "componentData": {
+          "children": "<p>25+</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Count  in metrics section 3. eg: 25+"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "38px",
+            "fontWeight": "600",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "48px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivUl4e",
+      "component": null
+    },
+    "SpanfBIo": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanfBIo",
+      "props": {
+        "componentData": {
+          "children": "<p>Universities</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "headline in metrics section 3"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivUl4e",
+      "component": null
+    },
+    "Divk3hk": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divk3hk",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "30px 30px 30px 30px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px",
+            "boxShadow": "0px 6px 38px 0px #eeeefc19",
+            "borderRadius": "3px 3px 3px 3px ",
+            "borderWidth": "1px 1px 1px 1px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) var(--vId-color-token-a) "
+          }
+        }
+      },
+      "parent": "DivVrid",
+      "component": null
+    },
+    "FontsHzpv": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-book-open"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-a)",
+            "textAlign": "center",
+            "fontSize": "50px",
+            "lineHeight": "60px"
+          }
+        }
+      },
+      "client_id": "FontsHzpv",
+      "givenName": "Icon",
+      "parent": "Divk3hk",
+      "component": null
+    },
+    "SpandY84": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpandY84",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "FontsHzpv",
+      "component": null
+    },
+    "SpanjqdC": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanjqdC",
+      "props": {
+        "componentData": {
+          "children": "<p>Add text in text element</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Open Sans",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "#000",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 20px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "FontsHzpv",
+      "component": null
+    },
+    "DivpJoV": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivpJoV",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "Divk3hk",
+      "component": null
+    },
+    "SpanO5Hz": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanO5Hz",
+      "props": {
+        "componentData": {
+          "children": "<p>25+</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Count  in metrics section 2. eg: 25+"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "38px",
+            "fontWeight": "600",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "48px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivpJoV",
+      "component": null
+    },
+    "SpanSXtS": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanSXtS",
+      "props": {
+        "componentData": {
+          "children": "<p>Courses</p>",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "headline in metrics section 2"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "color": "var(--vId-color-token-d)",
+            "letterSpacing": "0px",
+            "lineHeight": "26px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          }
+        }
+      },
+      "givenName": "Text",
+      "zIndex": "1",
+      "parent": "DivpJoV",
+      "component": null
+    },
+    "DivyVeS": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Footer Navigation",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "200px 16px 50px 16px",
+            "flexDirection": "column-reverse",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "var(--vId-color-token-c)",
+            "backgroundImage": "url(https://assets-v2.codedesign.ai/storage/v1/object/public/68d9ba37be7e5676b63a52e3_d9e7f34a/asset-3f746ae4)",
+            "backgroundPosition": "50% 50%",
+            "backgroundSize": "cover",
+            "backgroundRepeat": "no-repeat no-repeat",
+            "backgroundAttachment": "scroll",
+            "backgroundClip": "border-box",
+            "backgroundOrigin": "padding-box",
+            "transform": "rotate(0deg) scale(1) translateX(0px) translateY(0px) translateZ(0px)",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "none none solid none ",
+            "borderColor": "transparent transparent #FFD600 transparent "
+          },
+          "mobile": {
+            "padding": "100px 16px 100px 16px",
+            "backgroundImage": "linear-gradient(270deg,rgba(255,255,255,0.1)0%,rgba(255,255,255,0.1)97.7%), url(https://assets-v2.codedesign.ai/storage/v1/object/public/68d9ba37be7e5676b63a52e3_d9e7f34a/asset-3f746ae4)",
+            "backgroundPosition": "50% 50%, 50% 50%",
+            "backgroundSize": "cover, cover",
+            "backgroundRepeat": "no-repeat no-repeat, no-repeat no-repeat",
+            "backgroundAttachment": "scroll, scroll",
+            "backgroundClip": "border-box, border-box",
+            "backgroundOrigin": "padding-box, padding-box"
+          }
+        }
+      },
+      "uniqueId": "DivyVeS",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/dmuecdqxy/q_auto/v1719379378/static/_1719379376_72788.png",
+        "width": 1707,
+        "height": 463
+      },
+      "savedComponent": "true",
+      "client_id": "DivyVeS",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS",
+        "clientIdMap": {
+          "DivKjDk": "DivyVeS",
+          "Div1wuQ": "DivqkYy",
+          "DivS0J3": "DivjqpL",
+          "DivyA01": "DivTR68",
+          "DivTcXX": "DivoeF2",
+          "DivlRwS": "Divx8ML",
+          "DivkwFZ": "DivUmnh",
+          "SpaneZL0": "SpanCVoX",
+          "SpanAayA": "SpanZu1e",
+          "Spancafa": "SpanJf7W",
+          "Div5nEW": "Divrn93",
+          "SpanLuLr": "SpanKqAe",
+          "SpanXZlr": "SpanvSkN",
+          "SpanK6bm": "SpanVRf3",
+          "DivNwDf": "DivrTLk",
+          "DivkPzJ": "DivXnnQ",
+          "DiveXhB": "DivGG3S",
+          "Fontsy07w": "FontsSrqN",
+          "DivvjFV": "DivBi5p",
+          "Span3x00": "SpanNPaH",
+          "DivpJW9": "DivHV1t",
+          "Div8DkD": "DivHa0g",
+          "FontsbfgW": "FontsWFQe",
+          "DivxhHw": "Divj6tQ",
+          "SpanISzn": "SpanPZTF",
+          "SpanYhC8": "SpanrVaa",
+          "DivGcdc": "Divb9io",
+          "DivNCsH": "DivlTIu",
+          "FontshsWU": "Fonts6dGa",
+          "DivKAYl": "DivUxqG",
+          "SpanR5oz": "SpangiUD",
+          "Spanrkyk": "SpanbFCw",
+          "Span58nQ": "Spanz7IB",
+          "Div454n": "DivXCtJ",
+          "Divh6Xb": "DivV9og",
+          "Fontsrne6": "FontsID98",
+          "DivdGQV": "DivFFhz",
+          "FontspKj6": "FontsHlUt",
+          "DivvHwV": "DivCDtI",
+          "Fontsc4tW": "Fontsl0ow",
+          "DivtKxz": "Divh2Lr",
+          "Fontsgqlj": "FontsgFcH",
+          "Div33Rs": "DivNXwM",
+          "imageclouds7050GDyk": "imageclouds7050EVVO",
+          "SpanFCzL": "SpanA9so"
+        },
+        "linkedComponentMetaId": "linkedDivKjDk"
+      }
+    },
+    "DivqkYy": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivqkYy",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Div",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivyVeS",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivjqpL": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivjqpL",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 50px 0px",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "stretch",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderWidth": "0px 0px 1px 0px ",
+            "borderStyle": "none none solid none ",
+            "borderColor": "transparent transparent var(--vId-e9fd7878-01a1-4505-bc29-0df0f1be2f3a) transparent "
+          },
+          "tablet": {
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "rowGap": "30px",
+            "columnGap": "50px"
+          },
+          "mobile": {
+            "flexDirection": "column",
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "50px",
+            "rowGap": "30px"
+          }
+        }
+      },
+      "parent": "DivqkYy",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivTR68": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivTR68",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "alignItems": "center"
+          },
+          "mobile": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivjqpL",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivoeF2": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivoeF2",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "35px 0px 40px 0px",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "columnGap": "30px",
+            "rowGap": "20px"
+          }
+        }
+      },
+      "parent": "DivTR68",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Divx8ML": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divx8ML",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "alignItems": "center"
+          },
+          "mobile": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivjqpL",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivUmnh": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivUmnh",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "35px 0px 40px 0px",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "columnGap": "30px",
+            "rowGap": "20px"
+          }
+        }
+      },
+      "parent": "Divx8ML",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanCVoX": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanCVoX",
+      "props": {
+        "componentData": {
+          "children": "<p>ABOUT</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "About",
+            "url": "About"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivUmnh",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanZu1e": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanZu1e",
+      "props": {
+        "componentData": {
+          "children": "<p>SERVICE</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "service",
+            "url": "service"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivUmnh",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanJf7W": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanJf7W",
+      "props": {
+        "componentData": {
+          "children": "<p>QUICK LINKS</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "32px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "Divx8ML",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Divrn93": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divrn93",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          },
+          "tablet": {
+            "alignItems": "center"
+          },
+          "mobile": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "DivjqpL",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanKqAe": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanKqAe",
+      "props": {
+        "componentData": {
+          "children": "<p>CONTACT</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "32px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px",
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "Divrn93",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanvSkN": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanvSkN",
+      "props": {
+        "componentData": {
+          "children": "<p>©2066 . All Rights Reserved.</p>"
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "Lato",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "50px 0px 0px 0px",
+            "opacity": "100%",
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivqkYy",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanVRf3": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanVRf3",
+      "props": {
+        "componentData": {
+          "children": "<p>CONTACT</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "contact",
+            "url": "contact"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivUmnh",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivrTLk": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivrTLk",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "35px 0px 40px 0px",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "columnGap": "30px",
+            "rowGap": "20px"
+          },
+          "tablet": {
+            "alignItems": "center"
+          }
+        }
+      },
+      "parent": "Divrn93",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivXnnQ": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivXnnQ",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Div",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivrTLk",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivGG3S": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivGG3S",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "100% 100% 100% 100% ",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "#e8e8e8 #e8e8e8 #e8e8e8 #e8e8e8 "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "DivXnnQ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "FontsSrqN": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-map-marker-alt"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-b)",
+            "textAlign": "left",
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          }
+        }
+      },
+      "client_id": "FontsSrqN",
+      "givenName": "Icon",
+      "parent": "DivGG3S",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivBi5p": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivBi5p",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "stretch",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "0% 0% 0% 0% "
+          }
+        }
+      },
+      "parent": "DivXnnQ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanNPaH": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanNPaH",
+      "props": {
+        "componentData": {
+          "children": "<p>Address Not Provided </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Address of the company"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivBi5p",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivHV1t": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivHV1t",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Div",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivrTLk",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivHa0g": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivHa0g",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "100% 100% 100% 100% ",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "#e8e8e8 #e8e8e8 #e8e8e8 #e8e8e8 "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "DivHV1t",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "FontsWFQe": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-map-marker-alt"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-b)",
+            "textAlign": "left",
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          }
+        }
+      },
+      "client_id": "FontsWFQe",
+      "givenName": "Icon",
+      "parent": "DivHa0g",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Divj6tQ": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divj6tQ",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "stretch",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "0% 0% 0% 0% "
+          }
+        }
+      },
+      "parent": "DivHV1t",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanPZTF": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanPZTF",
+      "props": {
+        "componentData": {
+          "children": "<p>info@eduaibridge.com </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Primary email of the company"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "Divj6tQ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanrVaa": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanrVaa",
+      "props": {
+        "componentData": {
+          "children": "<p>support@eduaibridge.com </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Secondary email of the company"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "Divj6tQ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Divb9io": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divb9io",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Div",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivrTLk",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivlTIu": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivlTIu",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "100% 100% 100% 100% ",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "#e8e8e8 #e8e8e8 #e8e8e8 #e8e8e8 "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "Divb9io",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Fonts6dGa": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-phone-alt"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-b)",
+            "textAlign": "left",
+            "fontSize": "20px",
+            "lineHeight": "30px"
+          }
+        }
+      },
+      "client_id": "Fonts6dGa",
+      "givenName": "Icon",
+      "parent": "DivlTIu",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivUxqG": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivUxqG",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "stretch",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "0% 0% 0% 0% "
+          }
+        }
+      },
+      "parent": "Divb9io",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpangiUD": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpangiUD",
+      "props": {
+        "componentData": {
+          "children": "<p>555-123-4567 </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "primary phone number of the company"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivUxqG",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanbFCw": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanbFCw",
+      "props": {
+        "componentData": {
+          "children": "<p>555-987-6543 </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Secondary phone number of the company"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivUxqG",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Spanz7IB": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Spanz7IB",
+      "props": {
+        "componentData": {
+          "children": "<p>EduAI Bridge enhances learning with AI, addressing teacher shortages and improving student outcomes. </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "paragraph about brand",
+            "wordcount": "~24"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "padding": "0px 0px 0px 0px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px",
+            "textAlign": "center"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivoeF2",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivXCtJ": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivXCtJ",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Div",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "20px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "parent": "DivrTLk",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivV9og": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivV9og",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "#ffffff33",
+            "borderRadius": "100% 100% 100% 100% "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "DivXCtJ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "FontsID98": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fab fa-facebook-f"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "#ffffffff",
+            "textAlign": "center",
+            "fontSize": "16px"
+          }
+        }
+      },
+      "client_id": "FontsID98",
+      "givenName": "Icon",
+      "parent": "DivV9og",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivFFhz": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivFFhz",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "#ffffff33",
+            "borderRadius": "100% 100% 100% 100% "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "DivXCtJ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "FontsHlUt": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fab fa-linkedin-in"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "#ffffffff",
+            "textAlign": "center",
+            "fontSize": "16px"
+          }
+        }
+      },
+      "client_id": "FontsHlUt",
+      "givenName": "Icon",
+      "parent": "DivFFhz",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivCDtI": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivCDtI",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "#ffffff33",
+            "borderRadius": "100% 100% 100% 100% "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "DivXCtJ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Fontsl0ow": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fab fa-youtube"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "#ffffffff",
+            "textAlign": "center",
+            "fontSize": "16px"
+          }
+        }
+      },
+      "client_id": "Fontsl0ow",
+      "givenName": "Icon",
+      "parent": "DivCDtI",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "Divh2Lr": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Divh2Lr",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "backgroundColor": "#ffffff33",
+            "borderRadius": "100% 100% 100% 100% "
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "parent": "DivXCtJ",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "FontsgFcH": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fab fa-instagram"
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "#ffffffff",
+            "textAlign": "center",
+            "fontSize": "16px"
+          }
+        }
+      },
+      "client_id": "FontsgFcH",
+      "givenName": "Icon",
+      "parent": "Divh2Lr",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivNXwM": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivNXwM",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Brand",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "4px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "component": null,
+      "parent": "DivTR68",
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "imageclouds7050EVVO": {
+      "author": "Storylens",
+      "context": [
+        "Homepage",
+        "image"
+      ],
+      "custom": false,
+      "main": "UI/Image/index.jsx",
+      "name": "clouds7050",
+      "props": {
+        "src": "https://assets-v2.codedesign.ai/storage/v1/object/public/68d9ba37be7e5676b63a52e3_d9e7f34a/asset-81133393",
+        "componentStyle": {
+          "global": {
+            "objectFit": "contain"
+          }
+        }
+      },
+      "client_id": "imageclouds7050EVVO",
+      "type": "image",
+      "isStatic": false,
+      "givenName": "image",
+      "parent": "DivNXwM",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "SpanA9so": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanA9so",
+      "props": {
+        "componentData": {
+          "children": "<p>EduAI Bridge </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Name for the brand",
+            "wordcount": "1-2 words",
+            "wordlimit": "2"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "letterSpacing": "0px",
+            "lineHeight": "40px",
+            "padding": "0px 0px 0px 0px",
+            "textAlign": "left",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "30px",
+            "lineHeight": "40px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivNXwM",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivyVeS"
+      }
+    },
+    "DivNfUb": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivNfUb",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Header Navigation",
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 16px 0px 16px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "none none solid none ",
+            "borderColor": "transparent transparent #e8e8e8 transparent "
+          },
+          "mobile": {
+            "flexDirection": "column",
+            "justifyContent": "center"
+          }
+        }
+      },
+      "component": null,
+      "zIndex": "2000",
+      "linkedProps": {
+        "instanceId": "DivNfUb",
+        "clientIdMap": {
+          "DivnyFu": "DivNfUb",
+          "DivbSz8": "Div3qQ9",
+          "FontsnBWl": "FontsVwzP",
+          "Div293k": "DivXxNm",
+          "DivCf2A": "DivoKPe",
+          "Span3L72": "Spanj4HY",
+          "Spanr28m": "SpanssIk",
+          "Spanb1fL": "Span3C3T",
+          "SpanL1O3": "SpaniZdz",
+          "Buttont6Jz": "ButtonBrPF",
+          "DivE4td": "DivxUSa",
+          "FontsPG1n": "Fonts7EvQ",
+          "Divy7zR": "DivriaF",
+          "imageclouds7050Zy4e": "imageclouds70500Wu3",
+          "SpanBDnP": "SpanSgg6"
+        },
+        "linkedComponentMetaId": "linkedDivnyFu"
+      },
+      "parent": "DivQ9D3"
+    },
+    "Div3qQ9": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "Div3qQ9",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Column",
+      "builderAttributes": {
+        "data-element-subtype": "full-width-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "30px 0px 30px 0px",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "none none solid none ",
+            "borderColor": "transparent transparent #e8e8e8 transparent "
+          },
+          "tablet": {
+            "justifyContent": "space-between"
+          }
+        }
+      },
+      "component": null,
+      "parent": "DivNfUb",
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "FontsVwzP": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "fas fa-bars",
+          "events": {
+            "onClick": {
+              "cd_event_4864b079-f66d-4b36-b8a3-d6d000183af3": [
+                "cd_fn_7a45902c-1856-4a59-a229-efcb8d12ef71"
+              ]
+            }
+          },
+          "linkAction": {
+            "action-1c6a206f-c59b-4400-a8c9-8e5d0bba0c66": {
+              "actionId": "action-1c6a206f-c59b-4400-a8c9-8e5d0bba0c66",
+              "titleType": "onClick",
+              "actionType": "onClick",
+              "selectedUpdateOption": "showElement",
+              "targetElementId": "DivXxNm",
+              "cssCode": "display:flex;",
+              "toggleBehaviour": false
+            }
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-a)",
+            "textAlign": "left",
+            "fontSize": "30px"
+          }
+        }
+      },
+      "client_id": "FontsVwzP",
+      "givenName": "Icon",
+      "parent": "Div3qQ9",
+      "executableInternalFunctions": {
+        "onClick": [
+          "onLinkClickAction"
+        ]
+      },
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "DivXxNm": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivXxNm",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "header links",
+      "builderAttributes": {
+        "data-element-subtype": "full-width-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "15px 0px 15px 0px",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "columnGap": "50px",
+            "rowGap": "0px",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "none none solid none ",
+            "borderColor": "transparent transparent #e8e8e8 transparent "
+          },
+          "tablet": {
+            "padding": "15px 15px 15px 15px",
+            "flexDirection": "column",
+            "justifyContent": "flex-start",
+            "backgroundColor": "var(--vId-color-token-b)"
+          },
+          "mobile": {
+            "padding": "15px 15px 15px 15px",
+            "flexDirection": "column",
+            "justifyContent": "flex-start",
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        }
+      },
+      "component": null,
+      "parent": "Div3qQ9",
+      "zIndex": "2000",
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "DivoKPe": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivoKPe",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Block",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "10px",
+            "rowGap": "0px",
+            "borderRadius": "0% 0% 0% 0% "
+          },
+          "tablet": {
+            "flexDirection": "column"
+          },
+          "mobile": {
+            "flexDirection": "column"
+          }
+        }
+      },
+      "component": null,
+      "parent": "DivXxNm",
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "Spanj4HY": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Spanj4HY",
+      "props": {
+        "componentData": {
+          "children": "<p>HOME</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "home2",
+            "url": "home2"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "padding": "15px 15px 15px 15px",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "textAlign": "center",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivoKPe",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "SpanssIk": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanssIk",
+      "props": {
+        "componentData": {
+          "children": "<p>ABOUT</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "About",
+            "url": "About"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "padding": "15px 15px 15px 15px",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "textAlign": "center",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivoKPe",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "Span3C3T": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "Span3C3T",
+      "props": {
+        "componentData": {
+          "children": "<p>CONTACT</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "contact",
+            "url": "contact"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "padding": "15px 15px 15px 15px",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "opacity": "100%"
+          },
+          "tablet": {
+            "textAlign": "center"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "textAlign": "center",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivoKPe",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "SpaniZdz": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpaniZdz",
+      "props": {
+        "componentData": {
+          "children": "<p>SERVICE</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "service",
+            "url": "service"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "color": "#ffffffff",
+            "padding": "15px 15px 15px 15px",
+            "letterSpacing": "0px",
+            "lineHeight": "24px",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "textAlign": "center",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivoKPe",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "ButtonBrPF": {
+      "category": "Buttons",
+      "context": [
+        "Homepage",
+        "twofoot"
+      ],
+      "custom": "true",
+      "main": "UI/Button/index.js",
+      "name": "Button",
+      "type": "button",
+      "zIndex": "1",
+      "isStatic": false,
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 42px 10px 42px",
+            "backgroundColor": "var(--vId-color-token-a)",
+            "boxShadow": "0px 2px 27px 0px #0000004c",
+            "borderRadius": "50px 50px 50px 50px ",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "groove groove groove groove ",
+            "borderColor": "#333 #333 #333 #333 ",
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "color": "#ffffffff",
+            "lineHeight": "26px"
+          }
+        },
+        "componentData": {
+          "elementType": "p",
+          "children": "<p>CONTACT US</p>",
+          "anchor": {
+            "linkType": "page",
+            "pageBase": "contact",
+            "url": "contact"
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundImage": "linear-gradient(270deg,rgba(255,255,255,0.2)0%,rgba(255,255,255,0.2)100%)",
+            "backgroundPosition": "50% 50%",
+            "backgroundSize": "cover",
+            "backgroundRepeat": "no-repeat no-repeat",
+            "backgroundAttachment": "scroll",
+            "backgroundClip": "border-box",
+            "backgroundOrigin": "padding-box"
+          }
+        }
+      },
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1620120925/storylens-dev/static/_1620120925_70331.png",
+        "width": 138,
+        "height": 48
+      },
+      "isListed": "true",
+      "client_id": "ButtonBrPF",
+      "givenName": "Button",
+      "parent": "DivXxNm",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "DivxUSa": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivxUSa",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "close",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "10px 10px 10px 10px",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "columnGap": "0px",
+            "rowGap": "0px",
+            "borderRadius": "100% 100% 100% 100% ",
+            "borderWidth": "0px 0px 0px 0px ",
+            "borderStyle": "solid solid solid solid ",
+            "borderColor": "#e8e8e8 #e8e8e8 #e8e8e8 #e8e8e8 "
+          },
+          "tablet": {
+            "alignItems": "flex-end"
+          },
+          "mobile": {
+            "alignItems": "flex-end"
+          }
+        },
+        "hover": {
+          "global": {
+            "backgroundColor": "var(--vId-color-token-b)"
+          }
+        },
+        "componentData": {
+          "linkAction": {
+            "action-284199c2-acb4-48b7-8f49-99541b63bd1b": {
+              "actionId": "action-284199c2-acb4-48b7-8f49-99541b63bd1b",
+              "titleType": "onClick",
+              "actionType": "onClick",
+              "selectedUpdateOption": "hideElement",
+              "targetElementId": "DivXxNm",
+              "cssCode": "display:none;",
+              "toggleBehaviour": false
+            }
+          }
+        }
+      },
+      "component": null,
+      "parent": "DivXxNm",
+      "executableInternalFunctions": {
+        "onClick": [
+          "onLinkClickAction"
+        ]
+      },
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "Fonts7EvQ": {
+      "custom": "true",
+      "tags": [
+        "font"
+      ],
+      "category": "Icons",
+      "name": "Fonts",
+      "isListed": "true",
+      "type": "component",
+      "thumbnail": {
+        "src": "https://res.cloudinary.com/lensbird/q_auto/v1619445497/storylens-dev/static/_1619445498_34786.png",
+        "width": 61,
+        "height": 58
+      },
+      "context": [
+        "Homepage",
+        "home"
+      ],
+      "isStatic": false,
+      "main": "UI/Fonts/index.jsx",
+      "props": {
+        "componentData": {
+          "font": "fab fa-fonticons-fi",
+          "icon": "far fa-window-close",
+          "events": {
+            "onClick": {
+              "cd_event_176cbc01-6283-4ad5-b3bb-9bac04234dec": [
+                "cd_fn_c81a78b3-8beb-441a-b1fe-161ac267b0df"
+              ]
+            }
+          },
+          "linkAction": {
+            "action-f0237ca0-f29d-4999-a28a-e1a4dad3cafd": {
+              "actionId": "action-f0237ca0-f29d-4999-a28a-e1a4dad3cafd",
+              "titleType": "onClick",
+              "actionType": "onClick",
+              "selectedUpdateOption": "hideElement",
+              "targetElementId": "DivXxNm",
+              "cssCode": "display:none;",
+              "toggleBehaviour": false
+            }
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "color": "var(--vId-color-token-a)",
+            "textAlign": "left",
+            "fontSize": "30px"
+          }
+        }
+      },
+      "client_id": "Fonts7EvQ",
+      "givenName": "Icon",
+      "parent": "DivxUSa",
+      "executableInternalFunctions": {
+        "onClick": [
+          "onLinkClickAction"
+        ]
+      },
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "DivriaF": {
+      "main": "UI/GridLayoutChild/index.js",
+      "category": "blocks",
+      "client_id": "DivriaF",
+      "name": "Div",
+      "isListed": "true",
+      "custom": "true",
+      "type": "block",
+      "givenName": "Brand",
+      "builderAttributes": {
+        "data-element-subtype": "small-block"
+      },
+      "props": {
+        "componentStyle": {
+          "global": {
+            "padding": "0px 0px 0px 0px",
+            "flexDirection": "row",
+            "alignItems": "center",
+            "columnGap": "4px",
+            "rowGap": "0px"
+          }
+        }
+      },
+      "component": null,
+      "parent": "Div3qQ9",
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "imageclouds70500Wu3": {
+      "author": "Storylens",
+      "context": [
+        "Homepage",
+        "image"
+      ],
+      "custom": false,
+      "main": "UI/Image/index.jsx",
+      "name": "clouds7050",
+      "props": {
+        "src": "https://assets-v2.codedesign.ai/storage/v1/object/public/68d9ba37be7e5676b63a52e3_d9e7f34a/asset-81133393",
+        "componentStyle": {
+          "global": {
+            "objectFit": "contain"
+          }
+        }
+      },
+      "client_id": "imageclouds70500Wu3",
+      "type": "image",
+      "isStatic": false,
+      "givenName": "image",
+      "parent": "DivriaF",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    },
+    "SpanSgg6": {
+      "name": "Span",
+      "type": "text",
+      "category": "Text",
+      "custom": "true",
+      "main": "UI/Text/index.jsx",
+      "isListed": "true",
+      "client_id": "SpanSgg6",
+      "props": {
+        "componentData": {
+          "children": "<p>EduAI Bridge </p> ",
+          "aiPromptMeta": {
+            "type": "text",
+            "title": "Name for the brand",
+            "wordcount": "1-2 words",
+            "wordlimit": "2"
+          }
+        },
+        "componentStyle": {
+          "global": {
+            "fontFamily": "var(--vId-font-token-a)",
+            "fontSize": "30px",
+            "fontWeight": "400",
+            "color": "var(--vId-color-token-a)",
+            "letterSpacing": "0px",
+            "lineHeight": "40px",
+            "padding": "0px 0px 1px",
+            "textAlign": "left",
+            "opacity": "100%"
+          },
+          "mobile": {
+            "fontSize": "16px",
+            "lineHeight": "26px"
+          }
+        }
+      },
+      "givenName": "heading",
+      "zIndex": "1",
+      "parent": "DivriaF",
+      "component": null,
+      "linkedProps": {
+        "instanceId": "DivNfUb"
+      }
+    }
+  },
+  "layouts": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivQ9D3",
+        "x": "auto",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "auto",
+        "maxW": "1980px",
+        "minH": "fit-content"
+      },
+      {
+        "y": "px",
+        "i": "Div65f5",
+        "x": "auto",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "auto",
+        "maxW": "1980px"
+      },
+      {
+        "y": "0px",
+        "i": "DivVr32",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "100%",
+        "display": "none",
+        "x1": "NaNpx",
+        "maxW": "1980px",
+        "position": "fixed",
+        "minH": "100vh"
+      },
+      {
+        "y": "0px",
+        "i": "DivyVeS",
+        "x": "auto",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "auto",
+        "maxW": "1980px"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivQ9D3"
+      },
+      {
+        "i": "Div65f5"
+      },
+      {
+        "i": "DivyVeS"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivQ9D3"
+      },
+      {
+        "i": "Div65f5"
+      },
+      {
+        "i": "DivyVeS"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivQ9D3"
+      },
+      {
+        "i": "Div65f5"
+      },
+      {
+        "i": "DivyVeS"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivQ9D3"
+      },
+      {
+        "i": "Div65f5"
+      },
+      {
+        "i": "DivyVeS"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivQ9D3"
+      },
+      {
+        "i": "Div65f5"
+      },
+      {
+        "i": "DivyVeS"
+      }
+    ]
+  },
+  "meta": {
+    "name": "About",
+    "id": "About",
+    "activeBreakpoints": [
+      "lg",
+      "md",
+      "sm"
+    ],
+    "autoResponsiveComponents": {
+      "sm": [],
+      "md": [],
+      "bp_1280": [],
+      "bp_1440": [],
+      "bp_1920": []
+    },
+    "previewImage": "https://res.cloudinary.com/dmuecdqxy/image/upload/v1727780042/6391b363e43d80a1cef40489photographer-portfolio-funneldmbvkvcchome.png",
+    "title": "",
+    "metaDescription": "",
+    "favIcon": "",
+    "headExtras": "",
+    "isPageAiGeneratable": true,
+    "pagePrompt": "ABOUT PAGE"
+  },
+  "version": 4154,
+  "id": "628f24c129990a5968e5acc5",
+  "timestamp": {
+    "_seconds": 1656756319,
+    "_nanoseconds": 18000000
+  },
+  "DivQ9D3": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivNfUb",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "100%",
+        "display": "flex",
+        "x1": "NaNpx",
+        "maxW": "none",
+        "minH": "130px",
+        "position": "relative",
+        "parent": "DivQ9D3"
+      },
+      {
+        "y": "0px",
+        "i": "DivE7VU",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivQ9D3",
+        "maxW": "1150px",
+        "minH": "fit-content"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivE7VU"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivE7VU"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivE7VU"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivE7VU"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivE7VU"
+      }
+    ]
+  },
+  "DivVr32": {
+    "lg": [
+      {
+        "i": "Divdc3A",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivVr32",
+        "maxW": "715px"
+      }
+    ],
+    "md": [
+      {
+        "i": "Divdc3A",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "Divdc3A",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "sm": [
+      {
+        "i": "Divdc3A"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "Divdc3A",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "Divdc3A",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ]
+  },
+  "Divdc3A": {
+    "lg": [
+      {
+        "x": "auto",
+        "y": "10px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Fontsi1Gq",
+        "x1": "10px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "Divdc3A",
+        "position": "absolute"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanINyA",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divdc3A",
+        "maxW": "1050px"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanzUSp",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divdc3A",
+        "maxW": "550px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SectionjP9R",
+        "minH": "20px",
+        "minW": "20px",
+        "position": "relative",
+        "display": "flex",
+        "parent": "Divdc3A"
+      }
+    ],
+    "sm": [
+      {
+        "i": "Fontsi1Gq"
+      },
+      {
+        "i": "SectionjP9R"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "Fontsi1Gq"
+      },
+      {
+        "i": "SectionjP9R"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "Fontsi1Gq"
+      },
+      {
+        "i": "SectionjP9R"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "Fontsi1Gq"
+      },
+      {
+        "i": "SectionjP9R"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "Fontsi1Gq"
+      },
+      {
+        "i": "SectionjP9R"
+      }
+    ]
+  },
+  "SectionjP9R": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "20px",
+        "i": "SectionuhuD",
+        "minH": "20px",
+        "minW": "20px",
+        "position": "relative",
+        "parent": "SectionjP9R",
+        "display": "flex"
+      },
+      {
+        "x": "0px",
+        "y": "20px",
+        "w": "100%",
+        "h": "fit-content",
+        "i": "ButtonztnA",
+        "position": "relative",
+        "parent": "SectionjP9R",
+        "minH": "70px",
+        "maxW": "550px"
+      }
+    ],
+    "sm": [
+      {
+        "i": "SectionuhuD"
+      },
+      {
+        "i": "ButtonztnA"
+      }
+    ],
+    "md": [
+      {
+        "y": "0px",
+        "i": "SectionuhuD"
+      },
+      {
+        "i": "ButtonztnA"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "SectionuhuD"
+      },
+      {
+        "i": "ButtonztnA"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "SectionuhuD"
+      },
+      {
+        "i": "ButtonztnA"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "SectionuhuD"
+      },
+      {
+        "i": "ButtonztnA"
+      }
+    ]
+  },
+  "SectionuhuD": {
+    "lg": [
+      {
+        "x": "0px",
+        "x1": "0px",
+        "y1": "0px",
+        "y": "10px",
+        "w": "100%",
+        "i": "InputYYQN",
+        "h": "auto",
+        "display": "block",
+        "position": "relative",
+        "parent": "SectionuhuD",
+        "minH": "75px",
+        "maxW": "550px"
+      }
+    ],
+    "sm": [
+      {
+        "i": "InputYYQN"
+      }
+    ],
+    "md": [
+      {
+        "i": "InputYYQN"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "InputYYQN"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "InputYYQN"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "InputYYQN"
+      }
+    ]
+  },
+  "DivE7VU": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Container5ADE",
+        "maxW": "730px",
+        "position": "relative",
+        "display": "flex",
+        "x1": "0px",
+        "parent": "DivE7VU"
+      }
+    ],
+    "sm": [
+      {
+        "i": "Container5ADE",
+        "maxW": "none"
+      }
+    ],
+    "md": [
+      {
+        "i": "Container5ADE",
+        "maxW": "720px"
+      }
+    ],
+    "bp_1280": [
+      {
+        "h": "200px",
+        "i": "Container5ADE",
+        "maxW": "1127px"
+      }
+    ],
+    "bp_1440": [
+      {
+        "h": "200px",
+        "i": "Container5ADE",
+        "maxW": "1127px"
+      }
+    ],
+    "bp_1920": [
+      {
+        "h": "200px",
+        "i": "Container5ADE",
+        "maxW": "1127px"
+      }
+    ]
+  },
+  "FormMainOCC4": {
+    "lg": [],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "name": "footer_logo",
+  "main": "UI/Image/index.jsx",
+  "width": 186,
+  "height": 46,
+  "tagName": "UI/Image/index.jsx",
+  "type": "image",
+  "category": "image",
+  "custom": "true",
+  "DivyVeS": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivqkYy",
+        "x": "auto",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivyVeS",
+        "maxW": "1200px",
+        "x1": "auto"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivqkYy"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivqkYy"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivqkYy"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivqkYy"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivqkYy"
+      }
+    ]
+  },
+  "DivqkYy": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivjqpL",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivqkYy",
+        "maxW": "1150px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanvSkN",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivqkYy",
+        "dragging": true,
+        "maxW": "1150px"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivjqpL": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivTR68",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivjqpL",
+        "maxW": "430px"
+      },
+      {
+        "y": "0px",
+        "i": "Divx8ML",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivjqpL",
+        "maxW": "fit-content"
+      },
+      {
+        "y": "0px",
+        "i": "Divrn93",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "parent": "DivjqpL",
+        "maxW": "fit-content"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivTR68": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivNXwM",
+        "x": "0px",
+        "h": "auto",
+        "w": "180px",
+        "display": "flex",
+        "parent": "DivTR68"
+      },
+      {
+        "y": "0px",
+        "i": "DivoeF2",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivTR68"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivoeF2"
+      },
+      {
+        "i": "DivNXwM"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivoeF2"
+      },
+      {
+        "i": "DivNXwM"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivoeF2"
+      },
+      {
+        "i": "DivNXwM"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivoeF2"
+      },
+      {
+        "i": "DivNXwM"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivoeF2"
+      },
+      {
+        "i": "DivNXwM"
+      }
+    ]
+  },
+  "DivoeF2": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Spanz7IB",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivoeF2",
+        "maxW": "none"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "Divx8ML": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanJf7W",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divx8ML",
+        "maxW": "200px",
+        "moved": true
+      },
+      {
+        "y": "0px",
+        "i": "DivUmnh",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "Divx8ML"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivUmnh"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivUmnh"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivUmnh"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivUmnh"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivUmnh"
+      }
+    ]
+  },
+  "DivUmnh": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanCVoX",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivUmnh",
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanZu1e",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivUmnh",
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanVRf3",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivUmnh",
+        "maxW": "200px"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "Divrn93": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanKqAe",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divrn93",
+        "maxW": "200px",
+        "moved": true
+      },
+      {
+        "y": "0px",
+        "i": "DivrTLk",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "Divrn93"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivrTLk"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivrTLk"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivrTLk"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivrTLk"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivrTLk"
+      }
+    ]
+  },
+  "Container5ADE": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanfjkQ",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Container5ADE",
+        "dragging": true
+      }
+    ],
+    "md": [],
+    "sm": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivrTLk": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivXnnQ",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivrTLk",
+        "dragging": true,
+        "moved": true
+      },
+      {
+        "y": "0px",
+        "i": "Divb9io",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivrTLk",
+        "dragging": true,
+        "moved": true
+      },
+      {
+        "y": "0px",
+        "i": "DivHV1t",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivrTLk",
+        "dragging": true,
+        "moved": true
+      },
+      {
+        "y": "0px",
+        "i": "DivXCtJ",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivrTLk",
+        "dragging": true
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivXnnQ": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivGG3S",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivXnnQ"
+      },
+      {
+        "y": "0px",
+        "i": "DivBi5p",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivXnnQ"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivGG3S"
+      },
+      {
+        "i": "DivBi5p"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivGG3S"
+      },
+      {
+        "i": "DivBi5p"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivGG3S"
+      },
+      {
+        "i": "DivBi5p"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivGG3S"
+      },
+      {
+        "i": "DivBi5p"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivGG3S"
+      },
+      {
+        "i": "DivBi5p"
+      }
+    ]
+  },
+  "DivGG3S": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsSrqN",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivGG3S"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "FontsSrqN"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "FontsSrqN"
+      }
+    ],
+    "sm": [
+      {
+        "i": "FontsSrqN"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "FontsSrqN"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "FontsSrqN"
+      }
+    ]
+  },
+  "DivBi5p": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanNPaH",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivBi5p",
+        "maxW": "200px"
+      }
+    ],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivHV1t": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivHa0g",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivHV1t"
+      },
+      {
+        "y": "0px",
+        "i": "Divj6tQ",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivHV1t"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivHa0g"
+      },
+      {
+        "i": "Divj6tQ"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivHa0g"
+      },
+      {
+        "i": "Divj6tQ"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivHa0g"
+      },
+      {
+        "i": "Divj6tQ"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivHa0g"
+      },
+      {
+        "i": "Divj6tQ"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivHa0g"
+      },
+      {
+        "i": "Divj6tQ"
+      }
+    ]
+  },
+  "DivHa0g": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsWFQe",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivHa0g"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "FontsWFQe"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "FontsWFQe"
+      }
+    ],
+    "sm": [
+      {
+        "i": "FontsWFQe"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "FontsWFQe"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "FontsWFQe"
+      }
+    ]
+  },
+  "Divj6tQ": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanPZTF",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divj6tQ",
+        "dragging": true,
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanrVaa",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divj6tQ",
+        "dragging": true,
+        "maxW": "200px"
+      }
+    ],
+    "sm": [
+      {
+        "i": "SpanPZTF"
+      }
+    ],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "Divb9io": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivlTIu",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "Divb9io"
+      },
+      {
+        "y": "0px",
+        "i": "DivUxqG",
+        "x": "0px",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "Divb9io"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivlTIu"
+      },
+      {
+        "i": "DivUxqG"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivlTIu"
+      },
+      {
+        "i": "DivUxqG"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivlTIu"
+      },
+      {
+        "i": "DivUxqG"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivlTIu"
+      },
+      {
+        "i": "DivUxqG"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivlTIu"
+      },
+      {
+        "i": "DivUxqG"
+      }
+    ]
+  },
+  "DivlTIu": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Fonts6dGa",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivlTIu"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "Fonts6dGa"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "Fonts6dGa"
+      }
+    ],
+    "sm": [
+      {
+        "i": "Fonts6dGa"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "Fonts6dGa"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "Fonts6dGa"
+      }
+    ]
+  },
+  "DivUxqG": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpangiUD",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivUxqG",
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanbFCw",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivUxqG",
+        "maxW": "200px"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivXCtJ": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivV9og",
+        "x": "0px",
+        "h": "40px",
+        "w": "40px",
+        "display": "flex",
+        "parent": "DivXCtJ"
+      },
+      {
+        "y": "0px",
+        "i": "Divh2Lr",
+        "x": "0px",
+        "h": "40px",
+        "w": "40px",
+        "display": "flex",
+        "parent": "DivXCtJ"
+      },
+      {
+        "y": "0px",
+        "i": "DivCDtI",
+        "x": "0px",
+        "h": "40px",
+        "w": "40px",
+        "display": "flex",
+        "parent": "DivXCtJ"
+      },
+      {
+        "y": "0px",
+        "i": "DivFFhz",
+        "x": "0px",
+        "h": "40px",
+        "w": "40px",
+        "display": "flex",
+        "parent": "DivXCtJ"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivV9og"
+      },
+      {
+        "i": "Divh2Lr"
+      },
+      {
+        "i": "DivCDtI"
+      },
+      {
+        "i": "DivFFhz"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivV9og"
+      },
+      {
+        "i": "Divh2Lr"
+      },
+      {
+        "i": "DivCDtI"
+      },
+      {
+        "i": "DivFFhz"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivV9og"
+      },
+      {
+        "i": "Divh2Lr"
+      },
+      {
+        "i": "DivCDtI"
+      },
+      {
+        "i": "DivFFhz"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivV9og"
+      },
+      {
+        "i": "Divh2Lr"
+      },
+      {
+        "i": "DivCDtI"
+      },
+      {
+        "i": "DivFFhz"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivV9og"
+      },
+      {
+        "i": "Divh2Lr"
+      },
+      {
+        "i": "DivCDtI"
+      },
+      {
+        "i": "DivFFhz"
+      }
+    ]
+  },
+  "DivV9og": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsID98",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivV9og"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "FontsID98"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "FontsID98"
+      }
+    ],
+    "sm": [
+      {
+        "i": "FontsID98"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "FontsID98"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "FontsID98"
+      }
+    ]
+  },
+  "DivFFhz": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "10px",
+        "h": "fit-content",
+        "i": "FontsHlUt",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivFFhz"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "FontsHlUt"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "FontsHlUt"
+      }
+    ],
+    "sm": [
+      {
+        "i": "FontsHlUt"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "FontsHlUt"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "FontsHlUt"
+      }
+    ]
+  },
+  "DivCDtI": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Fontsl0ow",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivCDtI"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "Fontsl0ow"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "Fontsl0ow"
+      }
+    ],
+    "sm": [
+      {
+        "i": "Fontsl0ow"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "Fontsl0ow"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "Fontsl0ow"
+      }
+    ]
+  },
+  "Divh2Lr": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsgFcH",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "Divh2Lr"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "FontsgFcH"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "FontsgFcH"
+      }
+    ],
+    "sm": [
+      {
+        "i": "FontsgFcH"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "FontsgFcH"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "FontsgFcH"
+      }
+    ]
+  },
+  "Div65f5": {
+    "lg": [
+      {
+        "y": "NaNpx",
+        "i": "DivvMdo",
+        "x": "NaNpx",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "NaNpx",
+        "maxW": "1150px"
+      },
+      {
+        "y": "NaNpx",
+        "i": "DivaiWQ",
+        "x": "NaNpx",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "NaNpx",
+        "maxW": "1150px"
+      },
+      {
+        "y": "0px",
+        "i": "DivVrid",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "dragging": true,
+        "parent": "Div65f5",
+        "maxW": "1150px"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivvMdo": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "advance-career-imgMTtG",
+        "position": "relative",
+        "maxW": "620px",
+        "maxH": "600px",
+        "parent": "DivvMdo"
+      },
+      {
+        "y": "0px",
+        "i": "Divxho2",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "maxW": "445px"
+      }
+    ]
+  },
+  "Divxho2": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpangHLf",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divxho2"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanEcSN",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divxho2"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Span2BfO",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divxho2"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Spanf83Y",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Divxho2"
+      },
+      {
+        "y": "676px",
+        "i": "DivVrid",
+        "x": "-265px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "moved": true
+      }
+    ],
+    "sm": [],
+    "md": [
+      {
+        "i": "DivVrid",
+        "w": "fit-content"
+      }
+    ],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "SpangHLf": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "px",
+        "i": "Span6UHV",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "px",
+        "i": "SpanZcbY",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "px",
+        "i": "SpanjpXw",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "auto",
+        "x": "0px",
+        "y": "2px",
+        "i": "SpanHq6Y",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px"
+      },
+      {
+        "y": "0px",
+        "i": "DiviSKe",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      }
+    ]
+  },
+  "DiviSKe": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "Span2BfO": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivEBnL",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "DivkMzl",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      }
+    ]
+  },
+  "DivEBnL": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivkMzl": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivVrid": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivjFTU",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "maxW": "255px",
+        "minH": "135px"
+      },
+      {
+        "y": "0px",
+        "i": "Divk3hk",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "maxW": "255px",
+        "minH": "135px"
+      },
+      {
+        "y": "0px",
+        "i": "Div4thW",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "maxW": "255px",
+        "minH": "135px"
+      },
+      {
+        "y": "0px",
+        "i": "DivnzYf",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "maxW": "255px",
+        "minH": "135px"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivjFTU": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsghLt",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "DivlxLi",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "91px",
+        "y": "19px",
+        "i": "Spanw4pj",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true
+      }
+    ]
+  },
+  "FontsghLt": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "SpankXMS",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "SpaneW8q",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      }
+    ]
+  },
+  "Spanf83Y": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "Divp5jq",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "DivDiTC",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      }
+    ]
+  },
+  "Divp5jq": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivDiTC": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivaiWQ": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "Div5Ngv",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "maxW": "none"
+      }
+    ]
+  },
+  "Div5Ngv": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanQcdj",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Div5Ngv"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Spanq5cj",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "Div5Ngv"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "SpanQcdj": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "Div1qir",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "Div1sRI",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      }
+    ]
+  },
+  "Div1qir": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "Div1sRI": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "Spanq5cj": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivDZEo",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "Divqceb",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      }
+    ]
+  },
+  "DivDZEo": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "Divqceb": {
+    "lg": [],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivlxLi": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Spanw4pj",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true,
+        "parent": "DivlxLi"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpaneWeN",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "dragging": true,
+        "moved": true,
+        "parent": "DivlxLi"
+      }
+    ],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivnzYf": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Fonts7zz8",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "DivTtgN",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "91px",
+        "y": "19px",
+        "i": "SpandAmV",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true
+      }
+    ]
+  },
+  "Fonts7zz8": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "SpanBBeP",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Span47n5",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      }
+    ]
+  },
+  "DivTtgN": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpandAmV",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true,
+        "parent": "DivTtgN"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpankvXt",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "dragging": true,
+        "moved": true,
+        "parent": "DivTtgN"
+      }
+    ],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "Div4thW": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsV1PK",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "DivUl4e",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "91px",
+        "y": "19px",
+        "i": "SpanEBMT",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true
+      }
+    ]
+  },
+  "FontsV1PK": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Spanbkc3",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "SpanKJVW",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      }
+    ]
+  },
+  "DivUl4e": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanEBMT",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true,
+        "parent": "DivUl4e"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanfBIo",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "dragging": true,
+        "moved": true,
+        "parent": "DivUl4e"
+      }
+    ],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "Divk3hk": {
+    "lg": [
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsHzpv",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "flex"
+      },
+      {
+        "y": "0px",
+        "i": "DivpJoV",
+        "x": "0px",
+        "h": "auto",
+        "w": "fit-content",
+        "display": "flex"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "91px",
+        "y": "19px",
+        "i": "SpanO5Hz",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true
+      }
+    ]
+  },
+  "FontsHzpv": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "SpandY84",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "SpanjqdC",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative"
+      }
+    ]
+  },
+  "DivpJoV": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanO5Hz",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "moved": true,
+        "parent": "DivpJoV"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanSXtS",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "dragging": true,
+        "moved": true,
+        "parent": "DivpJoV"
+      }
+    ],
+    "md": [],
+    "bp_1920": [],
+    "sm": [],
+    "bp_1440": [],
+    "bp_1280": []
+  },
+  "DivNXwM": {
+    "lg": [
+      {
+        "w": "80px",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "imageclouds7050EVVO",
+        "position": "relative",
+        "maxW": "600px",
+        "maxH": "600px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanA9so",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivNXwM",
+        "dragging": true,
+        "maxW": "200px"
+      }
+    ]
+  },
+  "DivNfUb": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "Div3qQ9",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "NaNpx",
+        "parent": "DivNfUb",
+        "maxW": "1150px"
+      }
+    ],
+    "sm": [
+      {
+        "i": "Div3qQ9"
+      }
+    ],
+    "md": [
+      {
+        "i": "Div3qQ9"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "Div3qQ9"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "Div3qQ9"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "Div3qQ9"
+      }
+    ]
+  },
+  "Div3qQ9": {
+    "lg": [
+      {
+        "y": "0px",
+        "i": "DivriaF",
+        "x": "0px",
+        "h": "auto",
+        "w": "180px",
+        "display": "flex",
+        "parent": "Div3qQ9",
+        "minW": "33%"
+      },
+      {
+        "y": "0px",
+        "i": "DivXxNm",
+        "x": "0px",
+        "h": "auto",
+        "w": "100%",
+        "display": "flex",
+        "x1": "NaNpx",
+        "parent": "Div3qQ9",
+        "maxW": "fit-content"
+      },
+      {
+        "x": "0px",
+        "y": "0px",
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "FontsVwzP",
+        "x1": "0px",
+        "y1": "0px",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "none",
+        "parent": "Div3qQ9"
+      }
+    ],
+    "md": [
+      {
+        "i": "DivriaF"
+      },
+      {
+        "i": "DivXxNm",
+        "h": "fit-content",
+        "display": "none",
+        "maxW": "none",
+        "position": "fixed",
+        "minH": "100vh"
+      },
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "FontsVwzP",
+        "display": "block"
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "DivriaF"
+      },
+      {
+        "i": "DivXxNm"
+      },
+      {
+        "i": "FontsVwzP"
+      }
+    ],
+    "sm": [
+      {
+        "i": "DivriaF",
+        "minW": "fit-content"
+      },
+      {
+        "i": "DivXxNm"
+      },
+      {
+        "i": "FontsVwzP"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "DivriaF"
+      },
+      {
+        "i": "DivXxNm"
+      },
+      {
+        "i": "FontsVwzP"
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "DivriaF"
+      },
+      {
+        "i": "DivXxNm"
+      },
+      {
+        "i": "FontsVwzP"
+      }
+    ]
+  },
+  "DivXxNm": {
+    "lg": [
+      {
+        "i": "DivxUSa",
+        "h": "70px",
+        "w": "70px",
+        "display": "none",
+        "parent": "DivXxNm"
+      },
+      {
+        "i": "DivoKPe",
+        "h": "fit-content",
+        "w": "fit-content",
+        "display": "flex",
+        "parent": "DivXxNm"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "ButtonBrPF",
+        "position": "relative",
+        "parent": "DivXxNm",
+        "minW": "160px",
+        "minH": "50px"
+      }
+    ],
+    "md": [
+      {
+        "i": "ButtonBrPF",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      {
+        "i": "DivxUSa",
+        "w": "100%",
+        "display": "flex",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "ButtonBrPF",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      {
+        "i": "DivxUSa",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "sm": [
+      {
+        "i": "ButtonBrPF"
+      },
+      {
+        "i": "DivxUSa"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "ButtonBrPF",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      {
+        "i": "DivxUSa",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "ButtonBrPF",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      },
+      {
+        "i": "DivxUSa",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ]
+  },
+  "DivoKPe": {
+    "lg": [
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Spanj4HY",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivoKPe",
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanssIk",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivoKPe",
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpaniZdz",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivoKPe",
+        "maxW": "200px"
+      },
+      {
+        "w": "100%",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "Span3C3T",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivoKPe",
+        "maxW": "200px"
+      }
+    ],
+    "sm": [],
+    "md": [],
+    "bp_1280": [],
+    "bp_1440": [],
+    "bp_1920": []
+  },
+  "DivxUSa": {
+    "lg": [
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "i": "Fonts7EvQ",
+        "minW": "10px",
+        "minH": "10px",
+        "display": "block",
+        "parent": "DivxUSa"
+      }
+    ],
+    "md": [
+      {
+        "w": "auto",
+        "h": "auto",
+        "i": "Fonts7EvQ",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "bp_1920": [
+      {
+        "i": "Fonts7EvQ",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "sm": [
+      {
+        "i": "Fonts7EvQ"
+      }
+    ],
+    "bp_1440": [
+      {
+        "i": "Fonts7EvQ",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ],
+    "bp_1280": [
+      {
+        "i": "Fonts7EvQ",
+        "x": 0,
+        "y": 0,
+        "x1": 0,
+        "y1": 0
+      }
+    ]
+  },
+  "DivriaF": {
+    "lg": [
+      {
+        "w": "80px",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "imageclouds70500Wu3",
+        "position": "relative",
+        "maxW": "600px",
+        "maxH": "600px"
+      },
+      {
+        "w": "fit-content",
+        "h": "fit-content",
+        "x": "0px",
+        "y": "0px",
+        "i": "SpanSgg6",
+        "display": "block",
+        "minH": "10px",
+        "minW": "16px",
+        "position": "relative",
+        "parent": "DivriaF",
+        "dragging": true,
+        "maxW": "fit-content"
+      }
+    ],
+    "sm": [
+      {
+        "w": "60px",
+        "i": "imageclouds70500Wu3"
+      },
+      {
+        "i": "SpanSgg6",
+        "maxW": "200px"
+      }
+    ]
+  }
+}
