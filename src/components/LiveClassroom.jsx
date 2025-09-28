@@ -113,7 +113,23 @@ function LiveClassroom() {
                 {studentEngagement.map((student, index) => (
                   <div key={index} className={`student-tile ${student.status}`}>
                     <div className="student-video">
-                      <div className="student-avatar">👤</div>
+                      <img 
+                        src={`https://images.pexels.com/photos/${
+                          index === 0 ? '1239291' : // Alex - young man
+                          index === 1 ? '1181686' : // Sarah - young woman
+                          index === 2 ? '1043471' : // Mike - young man
+                          index === 3 ? '1181690' : // Emma - young woman
+                          '1239288' // James - young man
+                        }/pexels-photo-${
+                          index === 0 ? '1239291' : 
+                          index === 1 ? '1181686' : 
+                          index === 2 ? '1043471' : 
+                          index === 3 ? '1181690' : 
+                          '1239288'
+                        }.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop&crop=face`}
+                        alt={`${student.name} profile`}
+                        className="student-avatar-img"
+                      />
                       <div className="engagement-indicator">
                         <div 
                           className="engagement-bar"
