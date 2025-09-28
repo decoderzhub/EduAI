@@ -39,7 +39,7 @@ function HeroSection() {
                         </Link> </button><button className="home-e-18"><Link href="contact" target="_self" className="link">
                             <Text tag="p">Learn More </Text>
                         </Link> </button></div>
-            </div><Text tag="span" className="home-e-19"> <Image src="assets/template-asset-711551c0" alt=\"Image" /> </Text>
+            </div><Text tag="span" className="home-e-19"> <Image src="assets/template-asset-711551c0" alt="Image" /> </Text>
         </div>
     </div>
   )
