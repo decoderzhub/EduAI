@@ -81,9 +81,9 @@ function FundingCalculator() {
                   value={formData.districtSize}
                   onChange={(e) => handleInputChange('districtSize', e.target.value)}
                 >
-                  <option value="small">Small (< 2,500 students)</option>
+                  <option value="small">Small (&lt; 2,500 students)</option>
                   <option value="medium">Medium (2,500 - 10,000 students)</option>
-                  <option value="large">Large (> 10,000 students)</option>
+                  <option value="large">Large (&gt; 10,000 students)</option>
                 </select>
               </div>
 
