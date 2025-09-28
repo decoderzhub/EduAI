@@ -8,6 +8,8 @@ import HighlightedFeatureSection from '../components/HighlightedFeatureSection'
 import TestimonialsSection from '../components/TestimonialsSection'
 import BlogSection from '../components/BlogSection'
 import ContactFormSection from '../components/ContactFormSection'
+import AIIntegration from '../components/AIIntegration'
+import LiveClassroom from '../components/LiveClassroom'
 import './Home.css'
 
 function Home() {
@@ -23,8 +25,10 @@ function Home() {
         <FeatureSection />
         <ServicesGridSection />
     </div>
+    <AIIntegration />
     <ProductShowcaseSection />
     <HighlightedFeatureSection />
+    <LiveClassroom />
     <TestimonialsSection />
     <BlogSection />
     <ContactFormSection />

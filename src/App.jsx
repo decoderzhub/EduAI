@@ -11,6 +11,7 @@ import About from './pages/About'
 import Home3 from './pages/Home3'
 import Service from './pages/Service'
 import Contact from './pages/Contact'
+import FundingCalculatorPage from './pages/FundingCalculator'
 
 function App() {
   // Initialize HumbleScroll for the entire app
@@ -27,6 +28,7 @@ function App() {
           <Route path="/home3" element={<Home3 />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/funding-calculator" element={<FundingCalculatorPage />} />
           {/* Add more routes for additional pages */}
         </Routes>
       </div>
