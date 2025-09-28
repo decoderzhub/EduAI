@@ -115,17 +115,17 @@ function LiveClassroom() {
                     <div className="student-video">
                       <img 
                         src={`https://images.pexels.com/photos/${
-                          index === 0 ? '8923659' : // Alex - young student boy
-                          index === 1 ? '8923661' : // Sarah - young student girl
-                          index === 2 ? '8923663' : // Mike - young student boy
-                          index === 3 ? '8923665' : // Emma - young student girl
-                          '8923667' // James - young student boy
+                          index === 0 ? '5212317' : // Alex - young boy student
+                          index === 1 ? '8613317' : // Sarah - young girl student
+                          index === 2 ? '8923659' : // Mike - young boy student
+                          index === 3 ? '8613320' : // Emma - young girl student
+                          '8923661' // James - young boy student
                         }/pexels-photo-${
-                          index === 0 ? '8923659' : 
-                          index === 1 ? '8923661' : 
-                          index === 2 ? '8923663' : 
-                          index === 3 ? '8923665' : 
-                          '8923667'
+                          index === 0 ? '5212317' : 
+                          index === 1 ? '8613317' : 
+                          index === 2 ? '8923659' : 
+                          index === 3 ? '8613320' : 
+                          '8923661'
                         }.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop&crop=face`}
                         alt={`${student.name} profile`}
                         className="student-avatar-img"
