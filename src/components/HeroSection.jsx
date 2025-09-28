@@ -55,7 +55,7 @@ function HeroSection() {
       <div className="home-e-11">
         <div className="home-e-14">
           <Text tag="span" className="home-e-15">
-            <Image src="assets/template-asset-5cc2b48f" alt="Image" />
+            <Image src="/assets/template-asset-5cc2b48f" alt="Image" />
           </Text>
           <Text tag="span" className="home-e-12">
             <Text tag="p">
@@ -83,7 +83,7 @@ function HeroSection() {
           </div>
         </div>
         <Text tag="span" className="home-e-19">
-          <Image src="assets/template-asset-711551c0" alt="Image" />
+          <Image src="/assets/template-asset-711551c0" alt="Image" />
         </Text>
       </div>
     </div>
