@@ -27,7 +27,7 @@ function About() {
                                 <Text tag="p">SERVICE</Text>
                             </Link></Text><Text tag="span" className="About-e-121"><Link href="contact" target="_self" className="link">
                                 <Text tag="p">CONTACT</Text>
-                            </Link></Text>
+                            </Link></Text></div>
                 </div><i className="fas fa-bars About-e-115"></i>
             </div>
         </div>
