@@ -626,38 +626,25 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Navigation menu item styling */
-.home-e-288,
-.home-e-289,
-.home-e-291 {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 20px;
-  padding: 8px 16px;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.home-e-288 p,
-.home-e-289 p,
-.home-e-291 p {
-  color: #3b82f6 !important;
+/* Navigation menu styling - simplified */
+.home-e-287 a {
+  color: #3b82f6;
+  text-decoration: none;
   font-weight: 600;
-  margin: 0;
-  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
 }
 
-.home-e-288:hover,
-.home-e-289:hover,
-.home-e-291:hover {
+.home-e-287 a:hover {
+  color: #1d4ed8;
   background: rgba(255, 255, 255, 0.95);
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.home-e-288:hover p,
-.home-e-289:hover p,
-.home-e-291:hover p {
-  color: #1d4ed8 !important;
 }
 
 .home-e-293 {
