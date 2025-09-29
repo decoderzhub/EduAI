@@ -29,7 +29,7 @@ function ProductShowcaseSection() {
       // price: "$100",
       lessons: "38 lessons",
       date: "25 oct 2024",
-      image: "assets/photo-1507413245164-6160d8298b31.jpeg"
+      image: "/assets/science-exploration.png"
     },
     {
       id: 4,
