@@ -116,11 +116,11 @@ function LiveClassroom() {
                     <div className="student-video">
                       <img 
                         src={
-                          index === 0 ? 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Alex
-                          index === 1 ? 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Sarah
-                          index === 2 ? 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Mike
-                          index === 3 ? 'https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Emma
-                          'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' // James
+                          index === 0 ? 'https://images.pexels.com/photos/774091/pexels-photo-774091.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Alex - Smiling girl with blonde hair
+                          index === 1 ? 'https://images.pexels.com/photos/16850274/pexels-photo-16850274.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Sarah - Boy with shaved head
+                          index === 2 ? 'https://images.pexels.com/photos/7207758/pexels-photo-7207758.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Mike - Boy in white and blue shirt
+                          index === 3 ? 'https://images.pexels.com/photos/9511992/pexels-photo-9511992.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Emma - Girl with gray beanie
+                          'https://images.pexels.com/photos/8090251/pexels-photo-8090251.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' // James - Cute girl with laser on face
                         }
                         alt={`${student.name} profile`}
                         className="student-avatar-img"
