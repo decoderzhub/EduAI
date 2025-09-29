@@ -80,6 +80,21 @@ function ProductShowcaseSection() {
 
   return (
     <div className="courses-section">
+      <div className="courses-animated-shapes">
+        <div className="course-bouncing-shape course-shape-1"></div>
+        <div className="course-bouncing-shape course-shape-2"></div>
+        <div className="course-bouncing-shape course-shape-3"></div>
+        <div className="course-bouncing-shape course-shape-4"></div>
+        <div className="course-bouncing-shape course-shape-5"></div>
+        <div className="course-bouncing-shape course-shape-6"></div>
+        <div className="course-bouncing-shape course-rectangle-1"></div>
+        <div className="course-bouncing-shape course-rectangle-2"></div>
+        <div className="course-bouncing-shape course-triangle-1"></div>
+        <div className="course-bouncing-shape course-triangle-2"></div>
+        <div className="course-bouncing-shape course-hexagon"></div>
+        <div className="course-bouncing-shape course-diamond"></div>
+      </div>
+      
       <div className="courses-container">
         <div className="courses-header">
           <Text tag="p" className="courses-label">Our Courses</Text>
