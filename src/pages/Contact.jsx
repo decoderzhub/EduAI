@@ -175,6 +175,99 @@ function Contact() {
       </div>
     </div>
   )
-}
+    {/* Contact Form Section */}
+    <div className="contact-main-section">
+      <div className="contact-form-container">
+        <div className="contact-form-header">
+          <Text tag="h2" className="contact-form-title">Get In Touch</Text>
+          <Text tag="p" className="contact-form-subtitle">
+            Ready to transform your educational experience? Contact our team to learn more about EduAI Bridge.
+          </Text>
+        </div>
+        
+        <form className="contact-form" data-component-type="form-component-v1">
+          <div className="form-row">
+            <div className="form-group">
+              <label htmlFor="firstName">First Name</label>
+              <input 
+                type="text" 
+                id="firstName" 
+                name="firstName" 
+                placeholder="Enter your first name"
+                required 
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="lastName">Last Name</label>
+              <input 
+                type="text" 
+                id="lastName" 
+                name="lastName" 
+                placeholder="Enter your last name"
+                required 
+              />
+            </div>
+          </div>
+          
+          <div className="form-row">
+            <div className="form-group">
+              <label htmlFor="email">Email Address</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="your.email@example.com"
+                required 
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="phone">Phone Number</label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                placeholder="(555) 123-4567"
+              />
+            </div>
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="subject">Subject</label>
+            <input 
+              type="text" 
+              id="subject" 
+              name="subject" 
+              placeholder="What can we help you with?"
+              required 
+            />
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="6"
+              placeholder="Tell us more about your needs..."
+              required
+            ></textarea>
+          </div>
+          
+          <div className="form-group checkbox-group">
+            <label className="checkbox-label">
+              <input type="checkbox" required />
+              <span className="checkmark"></span>
+              I agree to the privacy policy and terms of service
+            </label>
+          </div>
+          
+          <button type="submit" className="contact-submit-btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+    {/* Newsletter Section */}
 
 export default Contact
