@@ -1,51 +1,77 @@
 import React, { useEffect } from 'react'
 import { Text, Image, Link } from '../components'
-import '../library.css'
 import './Contact.css'
 
 function Contact() {
   useEffect(() => {
-    // Component-specific initialization can go here
     console.log('Contact component mounted');
   }, []);
 
   return (
-    <div className="contact-page">
-      {/* Navigation */}
-      <nav className="navbar">
-        <div className="container flex-between">
-          <div className="navbar-brand">
-            <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" className="navbar-logo" />
-            <Text tag="span">EduAI Bridge</Text>
-          </div>
-          <div className="navbar-nav">
-            <Link href="/" className="nav-link">HOME</Link>
-            <Link href="/about" className="nav-link">ABOUT</Link>
-            <Link href="/service" className="nav-link">SERVICE</Link>
-            <Link href="/contact" className="nav-link">CONTACT</Link>
-          </div>
+    <div className="contact-container">
+      <div className="contact-e-1">
+        <div className="contact-e-101">
+            <div className="contact-e-102">
+                <div className="contact-e-113"> 
+                  <Text tag="span" className="contact-e-114"> 
+                    <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> 
+                  </Text>
+                  <Text tag="span" className="contact-e-115">
+                    <Text tag="p">EduAI Bridge </Text>
+                  </Text>
+                </div>
+                <div className="contact-e-104">
+                    <div className="contact-e-111"> <i className="far fa-window-close contact-e-112"></i></div>
+                    <div className="contact-e-105"> 
+                      <Text tag="span" className="contact-e-106">
+                        <Link href="/" target="_self" className="link">
+                          <Text tag="p">HOME</Text>
+                        </Link>
+                      </Text>
+                      <Text tag="span" className="contact-e-107">
+                        <Link href="/about" target="_self" className="link">
+                          <Text tag="p">ABOUT</Text>
+                        </Link>
+                      </Text>
+                      <Text tag="span" className="contact-e-109">
+                        <Link href="/service" target="_self" className="link">
+                          <Text tag="p">SERVICE</Text>
+                        </Link>
+                      </Text>
+                      <Text tag="span" className="contact-e-108">
+                        <Link href="/contact" target="_self" className="link">
+                          <Text tag="p">CONTACT</Text>
+                        </Link>
+                      </Text>
+                    </div>
+                    <button className="contact-e-110">
+                      <Link href="/contact" target="_self" className="link">
+                        <Text tag="p">CONTACT US</Text>
+                      </Link>
+                    </button>
+                </div>
+                <i className="fas fa-bars contact-e-103"></i>
+            </div>
         </div>
-      </nav>
-
-      {/* Hero Section */}
-      <section className="contact-hero section">
-        <div className="container text-center">
-          <Text tag="h1" className="heading-xl mb-4">Contact Us</Text>
-          <Text tag="p" className="text-lg">Get in touch with our education technology experts</Text>
+        <div className="contact-e-11">
+            <div className="contact-e-12"> 
+              <Text tag="span" className="contact-e-13">
+                <Text tag="p">CONTACT US</Text>
+              </Text>
+            </div>
         </div>
-      </section>
+      </div>
 
-      {/* Main Content */}
-      <section className="contact-form-section section-lg">
-        <div className="container">
-          <div className="grid-2 gap-8">
-            {/* Contact Form */}
-            <div className="card">
-              <Text tag="h2" className="heading-md mb-4 text-primary">GET IN TOUCH</Text>
-              <Text tag="p" className="text-base mb-4">
+      {/* Contact Form Section */}
+      <div className="contact-form-section">
+        <div className="contact-form-container">
+          <div className="contact-form-content">
+            <div className="contact-form-left">
+              <Text tag="h2" className="contact-form-title">GET IN TOUCH</Text>
+              <Text tag="p" className="contact-form-description">
                 We'd love to hear from you! Reach out to learn more about how EduAI Bridge can transform your educational institution.
               </Text>
-              <Text tag="p" className="text-base mb-8">
+              <Text tag="p" className="contact-form-description">
                 Our team of education technology experts is ready to help you implement AI-powered solutions that enhance learning outcomes.
               </Text>
               
@@ -108,117 +134,171 @@ function Contact() {
                 
                 <div className="form-checkbox">
                   <input type="checkbox" id="privacy" required />
-                  <label htmlFor="privacy" className="text-sm">
+                  <label htmlFor="privacy" className="checkbox-label">
                     I agree to the privacy policy and terms of service *
                   </label>
                 </div>
                 
-                <button type="submit" className="btn btn-primary btn-lg">
+                <button type="submit" className="contact-submit-btn">
                   Submit Form
                 </button>
               </form>
             </div>
 
-            {/* Contact Information & Image */}
-            <div>
-              <div className="mb-8">
-                <Image src="/assets/asset-78e81b68" alt="Contact Us" className="card" />
+            <div className="contact-form-right">
+              <div className="contact-image-container">
+                <Image src="/assets/asset-78e81b68.png" alt="Contact Us" />
               </div>
               
-              <div className="contact-info-card">
-                <div className="contact-icon">
-                  <i className="fas fa-envelope"></i>
+              <div className="contact-info-cards">
+                <div className="contact-info-card">
+                  <div className="contact-icon">
+                    <i className="fas fa-envelope"></i>
+                  </div>
+                  <div className="contact-details">
+                    <Text tag="h4" className="contact-info-title">Email</Text>
+                    <Text tag="p" className="contact-info-text">info@eduaibridge.com</Text>
+                    <Text tag="p" className="contact-info-text">support@eduaibridge.com</Text>
+                  </div>
                 </div>
-                <div>
-                  <Text tag="h4" className="font-semibold mb-2">Email</Text>
-                  <Text tag="p" className="text-gray">info@eduaibridge.com</Text>
+                
+                <div className="contact-info-card">
+                  <div className="contact-icon">
+                    <i className="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div className="contact-details">
+                    <Text tag="h4" className="contact-info-title">Location</Text>
+                    <Text tag="p" className="contact-info-text">Education Technology Hub</Text>
+                  </div>
                 </div>
-              </div>
-              
-              <div className="contact-info-card">
-                <div className="contact-icon">
-                  <i className="fas fa-map-marker-alt"></i>
-                </div>
-                <div>
-                  <Text tag="h4" className="font-semibold mb-2">Location</Text>
-                  <Text tag="p" className="text-gray">Education Technology Hub, USA</Text>
-                </div>
-              </div>
-              
-              <div className="contact-info-card">
-                <div className="contact-icon">
-                  <i className="fas fa-phone"></i>
-                </div>
-                <div>
-                  <Text tag="h4" className="font-semibold mb-2">Phone</Text>
-                  <Text tag="p" className="text-gray">+1 (555) 123-4567</Text>
+                
+                <div className="contact-info-card">
+                  <div className="contact-icon">
+                    <i className="fas fa-phone"></i>
+                  </div>
+                  <div className="contact-details">
+                    <Text tag="h4" className="contact-info-title">Phone</Text>
+                    <Text tag="p" className="contact-info-text">555-123-4567</Text>
+                    <Text tag="p" className="contact-info-text">555-987-6543</Text>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* Newsletter Section */}
-      <section className="section section-dark">
-        <div className="container text-center">
-          <Text tag="h3" className="heading-md mb-4">Stay Connected</Text>
-          <Text tag="p" className="text-lg mb-8">
-            Enter your email address below to receive updates and appointment reminders
+      <div className="contact-e-2">
+        <div className="contact-e-3"> 
+          <i className="far fa-window-close contact-e-10"></i>
+          <Text tag="span" className="contact-e-4">
+            <Text tag="p"><strong>Where can i reach you</strong></Text>
           </Text>
-          <div className="flex-center gap-4">
-            <input 
-              type="email" 
-              className="form-input" 
-              placeholder="Enter your email address"
-              style={{maxWidth: '300px'}}
-            />
-            <button className="btn btn-secondary">
-              Let's Talk
+          <Text tag="span" className="contact-e-9">
+            <Text tag="p">Enter your email address below to receive your appointment (and reminders before we begin)</Text>
+          </Text>
+          <div className="contact-e-5" data-component-type="form-component-v1" data-clientid="contact-e-5">
+            <div className="contact-e-7" data-clientid="contact-e-7"> 
+              <input className="contact-e-6" data-clientid="contact-e-6" placeholder="email@example.com" />
+            </div>
+            <button className="contact-e-8" data-clientid="contact-e-8">
+              <Text tag="p">LETS TALK</Text>
             </button>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* Footer */}
-      <footer className="footer-bg section">
-        <div className="container">
-          <div className="grid-3 gap-8 mb-8">
-            <div>
-              <div className="navbar-brand mb-4">
-                <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" className="navbar-logo" />
-                <Text tag="span" className="text-white">EduAI Bridge</Text>
-              </div>
-              <Text tag="p" className="text-white">
-                EduAI Bridge enhances learning with AI, addressing teacher shortages and improving student outcomes.
-              </Text>
+      <div className="contact-e-71">
+        <div className="contact-e-72">
+            <div className="contact-e-73">
+                <div className="contact-e-74">
+                    <div className="contact-e-113-footer"> 
+                      <Text tag="span" className="contact-e-114-footer"> 
+                        <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> 
+                      </Text>
+                      <Text tag="span" className="contact-e-115-footer">
+                        <Text tag="p">EduAI Bridge </Text>
+                      </Text>
+                    </div>
+                    <div className="contact-e-75"> 
+                      <Text tag="span" className="contact-e-103">
+                        <Text tag="p">EduAI Bridge enhances learning with AI, addressing teacher shortages and improving student outcomes. </Text>
+                      </Text>
+                    </div>
+                </div>
+                <div className="contact-e-76"> 
+                  <Text tag="span" className="contact-e-80">
+                    <Text tag="p">QUICK LINKS</Text>
+                  </Text>
+                  <div className="contact-e-77"> 
+                    <Text tag="span" className="contact-e-78">
+                      <Link href="/about" target="_self" className="link">
+                        <Text tag="p">ABOUT</Text>
+                      </Link>
+                    </Text>
+                    <Text tag="span" className="contact-e-79">
+                      <Link href="/service" target="_self" className="link">
+                        <Text tag="p">SERVICE</Text>
+                      </Link>
+                    </Text>
+                    <Text tag="span" className="contact-e-84">
+                      <Link href="/contact" target="_self" className="link">
+                        <Text tag="p">CONTACT</Text>
+                      </Link>
+                    </Text>
+                  </div>
+                </div>
+                <div className="contact-e-81"> 
+                  <Text tag="span" className="contact-e-82">
+                    <Text tag="p">CONTACT</Text>
+                  </Text>
+                  <div className="contact-e-85">
+                    <div className="contact-e-86">
+                        <div className="contact-e-87"> <i className="fas fa-map-marker-alt contact-e-88"></i></div>
+                        <div className="contact-e-89"> 
+                          <Text tag="span" className="contact-e-90">
+                            <Text tag="p">Address Not Provided </Text>
+                          </Text>
+                        </div>
+                    </div>
+                    <div className="contact-e-97">
+                        <div className="contact-e-98"> <i className="fas fa-phone-alt contact-e-99"></i></div>
+                        <div className="contact-e-100"> 
+                          <Text tag="span" className="contact-e-101-phone">
+                            <Text tag="p">555-123-4567 </Text>
+                          </Text>
+                          <Text tag="span" className="contact-e-102">
+                            <Text tag="p">555-987-6543 </Text>
+                          </Text>
+                        </div>
+                    </div>
+                    <div className="contact-e-91">
+                        <div className="contact-e-92"> <i className="fas fa-envelope contact-e-93"></i></div>
+                        <div className="contact-e-94"> 
+                          <Text tag="span" className="contact-e-95">
+                            <Text tag="p">info@eduaibridge.com </Text>
+                          </Text>
+                          <Text tag="span" className="contact-e-96">
+                            <Text tag="p">support@eduaibridge.com </Text>
+                          </Text>
+                        </div>
+                    </div>
+                    <div className="contact-e-104-social">
+                        <div className="contact-e-105"> <i className="fab fa-facebook-f contact-e-106"></i></div>
+                        <div className="contact-e-111-social"> <i className="fab fa-instagram contact-e-112-social"></i></div>
+                        <div className="contact-e-109"> <i className="fab fa-youtube contact-e-110"></i></div>
+                        <div className="contact-e-107"> <i className="fab fa-linkedin-in contact-e-108"></i></div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            
-            <div>
-              <Text tag="h4" className="heading-sm text-white mb-4">Quick Links</Text>
-              <div className="flex-col gap-2">
-                <Link href="/about" className="text-white nav-link">About</Link>
-                <Link href="/service" className="text-white nav-link">Service</Link>
-                <Link href="/contact" className="text-white nav-link">Contact</Link>
-              </div>
-            </div>
-            
-            <div>
-              <Text tag="h4" className="heading-sm text-white mb-4">Contact</Text>
-              <div className="flex-col gap-2 text-white">
-                <Text tag="p">📧 info@eduaibridge.com</Text>
-                <Text tag="p">📧 support@eduaibridge.com</Text>
-                <Text tag="p">📞 555-123-4567</Text>
-                <Text tag="p">📞 555-987-6543</Text>
-              </div>
-            </div>
-          </div>
-          
-          <div className="text-center py-4" style={{borderTop: '1px solid rgba(255,255,255,0.2)'}}>
-            <Text tag="p" className="text-white">©2024 EduAI Bridge. All Rights Reserved.</Text>
-          </div>
+            <Text tag="span" className="contact-e-83">
+                <Text tag="p">©2066 . All Rights Reserved.</Text>
+            </Text>
         </div>
-      </footer>
+      </div>
     </div>
   )
 }
