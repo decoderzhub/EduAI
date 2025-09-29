@@ -4,32 +4,64 @@ import './AboutSection.css'
 
 function AboutSection() {
   return (
-    <div className="home2-e-28" data-cdhs="up">
-        <div className="home2-e-29">
-            <div className="home2-e-41"> <Text tag="span" className="home2-e-40"> <Image src="/assets/asset-f207e2e0.png" alt="Image" /> </Text>
-                <div className="home2-e-42">
-                    <div className="home2-e-43"> <i className="fas fa-book-open home2-e-44"></i></div>
-                </div>
-            </div>
-            <div className="home2-e-30"> <Text tag="span" className="home2-e-31">
-                    <Text tag="p">TEMPORIBUS</Text><Text tag="span" className="home2-e-32">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="home2-e-33">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="home2-e-34">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="cd-paragraph-clean home2-e-35">
-                        <Text tag="h2">Header 2</Text>
-                    </Text>
-                    <div className="home2-e-36"> </div>
-                </Text><Text tag="span" className="home2-e-37">
-                    <Text tag="p"><strong>Advance Your Carrier Lear Something New</strong></Text>
-                </Text><Text tag="span" className="home2-e-39">
-                    <Text tag="p">Neque porro quisquam est, qui dolorem ipsum dolor sit amet, consectetursed quia non numuam eius modi incidunt dolor in reprehenderit in voluta dolore eu fugiat nulla pariatur.</Text>
-                </Text><button className="home2-e-38"><Link href="About" target="_self" className="link">
-                        <Text tag="p">Read more</Text>
-                    </Link></button></div>
+    <div className="about-section-container">
+      {/* Main content section */}
+      <div className="about-main-content">
+        <div className="about-image-section">
+          <Image src="/assets/asset-f207e2e0.png" alt="Education team working together" />
         </div>
+        
+        <div className="about-text-section">
+          <div className="about-label">TEMPORIBUS</div>
+          <h2 className="about-title">Get to Know About Eginary Education</h2>
+          
+          <p className="about-paragraph">
+            Neque porro quisquam est, qui dolorem ipsum dolor sit amet, consectetur sed quia non numquam eius modi incidunt dolor.
+          </p>
+          
+          <p className="about-paragraph">
+            Omnis dolor repellendus. Temporibus autem qui aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae aroin ac lo is arcu, a vestibulum augue rhvamus ipsum neu facilisis vel mollis vitae, mollis nec ante.
+          </p>
+        </div>
+      </div>
+      
+      {/* Bottom description paragraphs */}
+      <div className="about-bottom-text">
+        <p>
+          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere ssi omnis voluptas assumenda est, omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum nece tatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur.
+        </p>
+        
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.
+        </p>
+      </div>
+      
+      {/* Statistics cards */}
+      <div className="about-stats-section">
+        <div className="stat-card">
+          <div className="stat-icon">🎓</div>
+          <div className="stat-number">25+</div>
+          <div className="stat-label">Students</div>
+        </div>
+        
+        <div className="stat-card">
+          <div className="stat-icon">📚</div>
+          <div className="stat-number">25+</div>
+          <div className="stat-label">Courses</div>
+        </div>
+        
+        <div className="stat-card">
+          <div className="stat-icon">🏛️</div>
+          <div className="stat-number">25+</div>
+          <div className="stat-label">Universities</div>
+        </div>
+        
+        <div className="stat-card">
+          <div className="stat-icon">🏆</div>
+          <div className="stat-number">25+</div>
+          <div className="stat-label">Scholarships</div>
+        </div>
+      </div>
     </div>
   )
 }

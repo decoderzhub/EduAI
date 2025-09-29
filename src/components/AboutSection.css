@@ -1,11 +1,154 @@
 :root {
-            --vId-color-token-a: #850E35;
-            --vId-color-token-b: #EE6983;
-            --vId-5213400d-2e6c-416c-aa9a-7f9bdb176cc2: #f69696ff;
-            --vId-e9fd7878-01a1-4505-bc29-0df0f1be2f3a: #FFF5E4;
-            --vId-color-token-c: #FFFF;
-            --vId-color-token-d: #000;
-            --vId-font-token-a: Roboto;
-        }
+  --vId-color-token-a: #850E35;
+  --vId-color-token-b: #EE6983;
+  --vId-5213400d-2e6c-416c-aa9a-7f9bdb176cc2: #f69696ff;
+  --vId-e9fd7878-01a1-4505-bc29-0df0f1be2f3a: #FFF5E4;
+  --vId-color-token-c: #FFFF;
+  --vId-color-token-d: #000;
+  --vId-font-token-a: Roboto;
+}
 
-/* About Section Section Styles */
+.about-section-container {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+
+.about-main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.about-image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text-section {
+  padding-left: 20px;
+}
+
+.about-label {
+  color: var(--vId-color-token-a);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  font-family: var(--vId-font-token-a);
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #64748b;
+  margin-bottom: 20px;
+  font-family: var(--vId-font-token-a);
+}
+
+.about-bottom-text {
+  margin-bottom: 60px;
+  max-width: 100%;
+}
+
+.about-bottom-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #64748b;
+  margin-bottom: 20px;
+  font-family: var(--vId-font-token-a);
+}
+
+.about-stats-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.stat-card {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--vId-color-token-a);
+}
+
+.stat-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: var(--vId-color-token-a);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--vId-color-token-a);
+  margin-bottom: 8px;
+  font-family: var(--vId-font-token-a);
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #64748b;
+  font-weight: 500;
+  font-family: var(--vId-font-token-a);
+}
+
+@media (max-width: 768px) {
+  .about-main-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .about-text-section {
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+  }
+  
+  .about-stats-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-stats-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-section-container {
+    padding: 40px 15px;
+  }
+}
