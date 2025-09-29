@@ -74,7 +74,6 @@ function About() {
           </Text>
         </div>
 
-      </div>
 
                 <div className="About-e-73"> <Text tag="span" className="About-e-77">
                         <Text tag="p">QUICK LINKS</Text>
