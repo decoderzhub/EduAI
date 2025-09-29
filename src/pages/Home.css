@@ -1025,7 +1025,7 @@ h6 strong,
 }
 
 .home-e-17 {
-    padding: 10px 42px 10px 42px;
+    background-color: var(--vId-color-token-a);
     background-color: var(--vId-color-token-a);
     box-shadow: 0px 2px 27px 0px #0000004c;
     border-radius: 3px 3px 3px 3px;
