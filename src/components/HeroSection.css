@@ -656,9 +656,12 @@
 
 .home-e-287 {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   align-items: center;
   color: #000000;
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 600px;
 }
 
 .home-e-287 a {
