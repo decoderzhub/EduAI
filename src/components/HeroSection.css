@@ -407,10 +407,10 @@
 }
 
 .home-e-283 {
-  background: rgba(255, 255, 255, 0.98);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
 }
 
 .home-e-11 {
@@ -598,7 +598,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   color: #1e293b;
-  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.5);
+  text-shadow: none;
 }
 
 .home-e-287 {
@@ -608,21 +608,22 @@
 }
 
 .home-e-287 a {
-  color: #1e293b;
+  color: #1f2937;
   text-decoration: none;
   font-weight: 600;
   padding: 8px 16px;
   border-radius: 20px;
   transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .home-e-287 a:hover {
   color: #3b82f6;
-  background: rgba(255, 255, 255, 0.9);
+  background: white;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .home-e-293 {
