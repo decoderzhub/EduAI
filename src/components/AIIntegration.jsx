@@ -39,22 +39,22 @@ function AIIntegration() {
 
         <div className="ai-metrics-grid">
           <div className="metric-card">
-            <div className="metric-icon">🎯</div>
+            {/* <div className="metric-icon">🎯</div> */}
             <div className="metric-value">{aiMetrics.studentsAtRisk}</div>
             <div className="metric-label">At-Risk Students Identified</div>
           </div>
           <div className="metric-card">
-            <div className="metric-icon">📊</div>
+            {/* <div className="metric-icon">📊</div> */}
             <div className="metric-value">{aiMetrics.accuracyRate}%</div>
             <div className="metric-label">Prediction Accuracy</div>
           </div>
           <div className="metric-card">
-            <div className="metric-icon">🚀</div>
+            {/* <div className="metric-icon">🚀</div> */}
             <div className="metric-value">{aiMetrics.interventionsCreated}</div>
             <div className="metric-label">AI Interventions Created</div>
           </div>
           <div className="metric-card">
-            <div className="metric-icon">⏰</div>
+            {/* <div className="metric-icon">⏰</div> */}
             <div className="metric-value">{aiMetrics.teachingHoursSaved}</div>
             <div className="metric-label">Teaching Hours Saved</div>
           </div>
@@ -84,7 +84,7 @@ function AIIntegration() {
             onClick={() => setActiveFeature('insights')}
           >
             Real-time Insights
-          </button>
+          </button> 
         </div>
 
         <div className="ai-feature-content">
