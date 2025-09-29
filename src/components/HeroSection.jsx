@@ -37,7 +37,7 @@ function HeroSection() {
                     <Text tag="p">SERVICE</Text>
                   </Link>
                 </Text>
-                <button className="home-e-292"><Link href="contact" target="_self" className="link">
+                <button className="home-e-291"><Link href="contact" target="_self" className="link">
                                 <Text tag="p">CONTACT US</Text>
                             </Link></button>
               </div>
