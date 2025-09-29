@@ -14,6 +14,19 @@ function AIIntegration() {
 
   return (
     <div className="ai-integration-section">
+      <div className="ai-animated-shapes">
+        <div className="bouncing-shape shape-1"></div>
+        <div className="bouncing-shape shape-2"></div>
+        <div className="bouncing-shape shape-3"></div>
+        <div className="bouncing-shape shape-4"></div>
+        <div className="bouncing-shape shape-5"></div>
+        <div className="bouncing-shape shape-6"></div>
+        <div className="bouncing-shape rectangle-1"></div>
+        <div className="bouncing-shape rectangle-2"></div>
+        <div className="bouncing-shape triangle-1"></div>
+        <div className="bouncing-shape triangle-2"></div>
+      </div>
+      
       <div className="ai-container">
         <div className="ai-header">
           <Text tag="h2" className="ai-title">

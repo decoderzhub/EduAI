@@ -17,6 +17,260 @@
   opacity: 0.3;
 }
 
+.ai-animated-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bouncing-shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.bouncing-shape.shape-1 {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  top: 10%;
+  left: 5%;
+  animation: bounce-1 6s ease-in-out infinite;
+}
+
+.bouncing-shape.shape-2 {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+  top: 20%;
+  right: 10%;
+  animation: bounce-2 8s ease-in-out infinite;
+}
+
+.bouncing-shape.shape-3 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  top: 60%;
+  left: 15%;
+  animation: bounce-3 7s ease-in-out infinite;
+}
+
+.bouncing-shape.shape-4 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  top: 80%;
+  right: 20%;
+  animation: bounce-4 9s ease-in-out infinite;
+}
+
+.bouncing-shape.shape-5 {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #fa709a, #fee140);
+  top: 40%;
+  left: 80%;
+  animation: bounce-5 5s ease-in-out infinite;
+}
+
+.bouncing-shape.shape-6 {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  top: 70%;
+  left: 70%;
+  animation: bounce-6 10s ease-in-out infinite;
+}
+
+.bouncing-shape.rectangle-1 {
+  width: 80px;
+  height: 50px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  top: 30%;
+  right: 5%;
+  animation: bounce-rect-1 8s ease-in-out infinite;
+}
+
+.bouncing-shape.rectangle-2 {
+  width: 60px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  top: 50%;
+  left: 40%;
+  animation: bounce-rect-2 6s ease-in-out infinite;
+}
+
+.bouncing-shape.triangle-1 {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid #ff9a9e;
+  border-radius: 0;
+  top: 15%;
+  left: 60%;
+  animation: bounce-triangle-1 7s ease-in-out infinite;
+}
+
+.bouncing-shape.triangle-2 {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 40px solid #fad0c4;
+  border-radius: 0;
+  top: 85%;
+  left: 30%;
+  animation: bounce-triangle-2 9s ease-in-out infinite;
+}
+
+/* Bouncing animations */
+@keyframes bounce-1 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  25% { 
+    transform: translateY(-40px) translateX(30px) rotate(90deg) scale(1.1); 
+  }
+  50% { 
+    transform: translateY(-20px) translateX(60px) rotate(180deg) scale(0.9); 
+  }
+  75% { 
+    transform: translateY(-60px) translateX(30px) rotate(270deg) scale(1.2); 
+  }
+}
+
+@keyframes bounce-2 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  30% { 
+    transform: translateY(-50px) translateX(-40px) rotate(-120deg) scale(1.3); 
+  }
+  60% { 
+    transform: translateY(-30px) translateX(-80px) rotate(-240deg) scale(0.8); 
+  }
+  90% { 
+    transform: translateY(-70px) translateX(-20px) rotate(-360deg) scale(1.1); 
+  }
+}
+
+@keyframes bounce-3 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  20% { 
+    transform: translateY(-30px) translateX(50px) rotate(72deg) scale(1.2); 
+  }
+  40% { 
+    transform: translateY(-60px) translateX(20px) rotate(144deg) scale(0.9); 
+  }
+  60% { 
+    transform: translateY(-40px) translateX(70px) rotate(216deg) scale(1.1); 
+  }
+  80% { 
+    transform: translateY(-80px) translateX(40px) rotate(288deg) scale(1.3); 
+  }
+}
+
+@keyframes bounce-4 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  33% { 
+    transform: translateY(40px) translateX(-30px) rotate(120deg) scale(0.8); 
+  }
+  66% { 
+    transform: translateY(20px) translateX(-60px) rotate(240deg) scale(1.4); 
+  }
+}
+
+@keyframes bounce-5 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  25% { 
+    transform: translateY(-45px) translateX(-50px) rotate(-90deg) scale(1.1); 
+  }
+  50% { 
+    transform: translateY(-25px) translateX(-100px) rotate(-180deg) scale(0.9); 
+  }
+  75% { 
+    transform: translateY(-65px) translateX(-30px) rotate(-270deg) scale(1.3); 
+  }
+}
+
+@keyframes bounce-6 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  40% { 
+    transform: translateY(-35px) translateX(-40px) rotate(144deg) scale(1.2); 
+  }
+  80% { 
+    transform: translateY(-70px) translateX(-20px) rotate(288deg) scale(0.8); 
+  }
+}
+
+@keyframes bounce-rect-1 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  30% { 
+    transform: translateY(-40px) translateX(-60px) rotate(45deg) scale(1.1); 
+  }
+  60% { 
+    transform: translateY(-20px) translateX(-120px) rotate(90deg) scale(0.9); 
+  }
+  90% { 
+    transform: translateY(-60px) translateX(-40px) rotate(135deg) scale(1.2); 
+  }
+}
+
+@keyframes bounce-rect-2 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  50% { 
+    transform: translateY(-50px) translateX(40px) rotate(-180deg) scale(1.3); 
+  }
+}
+
+@keyframes bounce-triangle-1 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  25% { 
+    transform: translateY(-30px) translateX(-40px) rotate(90deg) scale(1.1); 
+  }
+  50% { 
+    transform: translateY(-60px) translateX(-20px) rotate(180deg) scale(0.8); 
+  }
+  75% { 
+    transform: translateY(-40px) translateX(-60px) rotate(270deg) scale(1.2); 
+  }
+}
+
+@keyframes bounce-triangle-2 {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1); 
+  }
+  40% { 
+    transform: translateY(30px) translateX(50px) rotate(-144deg) scale(1.3); 
+  }
+  80% { 
+    transform: translateY(10px) translateX(100px) rotate(-288deg) scale(0.9); 
+  }
+}
+
 .ai-container {
   max-width: 1200px;
   margin: 0 auto;
