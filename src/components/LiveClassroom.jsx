@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Text } from './index';
 import './LiveClassroom.css';
+import './AIintegrations.css'
 
 function LiveClassroom() {
   const [isLive, setIsLive] = useState(false);
@@ -43,7 +44,7 @@ function LiveClassroom() {
     <div id="ai-classroom" className="live-classroom-section">
       <div className="classroom-container">
         <div className="classroom-header">
-          <Text tag="h2" className="classroom-title">
+          <Text tag="h2" className="ai-title">
             AI-Enhanced Live Classroom
           </Text>
           <Text tag="p" className="classroom-subtitle">
