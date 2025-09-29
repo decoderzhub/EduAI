@@ -43,11 +43,6 @@ function HeroSection() {
                   </Link>
                 </Text>
               </div>
-              <button className="home-e-292">
-                <Link href="contact" target="_self" className="link">
-                  <Text tag="p">CONTACT US</Text>
-                </Link>
-              </button>
             </div>
           </div>
         </div>
