@@ -23,9 +23,7 @@ function App() {
         <Routes>
           <Route path="/404" element={<Page404 />} />
           <Route path="/" element={<Home />} />
-          <Route path="/home2" element={<Home2 />} />
           <Route path="/about" element={<About />} />
-          <Route path="/home3" element={<Home3 />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/funding-calculator" element={<FundingCalculatorPage />} />
