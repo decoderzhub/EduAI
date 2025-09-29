@@ -5,16 +5,7 @@ import './ProductShowcaseSection.css'
 function ProductShowcaseSection() {
   return (
     <div className="home-e-77"> <Text tag="span" className="home-e-80">
-            <Text tag="p">Our Courses </Text> <Text tag="span" className="home-e-81">
-                <Text tag="p">Add text in text element</Text>
-            </Text><Text tag="span" className="home-e-82">
-                <Text tag="p">Add text in text element</Text>
-            </Text><Text tag="span" className="home-e-83">
-                <Text tag="p">Add text in text element</Text>
-            </Text><Text tag="span" className="cd-paragraph-clean home-e-84">
-                <Text tag="h2">Header 2</Text>
-            </Text>
-            <div className="home-e-85"> </div>
+            <Text tag="p">Our Courses </Text>
         </Text><Text tag="span" className="home-e-86">
             <Text tag="p">Explore AI Learning </Text>
         </Text><Text tag="span" className="home-e-89">
