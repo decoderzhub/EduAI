@@ -3,6 +3,81 @@ import { Text, Image, Link } from './index'
 import './ProductShowcaseSection.css'
 
 function ProductShowcaseSection() {
+  const courses = [
+    {
+      id: 1,
+      title: "Math Mastery",
+      description: "Master math concepts with our comprehensive course. Build a strong foundation and excel.",
+      price: "$29",
+      lessons: "38 lessons",
+      date: "25 oct 2024",
+      image: "assets/photo-1518133910546-b6c2fb7d79e3.jpeg"
+    },
+    {
+      id: 2,
+      title: "English Essentials",
+      description: "Enhance your English skills. Improve grammar, vocabulary, and writing proficiency effectively.",
+      price: "$100",
+      lessons: "38 lessons",
+      date: "25 oct 2024",
+      image: "assets/photo-1543109740-4bdb38fda756.jpeg"
+    },
+    {
+      id: 3,
+      title: "Science Explorations",
+      description: "Dive into the world of science. Explore experiments, theories, and scientific principles.",
+      price: "$100",
+      lessons: "38 lessons",
+      date: "25 oct 2024",
+      image: "assets/photo-1507413245164-6160d8298b31.jpeg"
+    },
+    {
+      id: 4,
+      title: "AI Fundamentals",
+      description: "Learn the basics of artificial intelligence and machine learning concepts for beginners.",
+      price: "$150",
+      lessons: "42 lessons",
+      date: "28 oct 2024",
+      image: "assets/photo-1580894732444-8ecded7900cd.jpeg"
+    },
+    {
+      id: 5,
+      title: "Creative Writing",
+      description: "Develop your creative writing skills with storytelling techniques and narrative structures.",
+      price: "$75",
+      lessons: "30 lessons",
+      date: "30 oct 2024",
+      image: "assets/photo-1593510987760-2d895bc8109d.jpeg"
+    },
+    {
+      id: 6,
+      title: "Digital Art Basics",
+      description: "Explore digital art creation using modern tools and techniques for artistic expression.",
+      price: "$120",
+      lessons: "35 lessons",
+      date: "02 nov 2024",
+      image: "assets/photo-1697577418970-95d99b5a55cf.jpeg"
+    },
+    {
+      id: 7,
+      title: "History Adventures",
+      description: "Journey through time and explore fascinating historical events and civilizations.",
+      price: "$85",
+      lessons: "40 lessons",
+      date: "05 nov 2024",
+      image: "assets/photo-1518133910546-b6c2fb7d79e3.jpeg"
+    },
+    {
+      id: 8,
+      title: "Music Theory",
+      description: "Understand the fundamentals of music theory, composition, and musical structures.",
+      price: "$95",
+      lessons: "32 lessons",
+      date: "08 nov 2024",
+      image: "assets/photo-1543109740-4bdb38fda756.jpeg"
+    }
+  ];
+
   return (
     <div className="courses-section">
       <div className="courses-container">
@@ -14,67 +89,50 @@ function ProductShowcaseSection() {
           </Text>
         </div>
 
-        <div className="courses-grid">
-          {/* Math Mastery Course */}
-          <div className="course-card">
-            <div className="course-image">
-              <Image src="assets/photo-1518133910546-b6c2fb7d79e3.jpeg" alt="Math Mastery Course" />
-              <div className="course-price">$29</div>
-            </div>
-            <div className="course-content">
-              <div className="course-meta">
-                <span className="course-lessons">38 lessons</span>
-                <span className="course-date">25 oct 2024</span>
-              </div>
-              <Text tag="h3" className="course-title">Math Mastery</Text>
-              <Text tag="p" className="course-text">
-                Master math concepts with our comprehensive course. Build a strong foundation and excel.
-              </Text>
-              <Link href="/contact" className="course-button">
-                <Text tag="span">Enroll Now</Text>
-              </Link>
-            </div>
-          </div>
-
-          {/* English Essentials Course */}
-          <div className="course-card">
-            <div className="course-image">
-              <Image src="assets/photo-1543109740-4bdb38fda756.jpeg" alt="English Essentials Course" />
-              <div className="course-price">$100</div>
-            </div>
-            <div className="course-content">
-              <div className="course-meta">
-                <span className="course-lessons">38 lessons</span>
-                <span className="course-date">25 oct 2024</span>
-              </div>
-              <Text tag="h3" className="course-title">English Essentials</Text>
-              <Text tag="p" className="course-text">
-                Enhance your English skills. Improve grammar, vocabulary, and writing proficiency effectively.
-              </Text>
-              <Link href="/contact" className="course-button">
-                <Text tag="span">Enroll Now</Text>
-              </Link>
-            </div>
-          </div>
-
-          {/* Science Explorations Course */}
-          <div className="course-card">
-            <div className="course-image">
-              <Image src="assets/photo-1507413245164-6160d8298b31.jpeg" alt="Science Explorations Course" />
-              <div className="course-price">$100</div>
-            </div>
-            <div className="course-content">
-              <div className="course-meta">
-                <span className="course-lessons">38 lessons</span>
-                <span className="course-date">25 oct 2024</span>
-              </div>
-              <Text tag="h3" className="course-title">Science Explorations</Text>
-              <Text tag="p" className="course-text">
-                Dive into the world of science. Explore experiments, theories, and scientific principles.
-              </Text>
-              <Link href="/contact" className="course-button">
-                <Text tag="span">Enroll Now</Text>
-              </Link>
+        <div className="courses-carousel-container">
+          <div className="courses-marquee">
+            <div className="courses-track">
+              {/* First set of courses */}
+              {courses.map((course) => (
+                <div key={course.id} className="course-card">
+                  <div className="course-image">
+                    <Image src={course.image} alt={course.title} />
+                    <div className="course-price">{course.price}</div>
+                  </div>
+                  <div className="course-content">
+                    <div className="course-meta">
+                      <span className="course-lessons">{course.lessons}</span>
+                      <span className="course-date">{course.date}</span>
+                    </div>
+                    <Text tag="h3" className="course-title">{course.title}</Text>
+                    <Text tag="p" className="course-text">{course.description}</Text>
+                    <Link href="/contact" className="course-button">
+                      <Text tag="span">Enroll Now</Text>
+                    </Link>
+                  </div>
+                </div>
+              ))}
+              
+              {/* Duplicate set for seamless loop */}
+              {courses.map((course) => (
+                <div key={`duplicate-${course.id}`} className="course-card">
+                  <div className="course-image">
+                    <Image src={course.image} alt={course.title} />
+                    <div className="course-price">{course.price}</div>
+                  </div>
+                  <div className="course-content">
+                    <div className="course-meta">
+                      <span className="course-lessons">{course.lessons}</span>
+                      <span className="course-date">{course.date}</span>
+                    </div>
+                    <Text tag="h3" className="course-title">{course.title}</Text>
+                    <Text tag="p" className="course-text">{course.description}</Text>
+                    <Link href="/contact" className="course-button">
+                      <Text tag="span">Enroll Now</Text>
+                    </Link>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
