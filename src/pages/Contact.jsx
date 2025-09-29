@@ -87,7 +87,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-            </div><Text tag="span" className="contact-e-48"> <Image src="/assets/asset-78e81b68" alt="Image" /> </Text>
+            </div><Text tag="span" className="contact-e-48"> <Image src="/assets/asset-78e81b68" alt=\"Image" /> </Text>
         </div>
         <div className="contact-e-15">
             <div className="contact-e-49">
