@@ -134,7 +134,8 @@ function Contact() {
         <div className="contact-e-72">
             <div className="contact-e-73">
                 <div className="contact-e-74">
-                    <div className="contact-e-113"> <Text tag="span" className="contact-e-114"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="contact-e-115">
+                    <div className="contact-e-113"> <Text tag="span" className="contact-e-114"> <Image src="/assets/asset-81133393.svg
+                                                                                                  " alt="Image" /> </Text><Text tag="span" className="contact-e-115">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="contact-e-75"> <Text tag="span" className="contact-e-103">
