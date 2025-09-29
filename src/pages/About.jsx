@@ -14,12 +14,12 @@ function About() {
       <div className="About-e-1">
         <div className="About-e-113">
             <div className="About-e-114">
-                <div className="About-e-125"> <Text tag="span" className="About-e-126"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="About-e-127">
+                <div className="About-e-125"> <Text tag="span" className="About-e-126"> <Image src="/assets/asset-81133393.svg" alt="Image" /> </Text><Text tag="span" className="About-e-127">
                         <Text tag="p">EduAI Bridge </Text>
                     </Text></div>
                 <div className="About-e-116">
                     <div className="About-e-123"> <i className="far fa-window-close About-e-124"></i></div>
-                    <div className="About-e-117"> <Text tag="span" className="About-e-118"><Link href="home2" target="_self" className="link">
+                    <div className="About-e-117"> <Text tag="span" className="About-e-118"><Link href="/" target="_self" className="link">
                                 <Text tag="p">HOME</Text>
                             </Link></Text><Text tag="span" className="About-e-119"><Link href="About" target="_self" className="link">
                                 <Text tag="p">ABOUT</Text>
@@ -58,6 +58,7 @@ function About() {
             <div className="About-e-70">
                 <div className="About-e-71">
                     <div className="About-e-110"> <Text tag="span" className="About-e-111"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="About-e-112">
+                    <div className="About-e-110"> <Text tag="span" className="About-e-111"> <Image src="/assets/asset-81133393.svg" alt="Image" /> </Text><Text tag="span" className="About-e-112">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="About-e-72"> <Text tag="span" className="About-e-100">
