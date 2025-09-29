@@ -47,7 +47,7 @@ function HeroSection() {
                 </Text>
                 <Text tag="span" className="home-e-291">
                   <Link href="#ai-classroom" target="_self" className="link" onClick={scrollToAIClassroom}>
-                    <Text tag="p">AI CLASSROOM</Text>
+                    <Text tag="p">AI CLASS</Text>
                   </Link>
                 </Text>
                 <Text tag="span" className="home-e-291">
