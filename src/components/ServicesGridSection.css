@@ -1,11 +1,89 @@
-:root {
-            --vId-color-token-a: #850E35;
-            --vId-color-token-b: #EE6983;
-            --vId-5213400d-2e6c-416c-aa9a-7f9bdb176cc2: #f69696ff;
-            --vId-e9fd7878-01a1-4505-bc29-0df0f1be2f3a: #FFF5E4;
-            --vId-color-token-c: #FFFF;
-            --vId-color-token-d: #000;
-            --vId-font-token-a: Roboto;
-        }
+/* Services Grid Section Styles */
+.home-e-64 {
+    padding: 80px 20px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
-/* Services Grid Section Section Styles */
+.home-e-76 img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.home-e-65 {
+    max-width: 600px;
+}
+
+.home-e-66 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #3b82f6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.home-e-72 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.home-e-75 {
+    font-size: 1.1rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.home-e-73 {
+    font-size: 1.1rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.home-e-74 {
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+}
+
+.home-e-74:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(59, 130, 246, 0.4);
+}
+
+@media (max-width: 1024px) {
+    .home-e-64 {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-e-72 {
+        font-size: 2rem;
+    }
+    
+    .home-e-64 {
+        padding: 60px 20px;
+        gap: 40px;
+    }
+}
