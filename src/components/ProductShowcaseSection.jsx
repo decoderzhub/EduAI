@@ -8,7 +8,7 @@ function ProductShowcaseSection() {
       id: 1,
       title: "Math Mastery",
       description: "Master math concepts with our comprehensive course. Build a strong foundation and excel.",
-      price: "$29",
+      // price: "$29",
       lessons: "38 lessons",
       date: "25 oct 2024",
       image: "assets/photo-1518133910546-b6c2fb7d79e3.jpeg"
@@ -17,7 +17,7 @@ function ProductShowcaseSection() {
       id: 2,
       title: "English Essentials",
       description: "Enhance your English skills. Improve grammar, vocabulary, and writing proficiency effectively.",
-      price: "$100",
+      // price: "$100",
       lessons: "38 lessons",
       date: "25 oct 2024",
       image: "assets/photo-1543109740-4bdb38fda756.jpeg"
@@ -26,7 +26,7 @@ function ProductShowcaseSection() {
       id: 3,
       title: "Science Explorations",
       description: "Dive into the world of science. Explore experiments, theories, and scientific principles.",
-      price: "$100",
+      // price: "$100",
       lessons: "38 lessons",
       date: "25 oct 2024",
       image: "assets/photo-1507413245164-6160d8298b31.jpeg"
@@ -35,7 +35,7 @@ function ProductShowcaseSection() {
       id: 4,
       title: "AI Fundamentals",
       description: "Learn the basics of artificial intelligence and machine learning concepts for beginners.",
-      price: "$150",
+      // price: "$150",
       lessons: "42 lessons",
       date: "28 oct 2024",
       image: "assets/photo-1580894732444-8ecded7900cd.jpeg"
@@ -44,7 +44,7 @@ function ProductShowcaseSection() {
       id: 5,
       title: "Creative Writing",
       description: "Develop your creative writing skills with storytelling techniques and narrative structures.",
-      price: "$75",
+      // price: "$75",
       lessons: "30 lessons",
       date: "30 oct 2024",
       image: "assets/photo-1593510987760-2d895bc8109d.jpeg"
@@ -53,7 +53,7 @@ function ProductShowcaseSection() {
       id: 6,
       title: "Digital Art Basics",
       description: "Explore digital art creation using modern tools and techniques for artistic expression.",
-      price: "$120",
+      // price: "$120",
       lessons: "35 lessons",
       date: "02 nov 2024",
       image: "/assets/image.png"
@@ -62,16 +62,15 @@ function ProductShowcaseSection() {
       id: 7,
       title: "History Adventures",
       description: "Journey through time and explore fascinating historical events and civilizations.",
-      price: "$85",
+      // price: "$85",
       lessons: "40 lessons",
       date: "05 nov 2024",
       image: "/assets/image copy.png"
-    },
-    {
+    }, 
       id: 8,
       title: "Music Theory",
       description: "Understand the fundamentals of music theory, composition, and musical structures.",
-      price: "$95",
+      // price: "$95",
       lessons: "32 lessons",
       date: "08 nov 2024",
       image: "https://i.postimg.cc/g0KscMsd/music-theory.png"
