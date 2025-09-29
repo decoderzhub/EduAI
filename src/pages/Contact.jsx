@@ -42,15 +42,10 @@ function Contact() {
         <div className="contact-e-16">
             <div className="contact-e-17"> <Text tag="span" className="contact-e-41">
                     <Text tag="p">GET IN TOUCH</Text><Text tag="span" className="contact-e-42">
-                        <Text tag="p">Add text in text element</Text>
+                        <Text tag="p">We'd love to hear from you! Reach out to learn more about how EduAI Bridge can transform your educational institution.</Text>
                     </Text><Text tag="span" className="contact-e-43">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="contact-e-44">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="cd-paragraph-clean contact-e-45">
-                        <Text tag="h2">Header 2</Text>
+                        <Text tag="p">Our team of education technology experts is ready to help you implement AI-powered solutions that enhance learning outcomes.</Text>
                     </Text>
-                    <div className="contact-e-46"> </div>
                 </Text><Text tag="span" className="contact-e-47">
                     <Text tag="p"><strong>Contact Us Now</strong></Text>
                 </Text>
@@ -59,17 +54,28 @@ function Contact() {
                         <div className="contact-e-20" data-clientid="contact-e-20">
                             <div className="contact-e-21" data-clientid="contact-e-21">
                                 <div className="contact-e-22" data-clientid="contact-e-22">
+                                    <div className="form-labels">
+                                        <label htmlFor="firstName">First Name *</label>
+                                        <label htmlFor="lastName">Last Name *</label>
+                                    </div>
                                     <div className="contact-e-31" data-clientid="contact-e-31">
-                                        <div className="contact-e-32" data-clientid="contact-e-32"> <input className="contact-e-33" data-clientid="contact-e-33" /></div>
-                                        <div className="contact-e-34" data-clientid="contact-e-34"> <input className="contact-e-35" data-clientid="contact-e-35" /></div>
+                                        <div className="contact-e-32" data-clientid="contact-e-32"> <input className="contact-e-33" data-clientid="contact-e-33" id="firstName" placeholder="Enter your first name" required /></div>
+                                        <div className="contact-e-34" data-clientid="contact-e-34"> <input className="contact-e-35" data-clientid="contact-e-35" id="lastName" placeholder="Enter your last name" required /></div>
+                                    </div>
+                                    <div className="form-labels">
+                                        <label htmlFor="email">Email Address *</label>
+                                        <label htmlFor="phone">Phone Number</label>
                                     </div>
                                     <div className="contact-e-36" data-clientid="contact-e-36">
-                                        <div className="contact-e-37" data-clientid="contact-e-37"> <input className="contact-e-38" data-clientid="contact-e-38" /></div>
-                                        <div className="contact-e-39" data-clientid="contact-e-39"> <input className="contact-e-40" data-clientid="contact-e-40" /></div>
+                                        <div className="contact-e-37" data-clientid="contact-e-37"> <input className="contact-e-38" data-clientid="contact-e-38" id="email" type="email" placeholder="Enter your email address" required /></div>
+                                        <div className="contact-e-39" data-clientid="contact-e-39"> <input className="contact-e-40" data-clientid="contact-e-40" id="phone" type="tel" placeholder="Enter your phone number" /></div>
                                     </div>
-                                    <div className="contact-e-26" data-clientid="contact-e-26"> <textarea className="contact-e-27" data-clientid="contact-e-27"></textarea></div>
+                                    <div className="form-labels">
+                                        <label htmlFor="message">Message *</label>
+                                    </div>
+                                    <div className="contact-e-26" data-clientid="contact-e-26"> <textarea className="contact-e-27" data-clientid="contact-e-27" id="message" placeholder="Tell us about your educational needs and how we can help..." rows="5" required></textarea></div>
                                     <div className="contact-e-28" data-clientid="contact-e-28"> <input className="contact-e-29" data-clientid="contact-e-29" /><Text tag="span" className="cd-paragraph-clean contact-e-30" data-clientid="contact-e-30">
-                                            <Text tag="p">You agree to our friendly policy</Text>
+                                            <Text tag="p">I agree to the privacy policy and terms of service</Text>
                                         </Text></div>
                                     <div className="contact-e-23" data-clientid="contact-e-23">
                                         <div className="contact-e-24" data-clientid="contact-e-24"> <Text tag="span" className="contact-e-25" data-clientid="contact-e-25">
@@ -86,9 +92,9 @@ function Contact() {
         <div className="contact-e-15">
             <div className="contact-e-49">
                 <div className="contact-e-50"> <i className="fas fa-mail-bulk contact-e-51"><Text tag="span" className="contact-e-52">
-                            <Text tag="p">Add text in text element</Text>
+                            <Text tag="p"></Text>
                         </Text><Text tag="span" className="contact-e-53">
-                            <Text tag="p">Add text in text element</Text>
+                            <Text tag="p"></Text>
                         </Text></i>
                     <div className="contact-e-54"> <Text tag="span" className="contact-e-55">
                             <Text tag="p">Email</Text>
@@ -97,25 +103,25 @@ function Contact() {
                         </Text></div>
                 </div>
                 <div className="contact-e-64"> <i className="fas fa-mail-bulk contact-e-65"><Text tag="span" className="contact-e-66">
-                            <Text tag="p">Add text in text element</Text>
+                            <Text tag="p"></Text>
                         </Text><Text tag="span" className="contact-e-67">
-                            <Text tag="p">Add text in text element</Text>
+                            <Text tag="p"></Text>
                         </Text></i>
                     <div className="contact-e-68"> <Text tag="span" className="contact-e-69">
                             <Text tag="p">Location</Text>
                         </Text><Text tag="span" className="contact-e-70">
-                            <Text tag="p">69 Queen St, Melbourne</Text>
+                            <Text tag="p">Education Technology Hub, USA</Text>
                         </Text></div>
                 </div>
                 <div className="contact-e-57"> <i className="fas fa-mail-bulk contact-e-58"><Text tag="span" className="contact-e-59">
-                            <Text tag="p">Add text in text element</Text>
+                            <Text tag="p"></Text>
                         </Text><Text tag="span" className="contact-e-60">
-                            <Text tag="p">Add text in text element</Text>
+                            <Text tag="p"></Text>
                         </Text></i>
                     <div className="contact-e-61"> <Text tag="span" className="contact-e-62">
                             <Text tag="p">Phone</Text>
                         </Text><Text tag="span" className="contact-e-63">
-                            <Text tag="p">+7 (928)-123-45-45</Text>
+                            <Text tag="p">+1 (555) 123-4567</Text>
                         </Text></div>
                 </div>
             </div>
