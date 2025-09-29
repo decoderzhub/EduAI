@@ -116,7 +116,7 @@ function Contact() {
                         </div>
 
                         {/* Submit */}
-                        <button type="submit" className="contact-e-23">
+                        <button type="submit" className="contact-e-23" style={{outline: 'none', border: 'none'}}>
                           <div className="contact-e-24">
                             <Text tag="span" className="contact-e-25">
                               <Text tag="p">Submit Form</Text>
