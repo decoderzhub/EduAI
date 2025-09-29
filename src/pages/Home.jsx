@@ -43,11 +43,10 @@ function Home() {
                     <Text tag="p">LETS TALK</Text>
                 </button>
                             </Link></Text></div><button className="About-e-122"><Link href="contact" target="_self" className="link">
-                            <Text tag="p">CONTACT US</Text>
-                        </Link></button>
+                            <Text tag="p">CONTACT US</Text><>
+              </Link></button>
             </div>
         </div>
-    </div>
     <div className="home-e-299">
         <div className="home-e-300">
             <div className="home-e-301">
