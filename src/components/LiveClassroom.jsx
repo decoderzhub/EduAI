@@ -116,11 +116,11 @@ function LiveClassroom() {
                     <div className="student-video">
                       <img 
                         src={
-                          index === 0 ? 'https://i.postimg.cc/MMmKyDCF/Conner-image-copy.jpg' : // Alex (Conner)
-                          index === 1 ? 'https://i.postimg.cc/KkDvnN6p/DIL-ES-Jaala-1.jpg' : // Sarah (Jaala)
-                          index === 2 ? 'https://i.postimg.cc/zbFXnjsk/DITL-Demonty-copy-scaled-e1707736461771.jpg' : // Mike (Demonty)
-                          index === 3 ? 'https://i.postimg.cc/k6vXxc0h/MARI-image-copy.jpg' : // Emma (Mari)
-                          'https://i.postimg.cc/2b784ws0/PETER-image-copy.jpg' // James (Peter)
+                          index === 0 ? 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Alex
+                          index === 1 ? 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Sarah
+                          index === 2 ? 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Mike
+                          index === 3 ? 'https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' : // Emma
+                          'https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop' // James
                         }
                         alt={`${student.name} profile`}
                         className="student-avatar-img"
