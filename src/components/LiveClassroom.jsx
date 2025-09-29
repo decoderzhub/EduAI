@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Text } from './index';
 import './LiveClassroom.css';
-import './AIintegrations.css'
+import './AIIntegration.css'
 
 function LiveClassroom() {
   const [isLive, setIsLive] = useState(false);
