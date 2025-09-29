@@ -74,7 +74,7 @@ function ProductShowcaseSection() {
       price: "$95",
       lessons: "32 lessons",
       date: "08 nov 2024",
-      image: "assets/photo-1543109740-4bdb38fda756.jpeg"
+      image: "https://i.postimg.cc/g0KscMsd/music-theory.png"
     }
   ];
 
