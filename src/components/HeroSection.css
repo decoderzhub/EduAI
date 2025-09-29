@@ -647,6 +647,12 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Ensure paragraph tags in navigation inherit the link color */
+.home-e-287 a p {
+  color: inherit;
+  margin: 0;
+}
+
 .home-e-293 {
   display: none;
   color: #64748b;
