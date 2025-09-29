@@ -15,7 +15,7 @@ function Service() {
       <div className="service-e-1">
         <div className="service-e-101">
             <div className="service-e-102">
-                <div className="service-e-113"> <Text tag="span" className="service-e-114"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="service-e-115">
+                <div className="service-e-113"> <Text tag="span" className="service-e-114"> <Image src="/assets/asset-81133393.svg" alt="Image" /> </Text><Text tag="span" className="service-e-115">
                         <Text tag="p">EduAI Bridge </Text>
                     </Text></div>
                 <div className="service-e-104">
