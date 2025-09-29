@@ -32,7 +32,7 @@ function FundingCalculatorPage() {
           <div className="footer-content">
             <div className="footer-section">
               <div className="footer-brand">
-                <Image src="assets/asset-81133393" alt="EduAI Bridge Logo" className="footer-logo" />
+                <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" className="footer-logo" />
                 <Text tag="span" className="footer-title">EduAI Bridge</Text>
               </div>
               <Text tag="p" className="footer-description">

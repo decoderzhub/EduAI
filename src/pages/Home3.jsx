@@ -37,7 +37,7 @@ function Home3() {
         <div className="home3-e-171">
             <div className="home3-e-172">
                 <div className="home3-e-173">
-                    <div className="home3-e-212"> <Text tag="span" className="home3-e-213"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="home3-e-214">
+                    <div className="home3-e-212"> <Text tag="span" className="home3-e-213"> <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> </Text><Text tag="span" className="home3-e-214">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="home3-e-174"> <Text tag="span" className="home3-e-175">

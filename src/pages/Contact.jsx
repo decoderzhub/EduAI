@@ -13,7 +13,7 @@ function Contact() {
       <div className="contact-e-1">
         <div className="contact-e-116">
             <div className="contact-e-117">
-                <div className="contact-e-128"> <Text tag="span" className="contact-e-129"> <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> </Text><Text tag="span" className="contact-e-130">
+                <div className="contact-e-128"> <Text tag="span" className="contact-e-129"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="contact-e-130">
                         <Text tag="p">EduAI Bridge </Text>
                     </Text></div>
                 <div className="contact-e-119">
@@ -81,7 +81,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-            </div><Text tag="span" className="contact-e-48"> <Image src="/assets/asset-78e81b68" alt="Image" /> </Text>
+            </div><Text tag="span" className="contact-e-48"> <Image src="/assets/asset-78e81b68" alt=\"Image" /> </Text>
         </div>
         <div className="contact-e-15">
             <div className="contact-e-49">
