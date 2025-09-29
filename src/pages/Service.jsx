@@ -20,7 +20,7 @@ function Service() {
                     </Text></div>
                 <div className="service-e-104">
                     <div className="service-e-111"> <i className="far fa-window-close service-e-112"></i></div>
-                    <div className="service-e-105"> <Text tag="span" className="service-e-106"><Link href="home" target="_self" className="link">
+                    <div className="service-e-105"> <Text tag="span" className="service-e-106"><Link href="/" target="_self" className="link">
                                 <Text tag="p">HOME</Text>
                             </Link></Text><Text tag="span" className="service-e-107"><Link href="About" target="_self" className="link">
                                 <Text tag="p">ABOUT</Text>
