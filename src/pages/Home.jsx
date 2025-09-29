@@ -31,7 +31,7 @@ function Home() {
     <LiveClassroom />
     <TestimonialsSection />
     <BlogSection />
-    <ContactFormSection />
+    {/* <ContactFormSection /> */} 
     <div className="home-e-2">
         <div className="home-e-3"> <i className="far fa-window-close home-e-10"></i><Text tag="span" className="home-e-4">
                 <Text tag="p"><strong>Where can i reach you</strong></Text>
