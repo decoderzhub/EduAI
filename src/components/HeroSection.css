@@ -659,30 +659,33 @@
 .home-e-289,
 .home-e-291 {
   color: #60a5fa !important;
+  transition: all 0.3s ease !important;
 }
 
 .home-e-288 a,
 .home-e-289 a,
 .home-e-291 a {
   color: #60a5fa !important;
+  transition: all 0.3s ease !important;
 }
 
 .home-e-288 a p,
 .home-e-289 a p,
 .home-e-291 a p {
   color: #60a5fa !important;
+  color: #ff7875 !important;
 }
 
 .home-e-288:hover a,
 .home-e-289:hover a,
 .home-e-291:hover a {
-  color: #3b82f6 !important;
+  color: #ff7875 !important;
 }
 
 .home-e-288:hover a p,
 .home-e-289:hover a p,
 .home-e-291:hover a p {
-  color: #3b82f6 !important;
+  color: #ff7875 !important;
 }
 
 .home-e-293 {
