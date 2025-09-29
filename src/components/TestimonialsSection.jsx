@@ -50,6 +50,21 @@ function TestimonialsSection() {
 
   return (
     <div className="testimonials-section">
+      <div className="testimonials-animated-shapes">
+        <div className="testimonial-bouncing-shape testimonial-shape-1"></div>
+        <div className="testimonial-bouncing-shape testimonial-shape-2"></div>
+        <div className="testimonial-bouncing-shape testimonial-shape-3"></div>
+        <div className="testimonial-bouncing-shape testimonial-shape-4"></div>
+        <div className="testimonial-bouncing-shape testimonial-shape-5"></div>
+        <div className="testimonial-bouncing-shape testimonial-shape-6"></div>
+        <div className="testimonial-bouncing-shape testimonial-rectangle-1"></div>
+        <div className="testimonial-bouncing-shape testimonial-rectangle-2"></div>
+        <div className="testimonial-bouncing-shape testimonial-triangle-1"></div>
+        <div className="testimonial-bouncing-shape testimonial-triangle-2"></div>
+        <div className="testimonial-bouncing-shape testimonial-hexagon"></div>
+        <div className="testimonial-bouncing-shape testimonial-diamond"></div>
+      </div>
+      
       <div className="testimonials-container">
         <div className="testimonials-header">
           <Text tag="p" className="testimonials-label">Success Stories</Text>
