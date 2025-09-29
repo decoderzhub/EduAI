@@ -23,7 +23,7 @@ function HeroSection() {
               </div>
               <div className="home-e-287">
                 <Text tag="span" className="home-e-288">
-                  <Link href="home" target="_self" className="link">
+                  <Link href="/" target="_self" className="link">
                     <Text tag="p">HOME</Text>
                   </Link>
                 </Text>
