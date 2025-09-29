@@ -39,7 +39,7 @@ function HeroSection() {
                 </Text>
                 <Text tag="span" className="home-e-291">
                   <Link href="/contact" target="_self" className="link">
-                    <Text tag="p">CONTACT US</Text>
+                    <Text tag="p">CONTACT</Text>
                   </Link>
                 </Text>
               </div>
