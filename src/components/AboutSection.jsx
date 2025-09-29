@@ -6,7 +6,7 @@ function AboutSection() {
   return (
     <div className="home2-e-28" data-cdhs="up">
         <div className="home2-e-29">
-            <div className="home2-e-41"> <Text tag="span" className="home2-e-40"> <Image src="assets/asset-5de5ac27" alt="Image" /> </Text>
+            <div className="home2-e-41"> <Text tag="span" className="home2-e-40"> <Image src="/assets/asset-5de5ac27.png" alt="Image" /> </Text>
                 <div className="home2-e-42">
                     <div className="home2-e-43"> <i className="fas fa-book-open home2-e-44"></i></div>
                 </div>
