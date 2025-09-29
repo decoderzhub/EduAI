@@ -194,6 +194,17 @@
   font-family: var(--vId-font-token-a);
 }
 
+.course-button-text {
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: var(--vId-font-token-a);
+}
+
 .course-button:hover {
   background: var(--vId-color-token-b);
   transform: translateY(-2px);
