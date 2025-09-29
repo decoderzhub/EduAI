@@ -107,7 +107,7 @@ function ProductShowcaseSection() {
                     <Text tag="h3" className="course-title">{course.title}</Text>
                     <Text tag="p" className="course-text">{course.description}</Text>
                     <Link href="/contact" className="course-button">
-                      <Text tag="span">Enroll Now</Text>
+                      <Text tag="span" className="course-button-text">Enroll Now</Text>
                     </Link>
                   </div>
                 </div>
