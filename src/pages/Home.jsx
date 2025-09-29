@@ -49,7 +49,7 @@ function Home() {
         <div className="home-e-300">
             <div className="home-e-301">
                 <div className="home-e-302">
-                    <div className="home-e-341"> <Text tag="span" className="home-e-342"> <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> </Text><Text tag="span" className="home-e-343">
+                    <div className="home-e-341"> <Text tag="span" className="home-e-342"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="home-e-343">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="home-e-303"> <Text tag="span" className="home-e-331">

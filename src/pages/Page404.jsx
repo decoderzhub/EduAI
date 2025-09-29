@@ -38,7 +38,7 @@ function Page404() {
         </Text><Text tag="span" className="page-404-e-3">
             <Text tag="p">Oops! Page not found.</Text>
         </Text><Text tag="span" className="page-404-e-4">
-            <Text tag="p">Looks like the page you are looking for doesn't exist.</Text>
+            <Text tag="p">Looks like the page you are looking for doesn’t exist.</Text>
         </Text><button className="page-404-e-5"><Link href="home" target="_self" className="link">
                 <Text tag="p">Back to HomePage</Text>
             </Link></button></div>
@@ -46,7 +46,7 @@ function Page404() {
         <div className="page-404-e-8">
             <div className="page-404-e-9">
                 <div className="page-404-e-10">
-                    <div className="page-404-e-49"> <Text tag="span" className="page-404-e-50"> <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> </Text><Text tag="span" className="page-404-e-51">
+                    <div className="page-404-e-49"> <Text tag="span" className="page-404-e-50"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="page-404-e-51">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="page-404-e-11"> <Text tag="span" className="page-404-e-39">

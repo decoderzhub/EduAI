@@ -9,13 +9,3 @@
         }
 
 /* Hero Section Section Styles */
-
-.home-e-288 p {
-  color: #1e293b;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.home-e-288:hover p {
-  color: #60a5fa;
-}

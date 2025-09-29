@@ -45,7 +45,7 @@ function Home2() {
         <div className="home2-e-265">
             <div className="home2-e-266">
                 <div className="home2-e-267">
-                    <div className="home2-e-306"> <Text tag="span" className="home2-e-307"> <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> </Text><Text tag="span" className="home2-e-308">
+                    <div className="home2-e-306"> <Text tag="span" className="home2-e-307"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="home2-e-308">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="home2-e-268"> <Text tag="span" className="home2-e-269">

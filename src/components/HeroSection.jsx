@@ -10,7 +10,7 @@ function HeroSection() {
           <div className="home-e-285">
             <div className="home-e-296">
               <Text tag="span" className="home-e-297">
-                <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" />
+                <Image src="assets/asset-81133393" alt="Image" />
               </Text>
               <Text tag="span" className="home-e-298">
                 <Text tag="p">EduAI Bridge </Text>
