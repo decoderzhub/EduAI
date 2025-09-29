@@ -47,7 +47,7 @@ function ProductShowcaseSection() {
       // price: "$75",
       lessons: "30 lessons",
       date: "30 oct 2024",
-      image: "/assets/image.png"
+      image: "/assets/creative-writing.png"
     },
     {
       id: 6,
