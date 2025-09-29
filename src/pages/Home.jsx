@@ -43,11 +43,9 @@ function Home() {
                     <Text tag="p">LETS TALK</Text>
                 </button>
             </div>
-            <button className="contact-us-button">
-                <Link href="/contact" target="_self" className="link">
-                    <Text tag="p">CONTACT US</Text>
-                </Link>
-            </button>
+            <button className="About-e-122"><Link href="contact" target="_self" className="link">
+                            <Text tag="p">CONTACT US</Text>
+                        </Link></button>
             </div>
         </div>
     <div className="home-e-299">
