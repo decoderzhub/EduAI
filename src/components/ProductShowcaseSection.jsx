@@ -11,7 +11,7 @@ function ProductShowcaseSection() {
       // price: "$29",
       lessons: "38 lessons",
       date: "25 oct 2024",
-      image: "assets/photo-1518133910546-b6c2fb7d79e3.jpeg"
+      image: "/assets/image copy copy.png"
     },
     {
       id: 2,
