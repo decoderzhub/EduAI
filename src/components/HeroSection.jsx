@@ -81,6 +81,11 @@ function HeroSection() {
                   </Link>
                 </Text>
                 <Text tag="span" className="home-e-291">
+                  <Link href="/funding-calculator" target="_self" className="link">
+                    <Text tag="p">ROI</Text>
+                  </Link>
+                </Text>
+                <Text tag="span" className="home-e-291">
                   <Link href="/contact" target="_self" className="link">
                     <Text tag="p">CONTACT</Text>
                   </Link>
