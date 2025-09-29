@@ -31,7 +31,7 @@ function HighlightedFeatureSection() {
                 </div><button className="home-e-142"><Link href="contact" target="_self" className="link">
                         <Text tag="p">Explore Now </Text>
                     </Link> </button>
-            </div><Text tag="span" className="home-e-144"> <Image src="/assets/template-asset-2cf5dca7" alt="Image" /> </Text>
+            </div><Text tag="span" className="home-e-144"> <Image src="assets/template-asset-2cf5dca7" alt=\"Image" /> </Text>
         </div>
     </div>
   )
