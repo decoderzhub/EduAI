@@ -198,6 +198,7 @@
   background: var(--vId-color-token-b);
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(133, 14, 53, 0.3);
+  color: white;
 }
 
 .courses-footer {
@@ -221,6 +222,7 @@
   background: var(--vId-color-token-b);
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(133, 14, 53, 0.3);
+  color: white;
 }
 
 /* Responsive Design */
