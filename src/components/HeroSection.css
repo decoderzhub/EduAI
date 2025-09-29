@@ -655,16 +655,18 @@
 }
 
 .home-e-287 {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0;
   color: #000000;
-  justify-content: space-between;
   flex: 1;
-  max-width: 800px;
-  padding: 0 20px;
+  max-width: 900px;
+  padding: 0 40px;
+  align-items: center;
 }
 
 .home-e-287 a {
+  justify-self: center;
   color: #dc2626;
   text-decoration: none;
   font-weight: 600;
@@ -695,6 +697,8 @@
   backdrop-filter: blur(5px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
+  text-align: center;
+  width: fit-content;
 }
 
 .home-e-287 a:hover {
