@@ -31,7 +31,7 @@ function Contact() {
                   </Link>
                 </Text>
                 <Text tag="span" className="contact-e-122">
-                  <Link href="About" target="_self" className="link">
+                  <Link href="/about" target="_self" className="link">
                     <Text tag="p">ABOUT</Text>
                   </Link>
                 </Text>
@@ -209,7 +209,7 @@ function Contact() {
             <div className="contact-e-76">
               <Text tag="span" className="contact-e-80"><Text tag="p">QUICK LINKS</Text></Text>
               <div className="contact-e-77">
-                <Text tag="span" className="contact-e-78"><Link href="About" target="_self" className="link"><Text tag="p">ABOUT</Text></Link></Text>
+                <Text tag="span" className="contact-e-78"><Link href="/about" target="_self" className="link"><Text tag="p">ABOUT</Text></Link></Text>
                 <Text tag="span" className="contact-e-79"><Link href="service" target="_self" className="link"><Text tag="p">SERVICE</Text></Link></Text>
                 <Text tag="span" className="contact-e-84"><Link href="contact" target="_self" className="link"><Text tag="p">CONTACT</Text></Link></Text>
               </div>
