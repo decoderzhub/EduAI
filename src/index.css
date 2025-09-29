@@ -31,23 +31,6 @@ body {
   min-height: 400px;
 }
 
-/* Add overlay if needed for text readability */
-.home-e-299::before,
-.home2-e-264::before,
-.home3-e-170::before,
-.About-e-68::before,
-.contact-e-71::before,
-.service-e-56::before,
-.page-404-e-7::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-  z-index: 0;
-}
 
 /* Ensure footer content is above background */
 .home-e-300,
