@@ -5,7 +5,16 @@ import './TestimonialsSection.css'
 function TestimonialsSection() {
   return (
     <div className="home-e-163"> <Text tag="span" className="home-e-165">
-            <Text tag="p">Real Stories </Text>
+            <Text tag="p">Real Stories </Text> <Text tag="span" className="home-e-166">
+                <Text tag="p">Add text in text element</Text>
+            </Text><Text tag="span" className="home-e-167">
+                <Text tag="p">Add text in text element</Text>
+            </Text><Text tag="span" className="home-e-168">
+                <Text tag="p">Add text in text element</Text>
+            </Text><Text tag="span" className="cd-paragraph-clean home-e-169">
+                <Text tag="h2">Header 2</Text>
+            </Text>
+            <div className="home-e-170"> </div>
         </Text><Text tag="span" className="home-e-171">
             <Text tag="p">Customer Success </Text>
         </Text>

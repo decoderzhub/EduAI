@@ -6,6 +6,16 @@ function FeatureSection() {
   return (
     <div className="home-e-21">
             <div className="home-e-22"> <Text tag="span" className="home-e-13">
+                    <Text tag="p">Key Features </Text> <Text tag="span" className="home-e-24">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="home-e-25">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="home-e-26">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="cd-paragraph-clean home-e-27">
+                        <Text tag="h2">Header 2</Text>
+                    </Text>
+                    <div className="home-e-28"> </div>
                 </Text><Text tag="span" className="home-e-29">
                     <Text tag="p">Core AI Features </Text>
                 </Text><Text tag="span" className="home-e-38">

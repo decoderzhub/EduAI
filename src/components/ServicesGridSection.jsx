@@ -6,7 +6,16 @@ function ServicesGridSection() {
   return (
     <div className="home-e-64"> <Text tag="span" className="home-e-76"> <Image src="assets/template-asset-e76c5d49" alt="Image" /> </Text>
             <div className="home-e-65"> <Text tag="span" className="home-e-66">
-                    <Text tag="p">Our Services </Text>
+                    <Text tag="p">Our Services </Text> <Text tag="span" className="home-e-67">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="home-e-68">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="home-e-69">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="cd-paragraph-clean home-e-70">
+                        <Text tag="h2">Header 2</Text>
+                    </Text>
+                    <div className="home-e-71"> </div>
                 </Text><Text tag="span" className="home-e-72">
                     <Text tag="p">Comprehensive Educational Solutions for Success </Text>
                 </Text><Text tag="span" className="home-e-75">

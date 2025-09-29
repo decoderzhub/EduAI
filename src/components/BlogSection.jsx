@@ -40,7 +40,16 @@ function BlogSection() {
                 </div>
             </div>
             <div className="home-e-218"> <Text tag="span" className="home-e-219">
-                    <Text tag="p">Latest Insights </Text>
+                    <Text tag="p">Latest Insights </Text> <Text tag="span" className="home-e-220">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="home-e-221">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="home-e-222">
+                        <Text tag="p">Add text in text element</Text>
+                    </Text><Text tag="span" className="cd-paragraph-clean home-e-223">
+                        <Text tag="h2">Header 2</Text>
+                    </Text>
+                    <div className="home-e-224"> </div>
                 </Text><Text tag="span" className="home-e-225">
                     <Text tag="p">Explore Our Blog </Text>
                 </Text><Text tag="span" className="home-e-227">
