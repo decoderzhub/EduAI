@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, Image, Link } from '../components'
 import './HeroSection.css'
-
+import '../about.css'
 function HeroSection() {
   return (
     <div className="home-e-1">
