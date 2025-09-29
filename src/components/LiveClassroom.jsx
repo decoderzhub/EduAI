@@ -40,7 +40,7 @@ function LiveClassroom() {
   };
 
   return (
-    <div className="live-classroom-section">
+    <div id="ai-classroom" className="live-classroom-section">
       <div className="classroom-container">
         <div className="classroom-header">
           <Text tag="h2" className="classroom-title">

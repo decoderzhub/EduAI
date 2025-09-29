@@ -3,6 +3,14 @@ import { Text, Image, Link } from '../components'
 import './HeroSection.css'
 
 function HeroSection() {
+  const scrollToAIClassroom = (e) => {
+    e.preventDefault();
+    const element = document.getElementById('ai-classroom');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="home-e-1">
       <div className="home-e-283">
@@ -35,6 +43,11 @@ function HeroSection() {
                 <Text tag="span" className="home-e-291">
                   <Link href="service" target="_self" className="link">
                     <Text tag="p">SERVICE</Text>
+                  </Link>
+                </Text>
+                <Text tag="span" className="home-e-291">
+                  <Link href="#ai-classroom" target="_self" className="link" onClick={scrollToAIClassroom}>
+                    <Text tag="p">AI CLASSROOM</Text>
                   </Link>
                 </Text>
                 <Text tag="span" className="home-e-291">
