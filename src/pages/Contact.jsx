@@ -91,9 +91,6 @@ function Contact() {
         <div className="contact-e-15">
             <div className="contact-e-49">
                 <div className="contact-e-50"> <i className="fas fa-mail-bulk contact-e-51"><Text tag="span" className="contact-e-52">
-                            <Text tag="p">Add text in text element</Text>
-                        </Text><Text tag="span" className="contact-e-53">
-                            <Text tag="p">Add text in text element</Text>
                         </Text></i>
                     <div className="contact-e-54"> <Text tag="span" className="contact-e-55">
                             <Text tag="p">Email</Text>
@@ -102,9 +99,6 @@ function Contact() {
                         </Text></div>
                 </div>
                 <div className="contact-e-64"> <i className="fas fa-mail-bulk contact-e-65"><Text tag="span" className="contact-e-66">
-                            <Text tag="p">Add text in text element</Text>
-                        </Text><Text tag="span" className="contact-e-67">
-                            <Text tag="p">Add text in text element</Text>
                         </Text></i>
                     <div className="contact-e-68"> <Text tag="span" className="contact-e-69">
                             <Text tag="p">Location</Text>
@@ -113,9 +107,6 @@ function Contact() {
                         </Text></div>
                 </div>
                 <div className="contact-e-57"> <i className="fas fa-mail-bulk contact-e-58"><Text tag="span" className="contact-e-59">
-                            <Text tag="p">Add text in text element</Text>
-                        </Text><Text tag="span" className="contact-e-60">
-                            <Text tag="p">Add text in text element</Text>
                         </Text></i>
                     <div className="contact-e-61"> <Text tag="span" className="contact-e-62">
                             <Text tag="p">Phone</Text>
