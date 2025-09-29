@@ -730,7 +730,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 30px;
     font-weight: 400;
-    color: var(--vId-color-token-a);
+    color: #ffffff;
     line-height: 40px;
     padding: 0px 0px 1px;
     text-align: left;
@@ -1048,7 +1048,7 @@ h6 strong,
 
 .home-e-18 {
     padding: 10px 42px 10px 42px;
-    background-color: var(--vId-color-token-b);
+    background-color: #1e293b;
     box-shadow: 0px 2px 27px 0px #0000004c;
     border-radius: 3px 3px 3px 3px;
     border-width: 0px 0px 0px 0px;
@@ -5612,9 +5612,12 @@ h6 strong,
 }
 
 .home-e-299 {
+    padding: 60px 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
     padding: 200px 16px 50px 16px;
     flex-direction: column-reverse;
-    background-color: var(--vId-color-token-c);
     background-image: url(/assets/asset-3f746ae4);
     background-position: 50% 50%;
     background-size: cover;
@@ -5703,7 +5706,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 30px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #1e293b !important;
     line-height: 40px;
     padding: 0px 0px 0px 0px;
     text-align: left;
@@ -5737,7 +5740,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #4b5563 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -5770,7 +5773,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 22px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #1e293b !important;
     line-height: 32px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -5803,7 +5806,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #3b82f6 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -5822,7 +5825,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #3b82f6 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -5841,7 +5844,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #3b82f6 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -5874,7 +5877,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 22px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #1e293b !important;
     line-height: 32px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -5967,7 +5970,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #4b5563 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -6046,7 +6049,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #4b5563 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -6065,7 +6068,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #4b5563 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -6144,7 +6147,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #4b5563 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -6163,7 +6166,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #4b5563 !important;
     line-height: 24px;
     padding: 0px 0px 0px 0px;
     opacity: 100%;
@@ -6306,7 +6309,7 @@ h6 strong,
     font-family: Lato;
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: #6b7280 !important;
     line-height: 24px;
     padding: 50px 0px 0px 0px;
     opacity: 100%;
@@ -7922,258 +7925,4 @@ h6 strong,
     }
 
     .home-e-4 {
-        position: relative
-    }
-
-    .home-e-9 {
-        position: relative
-    }
-
-    .home-e-5 {
-        position: relative
-    }
-
-    .home-e-7 {
-        position: relative
-    }
-
-    .home-e-6 {
-        position: relative
-    }
-
-    .home-e-8 {
-        position: relative
-    }
-
-    .home-e-299 {
-        padding: 100px 16px 100px 16px;
-        background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.1)0%, rgba(255, 255, 255, 0.1)97.7%), url(/assets/asset-3f746ae4);
-        background-position: 50% 50%, 50% 50%;
-        background-size: cover, cover;
-        background-repeat: no-repeat no-repeat, no-repeat no-repeat;
-        background-attachment: scroll, scroll;
-        background-clip: border-box, border-box;
-        background-origin: padding-box, padding-box;
-        position: relative
-    }
-
-    .home-e-300 {
-        position: relative
-    }
-
-    .home-e-301 {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        -moz-column-gap: 50px;
-             column-gap: 50px;
-        row-gap: 30px;
-        position: relative
-    }
-
-    .home-e-302 {
-        align-items: center;
-        position: relative
-    }
-
-    .home-e-341 {
-        position: relative
-    }
-
-    .home-e-342 {
-        position: relative
-    }
-
-    .home-e-343 {
-        font-size: 30px;
-        line-height: 40px;
-        position: relative
-    }
-
-    .home-e-303 {
-        position: relative
-    }
-
-    .home-e-331 {
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        position: relative
-    }
-
-    .home-e-304 {
-        align-items: center;
-        position: relative
-    }
-
-    .home-e-308 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-305 {
-        position: relative
-    }
-
-    .home-e-306 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-307 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-312 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-309 {
-        align-items: center;
-        position: relative
-    }
-
-    .home-e-310 {
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        position: relative
-    }
-
-    .home-e-313 {
-        position: relative
-    }
-
-    .home-e-314 {
-        position: relative
-    }
-
-    .home-e-315 {
-        position: relative
-    }
-
-    .home-e-316 {
-        position: relative
-    }
-
-    .home-e-317 {
-        position: relative
-    }
-
-    .home-e-318 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-325 {
-        position: relative
-    }
-
-    .home-e-326 {
-        position: relative
-    }
-
-    .home-e-327 {
-        position: relative
-    }
-
-    .home-e-328 {
-        position: relative
-    }
-
-    .home-e-329 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-330 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-319 {
-        position: relative
-    }
-
-    .home-e-320 {
-        position: relative
-    }
-
-    .home-e-321 {
-        position: relative
-    }
-
-    .home-e-322 {
-        position: relative
-    }
-
-    .home-e-323 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-324 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-
-    .home-e-332 {
-        position: relative
-    }
-
-    .home-e-333 {
-        position: relative
-    }
-
-    .home-e-334 {
-        position: relative
-    }
-
-    .home-e-339 {
-        position: relative
-    }
-
-    .home-e-340 {
-        position: relative
-    }
-
-    .home-e-337 {
-        position: relative
-    }
-
-    .home-e-338 {
-        position: relative
-    }
-
-    .home-e-335 {
-        position: relative
-    }
-
-    .home-e-336 {
-        position: relative
-    }
-
-    .home-e-311 {
-        font-size: 16px;
-        line-height: 26px;
-        position: relative
-    }
-}
-
-.paragraph {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400
-}
+        position:
