@@ -407,7 +407,7 @@
 }
 
 .home-e-283 {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
@@ -430,17 +430,25 @@
 
 .home-e-12 {
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #1e293b;
   margin-bottom: 25px;
   line-height: 1.2;
   text-shadow: 0 2px 10px rgba(255, 255, 255, 0.8);
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   padding: 20px 30px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Fredoka One', 'Comic Sans MS', 'Bubblegum Sans', cursive, var(--vId-font-token-a);
+  transform: perspective(1000px) rotateX(-2deg);
+  transition: all 0.3s ease;
+}
+
+.home-e-12:hover {
+  transform: perspective(1000px) rotateX(0deg) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .home-e-23 {
