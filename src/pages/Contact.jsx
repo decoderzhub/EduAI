@@ -46,6 +46,9 @@ function Contact() {
                   </Link>
                 </Text>
               </div>
+              <button className="contact-e-131"><Link href="contact" target="_self" className="link">
+                <Text tag="p">CONTACT US</Text>
+              </Link></button>
             </div>
             <i className="fas fa-bars contact-e-118"></i>
           </div>

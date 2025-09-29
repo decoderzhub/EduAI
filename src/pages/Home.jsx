@@ -42,6 +42,9 @@ function Home() {
                 <div className="home-e-7" data-clientid="home-e-7"> <input className="home-e-6" data-clientid="home-e-6" /></div><button className="home-e-8" data-clientid="home-e-8">
                     <Text tag="p">LETS TALK</Text>
                 </button>
+              <button className="home-e-292"><Link href="contact" target="_self" className="link">
+                <Text tag="p">CONTACT US</Text>
+              </Link></button>
             </div>
         </div>
     </div>
