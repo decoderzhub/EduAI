@@ -60,6 +60,34 @@ function TestimonialsSection() {
         </div>
 
         <div className="testimonials-carousel">
+          <div className="testimonials-shapes">
+            <div className="testimonials-shapes-track">
+              {/* First set of shapes */}
+              {Array.from({ length: 8 }, (_, index) => (
+                <div key={index} className="shape-group">
+                  <div className="floating-shape circle-1"></div>
+                  <div className="floating-shape circle-2"></div>
+                  <div className="floating-shape circle-3"></div>
+                  <div className="floating-shape circle-4"></div>
+                  <div className="floating-shape rectangle"></div>
+                  <div className="floating-shape triangle"></div>
+                </div>
+              ))}
+              
+              {/* Duplicate set for seamless loop */}
+              {Array.from({ length: 8 }, (_, index) => (
+                <div key={`duplicate-${index}`} className="shape-group">
+                  <div className="floating-shape circle-1"></div>
+                  <div className="floating-shape circle-2"></div>
+                  <div className="floating-shape circle-3"></div>
+                  <div className="floating-shape circle-4"></div>
+                  <div className="floating-shape rectangle"></div>
+                  <div className="floating-shape triangle"></div>
+                </div>
+              ))}
+            </div>
+          </div>
+          
           <div className="testimonials-track">
             {/* First set of testimonials */}
             {testimonials.map((testimonial) => (
