@@ -71,14 +71,14 @@ function HeroSection() {
                   </Link>
                 </Text>
                 <Text tag="span" className="home-e-291">
-                  <Link href="service" target="_self" className="link">
-                    <Text tag="p">SERVICE</Text>
-                  </Link>
-                </Text>
-                <Text tag="span" className="home-e-291">
                   <Link href="#ai-classroom" target="_self" className="link" onClick={scrollToAIClassroom}>
                     <Text tag="p">AI</Text>
                   </Link>
+                </Text>
+                <Text tag="span" className="home-e-291">
+                  <Link href="service" target="_self" className="link">
+                    <Text tag="p">SERVICE</Text>
+                  </Link> 
                 </Text>
                 <Text tag="span" className="home-e-291">
                   <Link href="/funding-calculator" target="_self" className="link">
