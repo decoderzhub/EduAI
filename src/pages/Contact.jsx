@@ -134,7 +134,7 @@ function Contact() {
 
           {/* side image */}
           <Text tag="span" className="contact-e-48">
-            <Image src="/assets/asset-78e81b68" alt="Image" />
+            <Image src="/assets/asset-78e81b68.png" alt="Image" />
           </Text>
         </div>
 
