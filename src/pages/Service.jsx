@@ -28,9 +28,7 @@ function Service() {
                                 <Text tag="p">SERVICE</Text>
                             </Link></Text><Text tag="span" className="service-e-108"><Link href="contact" target="_self" className="link">
                                 <Text tag="p">CONTACT</Text>
-                            </Link></Text></div><button className="service-e-110"><Link href="contact" target="_self" className="link">
-                            <Text tag="p">CONTACT US</Text>
-                        </Link></button>
+                            </Link></Text></div>
                 </div><i className="fas fa-bars service-e-103"></i>
             </div>
         </div>
