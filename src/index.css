@@ -14,4 +14,49 @@ body {
 }
 
 /* Additional global styles will be injected here during export */
-   z-index: 1;
+
+/* Footer background styling */
+.home-e-299,
+.home2-e-264,
+.home3-e-170,
+.About-e-68,
+.contact-e-71,
+.service-e-56,
+.page-404-e-7 {
+  background-image: url('/assets/asset-3f746ae4.png') !important;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 400px;
+}
+
+/* Add overlay if needed for text readability */
+.home-e-299::before,
+.home2-e-264::before,
+.home3-e-170::before,
+.About-e-68::before,
+.contact-e-71::before,
+.service-e-56::before,
+.page-404-e-7::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+/* Ensure footer content is above background */
+.home-e-300,
+.home2-e-265,
+.home3-e-171,
+.About-e-69,
+.contact-e-72,
+.service-e-57,
+.page-404-e-8 {
+  position: relative;
+  z-index: 2;
+}
