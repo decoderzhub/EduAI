@@ -65,126 +65,90 @@ function Contact() {
       {/* Contact Form Section */}
       <div className="contact-form-section">
         <div className="contact-form-container">
-          <div className="contact-form-content">
-            <div className="contact-form-left">
-              <Text tag="h2" className="contact-form-title">GET IN TOUCH</Text>
-              <Text tag="p" className="contact-form-description">
-                We'd love to hear from you! Reach out to learn more about how EduAI Bridge can transform your educational institution.
-              </Text>
-              <Text tag="p" className="contact-form-description">
-                Our team of education technology experts is ready to help you implement AI-powered solutions that enhance learning outcomes.
-              </Text>
-              
-              <form className="contact-form">
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="firstName" className="form-label">First Name *</label>
-                    <input 
-                      type="text" 
-                      id="firstName" 
-                      className="form-input" 
-                      placeholder="Enter your first name" 
-                      required 
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="lastName" className="form-label">Last Name *</label>
-                    <input 
-                      type="text" 
-                      id="lastName" 
-                      className="form-input" 
-                      placeholder="Enter your last name" 
-                      required 
-                    />
-                  </div>
-                </div>
-                
-                <div className="form-row">
-                  <div className="form-group">
-                    <label htmlFor="email" className="form-label">Email Address *</label>
-                    <input 
-                      type="email" 
-                      id="email" 
-                      className="form-input" 
-                      placeholder="Enter your email address" 
-                      required 
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="phone" className="form-label">Phone Number</label>
-                    <input 
-                      type="tel" 
-                      id="phone" 
-                      className="form-input" 
-                      placeholder="Enter your phone number" 
-                    />
-                  </div>
-                </div>
-                
-                <div className="form-group">
-                  <label htmlFor="message" className="form-label">Message *</label>
-                  <textarea 
-                    id="message" 
-                    className="form-textarea" 
-                    placeholder="Tell us about your educational needs and how we can help..." 
-                    rows="5" 
-                    required
-                  ></textarea>
-                </div>
-                
-                <div className="form-checkbox">
-                  <input type="checkbox" id="privacy" required />
-                  <label htmlFor="privacy" className="checkbox-label">
-                    I agree to the privacy policy and terms of service *
-                  </label>
-                </div>
-                
-                <button type="submit" className="contact-submit-btn">
-                  Submit Form
-                </button>
-              </form>
-            </div>
-
-            <div className="contact-form-right">
-              <div className="contact-image-container">
-                <Image src="/assets/asset-78e81b68.png" alt="Contact Us" />
+          <Text tag="h2" className="contact-form-title">Get In Touch</Text>
+          <Text tag="p" className="contact-form-subtitle">
+            Ready to transform your educational institution with AI-powered solutions? Contact our team today.
+          </Text>
+          
+          <form className="contact-form">
+            <div className="form-row">
+              <div className="form-group">
+                <label htmlFor="firstName" className="form-label">First Name</label>
+                <input 
+                  type="text" 
+                  id="firstName" 
+                  className="form-input" 
+                  placeholder="Enter your first name" 
+                  required 
+                />
               </div>
-              
-              <div className="contact-info-cards">
-                <div className="contact-info-card">
-                  <div className="contact-icon">
-                    <i className="fas fa-envelope"></i>
-                  </div>
-                  <div className="contact-details">
-                    <Text tag="h4" className="contact-info-title">Email</Text>
-                    <Text tag="p" className="contact-info-text">info@eduaibridge.com</Text>
-                    <Text tag="p" className="contact-info-text">support@eduaibridge.com</Text>
-                  </div>
-                </div>
-                
-                <div className="contact-info-card">
-                  <div className="contact-icon">
-                    <i className="fas fa-map-marker-alt"></i>
-                  </div>
-                  <div className="contact-details">
-                    <Text tag="h4" className="contact-info-title">Location</Text>
-                    <Text tag="p" className="contact-info-text">Education Technology Hub</Text>
-                  </div>
-                </div>
-                
-                <div className="contact-info-card">
-                  <div className="contact-icon">
-                    <i className="fas fa-phone"></i>
-                  </div>
-                  <div className="contact-details">
-                    <Text tag="h4" className="contact-info-title">Phone</Text>
-                    <Text tag="p" className="contact-info-text">555-123-4567</Text>
-                    <Text tag="p" className="contact-info-text">555-987-6543</Text>
-                  </div>
-                </div>
+              <div className="form-group">
+                <label htmlFor="lastName" className="form-label">Last Name</label>
+                <input 
+                  type="text" 
+                  id="lastName" 
+                  className="form-input" 
+                  placeholder="Enter your last name" 
+                  required 
+                />
               </div>
             </div>
-          </div>
+            
+            <div className="form-row">
+              <div className="form-group">
+                <label htmlFor="email" className="form-label">Email Address</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  className="form-input" 
+                  placeholder="Enter your email address" 
+                  required 
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="phone" className="form-label">Phone Number</label>
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  className="form-input" 
+                  placeholder="Enter your phone number" 
+                />
+              </div>
+            </div>
+            
+            <div className="form-group">
+              <label htmlFor="subject" className="form-label">Subject</label>
+              <input 
+                type="text" 
+                id="subject" 
+                className="form-input" 
+                placeholder="Enter subject" 
+                required 
+              />
+            </div>
+            
+            <div className="form-group">
+              <label htmlFor="message" className="form-label">Message</label>
+              <textarea 
+                id="message" 
+                className="form-textarea" 
+                placeholder="Tell us about your educational needs and how we can help..." 
+                rows="5" 
+                required
+              ></textarea>
+            </div>
+            
+            <div className="form-checkbox">
+              <input type="checkbox" id="privacy" required />
+              <label htmlFor="privacy" className="checkbox-label">
+                I agree to the privacy policy and terms of service
+              </label>
+            </div>
+            
+            <button type="submit" className="contact-submit-btn">
+              Submit Form
+            </button>
+          </form>
         </div>
       </div>
 
