@@ -195,85 +195,117 @@ function LiveClassroom() {
         </div>
 
         {/* Real-time Analytics */}
-        <div className="analytics-dashboard">
-          <h3>📊 Real-time Classroom Analytics</h3>
-          <div className="analytics-grid">
-            <div className="analytics-card">
-              <div className="analytics-icon">👥</div>
-              <div className="analytics-content">
-                <div className="analytics-value">87%</div>
-                <div className="analytics-label">Average Engagement</div>
-                <div className="analytics-trend positive">+5% from last class</div>
+        <div className="analytics-showcase">
+          <div className="showcase-container">
+            <div className="showcase-left">
+              <div className="geometric-shapes">
+                <div className="shape-circle"></div>
+                <div className="shape-semicircle"></div>
+                <div className="shape-rounded-rect"></div>
+              </div>
+              
+              <div className="analytics-cards">
+                <div className="analytics-card-new">
+                  <div className="card-image">
+                    <div className="analytics-visual">📊</div>
+                  </div>
+                  <div className="card-content">
+                    <h4>Real-time Analytics</h4>
+                    <p className="card-date">Live Dashboard | Active Now</p>
+                  </div>
+                </div>
+                
+                <div className="analytics-card-new">
+                  <div className="card-image">
+                    <div className="analytics-visual">🎯</div>
+                  </div>
+                  <div className="card-content">
+                    <h4>Engagement Monitoring</h4>
+                    <p className="card-date">87% Average | +5% Improvement</p>
+                  </div>
+                </div>
+                
+                <div className="analytics-card-new">
+                  <div className="card-image">
+                    <div className="analytics-visual">🤖</div>
+                  </div>
+                  <div className="card-content">
+                    <h4>AI Interventions</h4>
+                    <p className="card-date">3 Active | Real-time Support</p>
+                  </div>
+                </div>
               </div>
             </div>
             
-            <div className="analytics-card">
-              <div className="analytics-icon">🎯</div>
-              <div className="analytics-content">
-                <div className="analytics-value">92%</div>
-                <div className="analytics-label">Comprehension Rate</div>
-                <div className="analytics-trend positive">+8% improvement</div>
-              </div>
-            </div>
-            
-            <div className="analytics-card">
-              <div className="analytics-icon">⚡</div>
-              <div className="analytics-content">
-                <div className="analytics-value">3</div>
-                <div className="analytics-label">AI Interventions</div>
-                <div className="analytics-trend neutral">Real-time support</div>
-              </div>
-            </div>
-            
-            <div className="analytics-card">
-              <div className="analytics-icon">📝</div>
-              <div className="analytics-content">
-                <div className="analytics-value">15</div>
-                <div className="analytics-label">Questions Answered</div>
-                <div className="analytics-trend positive">By AI Assistant</div>
+            <div className="showcase-right">
+              <div className="showcase-content">
+                <p className="showcase-label">Real-time Insights</p>
+                <h3>Advanced Classroom Analytics</h3>
+                <p className="showcase-description">
+                  Monitor student engagement, track comprehension rates, and receive AI-powered insights 
+                  in real-time. Our advanced analytics help teachers make data-driven decisions to 
+                  enhance learning outcomes and provide personalized support.
+                </p>
+                <button className="showcase-btn">View Analytics</button>
               </div>
             </div>
           </div>
         </div>
 
         {/* Features Showcase */}
-        <div className="features-showcase">
-          <h3>🚀 Advanced Features</h3>
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">🎥</div>
-              <h4>HD Video Streaming</h4>
-              <p>Crystal clear video with adaptive quality based on connection</p>
+        <div className="features-showcase-new">
+          <div className="showcase-container reverse">
+            <div className="showcase-left">
+              <div className="geometric-shapes">
+                <div className="shape-circle green"></div>
+                <div className="shape-triangle"></div>
+                <div className="shape-rounded-rect green"></div>
+              </div>
+              
+              <div className="features-cards">
+                <div className="feature-card-new">
+                  <div className="card-image">
+                    <div className="feature-visual">🎥</div>
+                  </div>
+                  <div className="card-content">
+                    <h4>HD Video Streaming</h4>
+                    <p className="card-date">Adaptive Quality | Multi-device</p>
+                  </div>
+                </div>
+                
+                <div className="feature-card-new">
+                  <div className="card-image">
+                    <div className="feature-visual">🤖</div>
+                  </div>
+                  <div className="card-content">
+                    <h4>AI Teaching Assistant</h4>
+                    <p className="card-date">24/7 Support | Personalized Help</p>
+                  </div>
+                </div>
+                
+                <div className="feature-card-new">
+                  <div className="card-image">
+                    <div className="feature-visual">📱</div>
+                  </div>
+                  <div className="card-content">
+                    <h4>Multi-Device Support</h4>
+                    <p className="card-date">Tablets, Laptops | Interactive Boards</p>
+                  </div>
+                </div>
+              </div>
             </div>
             
-            <div className="feature-card">
-              <div className="feature-icon">🤖</div>
-              <h4>AI Teaching Assistant</h4>
-              <p>Real-time support, question answering, and personalized help</p>
-            </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">📊</div>
-              <h4>Engagement Monitoring</h4>
-              <p>Track student attention and participation in real-time</p>
-            </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">🔄</div>
-              <h4>Auto Recording</h4>
-              <p>Automatic session recording with AI-generated transcripts</p>
-            </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">🎯</div>
-              <h4>Smart Interventions</h4>
-              <p>AI identifies struggling students and suggests immediate help</p>
-            </div>
-            
-            <div className="feature-card">
-              <div className="feature-icon">📱</div>
-              <h4>Multi-Device Support</h4>
-              <p>Works seamlessly on tablets, laptops, and interactive whiteboards</p>
+            <div className="showcase-right">
+              <div className="showcase-content">
+                <p className="showcase-label">Advanced Features</p>
+                <h3>Next-Generation Learning Tools</h3>
+                <p className="showcase-description">
+                  Experience cutting-edge educational technology with HD video streaming, 
+                  AI-powered teaching assistance, and seamless multi-device support. 
+                  Our platform adapts to your needs and enhances the learning experience.
+                </p>
+                <button className="showcase-btn">Explore Features</button>
+              </div>
             </div>
           </div>
         </div>
