@@ -12,15 +12,15 @@ function AboutSection() {
         </div>
         
         <div className="about-text-section">
-          <div className="about-label">TEMPORIBUS</div>
-          <h2 className="about-title">Get to Know About Eginary Education</h2>
+          <div className="about-label">AI-POWERED EDUCATION</div>
+          <h2 className="about-title">Revolutionizing K-12 Education with EduAI Bridge</h2>
           
           <p className="about-paragraph">
-            Neque porro quisquam est, qui dolorem ipsum dolor sit amet, consectetur sed quia non numquam eius modi incidunt dolor.
+            EduAI Bridge transforms K-12 education by enhancing teachers with AI technology, not replacing them. Our platform addresses critical challenges in modern education through intelligent automation and personalized learning solutions.
           </p>
           
           <p className="about-paragraph">
-            Omnis dolor repellendus. Temporibus autem qui aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae aroin ac lo is arcu, a vestibulum augue rhvamus ipsum neu facilisis vel mollis vitae, mollis nec ante.
+            Our AI-driven early warning system identifies at-risk students with 89% accuracy, enabling proactive interventions. Smart content generation saves teachers 15+ hours weekly on lesson planning, while our intelligent matching system optimizes learning outcomes.
           </p>
         </div>
       </div>
@@ -28,11 +28,11 @@ function AboutSection() {
       {/* Bottom description paragraphs */}
       <div className="about-bottom-text">
         <p>
-          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere ssi omnis voluptas assumenda est, omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum nece tatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur.
+          <strong>Addressing Teacher Shortages:</strong> With over 300,000 teacher vacancies nationwide, EduAI Bridge provides AI teaching assistants that support educators with real-time classroom insights, automated grading, and personalized student interventions. Our platform enables one teacher to effectively manage larger class sizes while maintaining quality education through intelligent automation and data-driven decision making.
         </p>
         
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.
+          <strong>Supporting Struggling Students:</strong> Our AI continuously monitors student progress, identifying learning gaps before they become critical. The system provides personalized learning paths, adaptive assessments, and targeted interventions that have shown to improve at-risk student outcomes by 35%. Government funding through Title I, ESSA, and state grants makes our solution accessible to districts nationwide, ensuring no student is left behind.
         </p>
       </div>
       
@@ -40,26 +40,26 @@ function AboutSection() {
       <div className="about-stats-section">
         <div className="stat-card">
           <div className="stat-icon">🎓</div>
-          <div className="stat-number">25+</div>
-          <div className="stat-label">Students</div>
+          <div className="stat-number">50K+</div>
+          <div className="stat-label">Students Served</div>
         </div>
         
         <div className="stat-card">
           <div className="stat-icon">📚</div>
-          <div className="stat-number">25+</div>
-          <div className="stat-label">Courses</div>
+          <div className="stat-number">150+</div>
+          <div className="stat-label">School Districts</div>
         </div>
         
         <div className="stat-card">
           <div className="stat-icon">🏛️</div>
-          <div className="stat-number">25+</div>
-          <div className="stat-label">Universities</div>
+          <div className="stat-number">89%</div>
+          <div className="stat-label">Prediction Accuracy</div>
         </div>
         
         <div className="stat-card">
           <div className="stat-icon">🏆</div>
-          <div className="stat-number">25+</div>
-          <div className="stat-label">Scholarships</div>
+          <div className="stat-number">$2.5M</div>
+          <div className="stat-label">Funding Secured</div>
         </div>
       </div>
     </div>
