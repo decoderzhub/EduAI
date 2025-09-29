@@ -72,7 +72,13 @@ function Contact() {
                                     <div className="contact-e-26" data-clientid="contact-e-26">
                                         <label htmlFor="message">Message</label>
                                         <textarea id="message" className="contact-e-27" data-clientid="contact-e-27" placeholder="Enter your message" rows="5" required></textarea>
-                                    </div>
+                                        <input 
+                                            type="checkbox" 
+                                            id="policy-agreement" 
+                                            className="contact-e-29" 
+                                            data-clientid="contact-e-29" 
+                                            required 
+                                        />
                                     <div className="contact-e-28" data-clientid="contact-e-28"> <input className="contact-e-29" data-clientid="contact-e-29" /><Text tag="span" className="cd-paragraph-clean contact-e-30" data-clientid="contact-e-30">
                                             <Text tag="p">You agree to our friendly policy</Text>
                                         </Text></div>
