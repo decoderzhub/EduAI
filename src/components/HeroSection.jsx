@@ -3,9 +3,9 @@ import { Text, Image, Link } from '../components'
 import './HeroSection.css'
 
 function HeroSection() {
-  const scrollToAIClassroom = (e) => {
+  const scrollToAIIntegration = (e) => {
     e.preventDefault();
-    const element = document.getElementById('ai-classroom');
+    const element = document.querySelector('.ai-integration-section');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -71,7 +71,7 @@ function HeroSection() {
                   </Link>
                 </Text>
                 <Text tag="span" className="home-e-291">
-                  <Link href="#ai-classroom" target="_self" className="link" onClick={scrollToAIClassroom}>
+                  <Link href="#ai-integration" target="_self" className="link" onClick={scrollToAIIntegration}>
                     <Text tag="p">AI</Text>
                   </Link>
                 </Text>
