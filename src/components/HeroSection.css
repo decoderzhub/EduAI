@@ -673,6 +673,12 @@
 .home-e-289 a p,
 .home-e-291 a p {
   color: #60a5fa !important;
+  transition: all 0.3s ease !important;
+}
+
+.home-e-288:hover,
+.home-e-289:hover,
+.home-e-291:hover {
   color: #ff7875 !important;
 }
 
