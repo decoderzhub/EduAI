@@ -23,7 +23,7 @@ function Home() {
       <HeroSection />
     <div className="home-e-20">
         <FeatureSection />
-        <ServicesGridSection /> 
+        {/* <ServicesGridSection />  */} 
     </div>
     <AIIntegration />
     <ProductShowcaseSection />
