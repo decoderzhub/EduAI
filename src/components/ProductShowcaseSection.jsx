@@ -67,6 +67,7 @@ function ProductShowcaseSection() {
       date: "05 nov 2024",
       image: "/assets/image copy.png"
     }, 
+    {
       id: 8,
       title: "Music Theory",
       description: "Understand the fundamentals of music theory, composition, and musical structures.",
