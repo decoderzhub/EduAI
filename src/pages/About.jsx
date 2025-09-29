@@ -57,7 +57,7 @@ function About() {
         <div className="About-e-69">
             <div className="About-e-70">
                 <div className="About-e-71">
-                    <div className="About-e-110"> <Text tag="span" className="About-e-111"> <Image src="/assets/asset-81133393" alt="Image" /> </Text><Text tag="span" className="About-e-112">
+                    <div className="About-e-110"> <Text tag="span" className="About-e-111"> <Image src="/assets/asset-81133393.svg" alt="EduAI Bridge Logo" /> </Text><Text tag="span" className="About-e-112">
                             <Text tag="p">EduAI Bridge </Text>
                         </Text></div>
                     <div className="About-e-72"> <Text tag="span" className="About-e-100">
