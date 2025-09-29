@@ -756,7 +756,7 @@ h6 strong,
     font-family: var(--vId-font-token-a);
     font-size: 14px;
     font-weight: 400;
-    color: #ffffffff;
+    color: var(--vId-color-token-c);
     padding: 15px 15px 15px 15px;
     line-height: 24px;
     opacity: 100%;
