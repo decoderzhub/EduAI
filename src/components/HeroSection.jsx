@@ -13,6 +13,36 @@ function HeroSection() {
 
   return (
     <div className="home-e-1">
+      {/* Animated Background Shapes */}
+      <div className="hero-animated-shapes">
+        <div className="hero-floating-shape hero-shape-1"></div>
+        <div className="hero-floating-shape hero-shape-2"></div>
+        <div className="hero-floating-shape hero-shape-3"></div>
+        <div className="hero-floating-shape hero-shape-4"></div>
+        <div className="hero-floating-shape hero-shape-5"></div>
+        <div className="hero-floating-shape hero-shape-6"></div>
+        <div className="hero-floating-shape hero-rectangle-1"></div>
+        <div className="hero-floating-shape hero-rectangle-2"></div>
+        <div className="hero-floating-shape hero-triangle-1"></div>
+        <div className="hero-floating-shape hero-triangle-2"></div>
+        <div className="hero-floating-shape hero-hexagon"></div>
+        <div className="hero-floating-shape hero-diamond"></div>
+      </div>
+      
+      {/* Glowing Orbs */}
+      <div className="hero-glow-orb orb-1"></div>
+      <div className="hero-glow-orb orb-2"></div>
+      <div className="hero-glow-orb orb-3"></div>
+      
+      {/* Floating Particles */}
+      <div className="hero-particles">
+        <div className="particle particle-1"></div>
+        <div className="particle particle-2"></div>
+        <div className="particle particle-3"></div>
+        <div className="particle particle-4"></div>
+        <div className="particle particle-5"></div>
+      </div>
+      
       <div className="home-e-283">
         <div className="home-e-284">
           <div className="home-e-285">
