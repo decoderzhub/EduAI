@@ -21,10 +21,7 @@ function Home() {
   return (
     <div className="home-container">
       <HeroSection />
-    <div className="home-e-20">
-        <FeatureSection />
-        <ServicesGridSection />
-    </div>
+   ÷
     <AIIntegration />
     <ProductShowcaseSection />
     <HighlightedFeatureSection />
