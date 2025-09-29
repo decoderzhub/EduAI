@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Image, Link } from './index'
+import { Text, Image, Link } from '../components'
 import './HeroSection.css'
 import '../pages/About.css'
 
