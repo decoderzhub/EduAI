@@ -18,7 +18,7 @@ function Contact() {
                     </Text></div>
                 <div className="contact-e-119">
                     <div className="contact-e-126"> <i className="far fa-window-close contact-e-127"></i></div>
-                    <div className="contact-e-120"> <Text tag="span" className="contact-e-121"><Link href="home2" target="_self" className="link">
+                    <div className="contact-e-120"> <Text tag="span" className="contact-e-121"><Link href="/" target="_self" className="link">
                                 <Text tag="p">HOME</Text>
                             </Link></Text><Text tag="span" className="contact-e-122"><Link href="About" target="_self" className="link">
                                 <Text tag="p">ABOUT</Text>
@@ -26,9 +26,7 @@ function Contact() {
                                 <Text tag="p">SERVICE</Text>
                             </Link></Text><Text tag="span" className="contact-e-123"><Link href="contact" target="_self" className="link">
                                 <Text tag="p">CONTACT</Text>
-                            </Link></Text></div><button className="contact-e-125"><Link href="contact" target="_self" className="link">
-                            <Text tag="p">CONTACT US</Text>
-                        </Link></button>
+                            </Link></Text></div>
                 </div><i className="fas fa-bars contact-e-118"></i>
             </div>
         </div>
@@ -41,15 +39,7 @@ function Contact() {
     <div className="contact-e-14">
         <div className="contact-e-16">
             <div className="contact-e-17"> <Text tag="span" className="contact-e-41">
-                    <Text tag="p">GET IN TOUCH</Text><Text tag="span" className="contact-e-42">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="contact-e-43">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="contact-e-44">
-                        <Text tag="p">Add text in text element</Text>
-                    </Text><Text tag="span" className="cd-paragraph-clean contact-e-45">
-                        <Text tag="h2">Header 2</Text>
-                    </Text>
+                    <Text tag="p">GET IN TOUCH</Text>
                     <div className="contact-e-46"> </div>
                 </Text><Text tag="span" className="contact-e-47">
                     <Text tag="p"><strong>Contact Us Now</strong></Text>
@@ -60,14 +50,29 @@ function Contact() {
                             <div className="contact-e-21" data-clientid="contact-e-21">
                                 <div className="contact-e-22" data-clientid="contact-e-22">
                                     <div className="contact-e-31" data-clientid="contact-e-31">
-                                        <div className="contact-e-32" data-clientid="contact-e-32"> <input className="contact-e-33" data-clientid="contact-e-33" /></div>
-                                        <div className="contact-e-34" data-clientid="contact-e-34"> <input className="contact-e-35" data-clientid="contact-e-35" /></div>
+                                        <div className="contact-e-32" data-clientid="contact-e-32">
+                                            <label htmlFor="firstName">First Name</label>
+                                            <input id="firstName" className="contact-e-33" data-clientid="contact-e-33" type="text" placeholder="Enter your first name" required />
+                                        </div>
+                                        <div className="contact-e-34" data-clientid="contact-e-34">
+                                            <label htmlFor="lastName">Last Name</label>
+                                            <input id="lastName" className="contact-e-35" data-clientid="contact-e-35" type="text" placeholder="Enter your last name" required />
+                                        </div>
                                     </div>
                                     <div className="contact-e-36" data-clientid="contact-e-36">
-                                        <div className="contact-e-37" data-clientid="contact-e-37"> <input className="contact-e-38" data-clientid="contact-e-38" /></div>
-                                        <div className="contact-e-39" data-clientid="contact-e-39"> <input className="contact-e-40" data-clientid="contact-e-40" /></div>
+                                        <div className="contact-e-37" data-clientid="contact-e-37">
+                                            <label htmlFor="email">Email</label>
+                                            <input id="email" className="contact-e-38" data-clientid="contact-e-38" type="email" placeholder="Enter your email address" required />
+                                        </div>
+                                        <div className="contact-e-39" data-clientid="contact-e-39">
+                                            <label htmlFor="phone">Phone</label>
+                                            <input id="phone" className="contact-e-40" data-clientid="contact-e-40" type="tel" placeholder="Enter your phone number" />
+                                        </div>
                                     </div>
-                                    <div className="contact-e-26" data-clientid="contact-e-26"> <textarea className="contact-e-27" data-clientid="contact-e-27"></textarea></div>
+                                    <div className="contact-e-26" data-clientid="contact-e-26">
+                                        <label htmlFor="message">Message</label>
+                                        <textarea id="message" className="contact-e-27" data-clientid="contact-e-27" placeholder="Enter your message" rows="5" required></textarea>
+                                    </div>
                                     <div className="contact-e-28" data-clientid="contact-e-28"> <input className="contact-e-29" data-clientid="contact-e-29" /><Text tag="span" className="cd-paragraph-clean contact-e-30" data-clientid="contact-e-30">
                                             <Text tag="p">You agree to our friendly policy</Text>
                                         </Text></div>
