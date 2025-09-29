@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text, Image, Link } from './index'
 import './HeroSection.css'
+import '../pages/About.css'
 
 function HeroSection() {
   return (
