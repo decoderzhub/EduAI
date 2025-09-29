@@ -310,6 +310,122 @@ function LiveClassroom() {
           </div>
         </div>
       </div>
+
+      {/* Student Engagement Tools Showcase */}
+      <div className="engagement-showcase">
+        <div className="showcase-container">
+          <div className="showcase-left">
+            <div className="geometric-shapes">
+              <div className="shape-circle purple"></div>
+              <div className="shape-hexagon"></div>
+              <div className="shape-rounded-rect purple"></div>
+            </div>
+            
+            <div className="engagement-cards">
+              <div className="engagement-card-new">
+                <div className="card-image">
+                  <div className="engagement-visual">🎮</div>
+                </div>
+                <div className="card-content">
+                  <h4>Interactive Polls</h4>
+                  <p className="card-date">Real-time Feedback | Instant Results</p>
+                </div>
+              </div>
+              
+              <div className="engagement-card-new">
+                <div className="card-image">
+                  <div className="engagement-visual">🏆</div>
+                </div>
+                <div className="card-content">
+                  <h4>Gamification</h4>
+                  <p className="card-date">Points & Badges | Achievement System</p>
+                </div>
+              </div>
+              
+              <div className="engagement-card-new">
+                <div className="card-image">
+                  <div className="engagement-visual">👥</div>
+                </div>
+                <div className="card-content">
+                  <h4>Breakout Rooms</h4>
+                  <p className="card-date">Small Groups | Collaborative Learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="showcase-right">
+            <div className="showcase-content">
+              <p className="showcase-label">Student Engagement</p>
+              <h3>Interactive Learning Tools</h3>
+              <p className="showcase-description">
+                Boost student participation with interactive polls, gamification elements, 
+                and collaborative breakout rooms. Our engagement tools keep students 
+                actively involved and motivated throughout the learning process.
+              </p>
+              <button className="showcase-btn">Try Engagement Tools</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Teacher Dashboard Showcase */}
+      <div className="dashboard-showcase">
+        <div className="showcase-container reverse">
+          <div className="showcase-left">
+            <div className="geometric-shapes">
+              <div className="shape-circle orange"></div>
+              <div className="shape-diamond"></div>
+              <div className="shape-rounded-rect orange"></div>
+            </div>
+            
+            <div className="dashboard-cards">
+              <div className="dashboard-card-new">
+                <div className="card-image">
+                  <div className="dashboard-visual">📊</div>
+                </div>
+                <div className="card-content">
+                  <h4>Performance Analytics</h4>
+                  <p className="card-date">Detailed Reports | Progress Tracking</p>
+                </div>
+              </div>
+              
+              <div className="dashboard-card-new">
+                <div className="card-image">
+                  <div className="dashboard-visual">⚡</div>
+                </div>
+                <div className="card-content">
+                  <h4>Quick Actions</h4>
+                  <p className="card-date">One-Click Tools | Instant Access</p>
+                </div>
+              </div>
+              
+              <div className="dashboard-card-new">
+                <div className="card-image">
+                  <div className="dashboard-visual">📋</div>
+                </div>
+                <div className="card-content">
+                  <h4>Lesson Planning</h4>
+                  <p className="card-date">AI-Assisted | Standards Aligned</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="showcase-right">
+            <div className="showcase-content">
+              <p className="showcase-label">Teacher Dashboard</p>
+              <h3>Comprehensive Teaching Hub</h3>
+              <p className="showcase-description">
+                Access powerful analytics, quick action tools, and AI-assisted lesson 
+                planning from one centralized dashboard. Streamline your teaching 
+                workflow and focus on what matters most - your students.
+              </p>
+              <button className="showcase-btn">Explore Dashboard</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

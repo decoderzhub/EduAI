@@ -544,6 +544,11 @@
   margin-bottom: 80px;
 }
 
+.engagement-showcase,
+.dashboard-showcase {
+  margin-bottom: 80px;
+}
+
 .showcase-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -597,6 +602,19 @@
   left: auto;
 }
 
+.shape-circle.purple {
+  background: linear-gradient(135deg, #a78bfa, #8b5cf6);
+  top: -20px;
+  left: -60px;
+}
+
+.shape-circle.orange {
+  background: linear-gradient(135deg, #fb923c, #f97316);
+  top: 80px;
+  right: -80px;
+  left: auto;
+}
+
 .shape-semicircle {
   position: absolute;
   width: 150px;
@@ -637,8 +655,46 @@
   left: -30px;
 }
 
+.shape-rounded-rect.purple {
+  background: linear-gradient(135deg, #c4b5fd, #a78bfa);
+  bottom: 150px;
+  right: 100px;
+}
+
+.shape-rounded-rect.orange {
+  background: linear-gradient(135deg, #fdba74, #fb923c);
+  bottom: -30px;
+  left: 50px;
+}
+
+.shape-hexagon {
+  position: absolute;
+  width: 100px;
+  height: 86.6px;
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  border-radius: 10px;
+  transform: rotate(30deg);
+  top: 200px;
+  right: -40px;
+  opacity: 0.6;
+}
+
+.shape-diamond {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  transform: rotate(45deg);
+  border-radius: 8px;
+  bottom: 100px;
+  left: -20px;
+  opacity: 0.7;
+}
+
 .analytics-cards,
-.features-cards {
+.features-cards,
+.engagement-cards,
+.dashboard-cards {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -647,7 +703,9 @@
 }
 
 .analytics-card-new,
-.feature-card-new {
+.feature-card-new,
+.engagement-card-new,
+.dashboard-card-new {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
   padding: 20px;
@@ -661,7 +719,9 @@
 }
 
 .analytics-card-new:hover,
-.feature-card-new:hover {
+.feature-card-new:hover,
+.engagement-card-new:hover,
+.dashboard-card-new:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
@@ -678,7 +738,9 @@
 }
 
 .analytics-visual,
-.feature-visual {
+.feature-visual,
+.engagement-visual,
+.dashboard-visual {
   font-size: 2rem;
 }
 
