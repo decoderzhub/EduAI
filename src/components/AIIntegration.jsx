@@ -217,7 +217,7 @@ function AIIntegration() {
                     <div className="match-arrow">→</div>
                     <div className="student-profile">
                       <img 
-                        src="https://media.istockphoto.com/id/950604178/photo/smiling-hispanic-boy-at-school.jpg?s=612x612&w=0&k=20&c=yBsr6VOddmpMGOQ8QX8l8F-8s6eXOE8rJGq6zOqGzQs="
+                        src="https://media.istockphoto.com/id/950604178/photo/smiling-hispanic-boy-at-school.jpg?b=1&s=612x612&w=0&k=20&c=PJoGSIdh_XXt934xQVN_ZrRBdgZjofl-Dm2VH7437G4="
                         alt="Marcus Johnson"
                         className="profile-pic-img"
                       />
