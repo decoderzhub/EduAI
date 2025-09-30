@@ -204,7 +204,7 @@ function AIIntegration() {
                   <div className="match-pair">
                     <div className="teacher-profile">
                       <img 
-                        src="https://media.istockphoto.com/id/949435100/photo/strong-hispanic-woman-teacher.jpg?s=612x612&w=0&k=20&c=yBsr6VOddmpMGOQ8QX8l8F-8s6eXOE8rJGq6zOqGzQs="
+                        src="https://media.istockphoto.com/id/949435100/photo/strong-hispanic-woman-teacher.jpg?b=1&s=612x612&w=0&k=20&c=6eZJZ3rAd9GlLQcO09UnCIF8WPQX1KzbDlHLU23vgsw="
                         alt="Ms. Rodriguez"
                         className="profile-pic-img"
                       />
