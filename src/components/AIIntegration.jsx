@@ -203,7 +203,11 @@ function AIIntegration() {
                 <div className="matching-results">
                   <div className="match-pair">
                     <div className="teacher-profile">
-                      <div className="profile-pic">👩‍🏫</div>
+                      <img 
+                        src="https://media.istockphoto.com/id/949435100/photo/strong-hispanic-woman-teacher.jpg?s=612x612&w=0&k=20&c=yBsr6VOddmpMGOQ8QX8l8F-8s6eXOE8rJGq6zOqGzQs="
+                        alt="Ms. Rodriguez"
+                        className="profile-pic-img"
+                      />
                       <div className="profile-info">
                         <h4>Ms. Rodriguez</h4>
                         <div className="teaching-style">Visual/Kinesthetic Specialist</div>
@@ -212,7 +216,11 @@ function AIIntegration() {
                     </div>
                     <div className="match-arrow">→</div>
                     <div className="student-profile">
-                      <div className="profile-pic">👦</div>
+                      <img 
+                        src="https://media.istockphoto.com/id/950604178/photo/smiling-hispanic-boy-at-school.jpg?s=612x612&w=0&k=20&c=yBsr6VOddmpMGOQ8QX8l8F-8s6eXOE8rJGq6zOqGzQs="
+                        alt="Marcus Johnson"
+                        className="profile-pic-img"
+                      />
                       <div className="profile-info">
                         <h4>Marcus Johnson</h4>
                         <div className="learning-style">Visual Learner</div>

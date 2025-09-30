@@ -616,6 +616,14 @@
   font-size: 3rem;
 }
 
+.profile-pic-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e5e7eb;
+}
+
 .profile-info h4 {
   font-weight: 600;
   margin-bottom: 5px;
